@@ -41,6 +41,31 @@ Do not reprocess completed papers, add references, or begin PowerPoint productio
 
 **Verified change:** Commit `d168f48bcf4302adbea2897b042df18ef05e5e15`; the updated draft was fetched from `main`, and the content differs from the prior version only by the added Slide 2 citation.
 
+## Slide 3 — Antibiotics as Emerging Water Contaminants
+
+**Status:** Pass; one treatment-limitation statement narrowed and its evidence trail completed.
+
+**Checked**
+- Environmental occurrence across water-related and other matrices is supported by Gopal et al. (2020), Teo et al. (2022) and Ajala et al. (2023). The slide retains the explicit qualification that occurrence is compound- and matrix-specific.
+- Ecological effects and antimicrobial-resistance concerns are supported by the Teo and Gopal reviews. The slide does not claim that adsorption removes ARB or ARGs.
+- The original PDFs were checked for the conventional-treatment point: Teo et al. (2022), PDF p. 2, describe conventional biological treatment as inefficient for antibiotic residues; Gopal et al. (2020), PDF p. 4 / journal p. 27084, state that primary and secondary treatment were insufficient for complete TC removal.
+- The visual pathway is appropriately framed as an environmental concern and does not present a universal concentration or removal percentage.
+
+**Correction:** Replaced the broad wording “may not completely eliminate every antibiotic compound” with a more source-specific statement: conventional biological treatment may be inefficient, while the primary/secondary-treatment limitation is explicitly tied to tetracycline. Added the precise page locators to the slide citations and presenter notes.
+
+**Evidence trail updated**
+- Added FND-013 to `evidence-matrix/fundamentals-mechanisms.md`.
+- Added the source-specific treatment statements and locators to `literature-extraction/fundamentals-and-adsorption-mechanisms.md`.
+- Updated Slide 3 in the citation map to preserve the TC-specific qualification.
+
+**Verified commits**
+- Evidence matrix: `13b8eb69824a66b54b5c4c259ea8670544fa7372`
+- Extraction note: `6af9ae91cf920654c2efacae46ba612b9a876160`
+- Slide draft: `d66e0b196b25aba6716fafd904b51e7437d7891f`
+- Citation map: `1d3aa43e69bd3152a808e5043652d46ba1cab9de`
+
+All four files were fetched from `main` after their updates. The Slide 3 presentation-facing citations use author–date format; no REF identifiers appear in the slide copy.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
