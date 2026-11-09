@@ -40,4 +40,4 @@ This repository is separate from the manuscript project `reviewAdsorbants`. It s
 
 ## Current status
 
-Repository initialised. Awaiting the user's ZIP containing the 15 downloaded PDFs for Stage 1: reference and full-text audit.
+Stage 1 is underway: REF-01–REF-05 from the original chat and REF-06–REF-10 from the branched chat have passed first-pass bibliographic and PDF-integrity audits (10/15 received). Awaiting REF-11–REF-15. No additional references will be added.
