@@ -62,3 +62,28 @@ Perelomov et al. (2025). *Adsorption of Antibiotics by Natural Clay Minerals*. *
 - Mechanism diagrams are conceptual summaries. Do not imply that every listed interaction occurs in every adsorbent–antibiotic system; mechanisms depend on the adsorbent, antibiotic speciation, solution chemistry, and experimental conditions.
 - When placing any source figure in the slides, include an on-slide source credit and a complete bibliography entry.
 - Binary image assets are tracked in the companion figure bundle; their presence in this Git tree must be verified independently before describing them as committed files.
+
+
+## Chen et al. (2024)
+
+Chen et al. (2024). *Ball milling boosted magnetic cotton husk-derived biochar adsorptive removal of oxytetracycline and ciprofloxacin from water*. **Carbon Research**, 3, Article 63. https://doi.org/10.1007/s44246-024-00146-9
+
+| Source figure | Caption / content | Presentation use | Planned asset path |
+|---|---|---|---|
+| Fig. 1 | TEM images; magnetic hysteresis loop of Fe₂O₃@BMBC; and FTIR spectra before and after adsorption. | Slide 6 — Material characterisation and magnetic recovery | `chen-2024/chen-2024-fig-01-material-characterisation.png` |
+| Fig. 2 | O 1s, C 1s and Fe 2p XPS spectra of Fe₂O₃@BMBC before and after adsorption. | Slide 7 — Surface chemistry and evidence for interactions | `chen-2024/chen-2024-fig-02-xps-before-after.png` |
+| Fig. 3 | Effect of initial pH on adsorption capacity of BC, Fe₂O₃@BC and Fe₂O₃@BMBC for OTC and CIP. | Slide 8 — Effect of pH on adsorption | `chen-2024/chen-2024-fig-03-ph-effect-otc-cip.png` |
+| Fig. 4 | Pseudo-first-order and pseudo-second-order kinetic fits and intraparticle-diffusion plots for OTC and CIP on BC, Fe₂O₃@BC and Fe₂O₃@BMBC. | Slide 11 — Adsorption kinetics | `chen-2024/chen-2024-fig-04-kinetics-and-diffusion.png` |
+| Fig. 5 | Langmuir and Freundlich isotherm fits for OTC and CIP on BC, Fe₂O₃@BC and Fe₂O₃@BMBC. | Slide 10 — Adsorption isotherms | `chen-2024/chen-2024-fig-05-isotherms-otc-cip.png` |
+| Fig. 6 | Proposed mechanism of OTC removal by Fe₂O₃@BMBC. | Slide 7 — Proposed adsorption mechanism | `chen-2024/chen-2024-fig-06-proposed-mechanism.png` |
+| Fig. 7 | Reusability of Fe₂O₃@BMBC for OTC and CIP removal by water washing and ultrasound + ethanol co-processing; Fe leaching at different pH values. | Slide 13 — Regeneration, reuse and material stability | `chen-2024/chen-2024-fig-07-regeneration-and-fe-leaching.png` |
+
+**Interpretation notes:**
+- Fig. 1 combines morphology, magnetic response and FTIR characterisation; it supports the material-characterisation discussion, not adsorption performance by itself.
+- Fig. 2 compares fitted XPS components before and after adsorption. Use it as evidence of changes in surface chemical environments, not as standalone proof of one unique adsorption mechanism.
+- Fig. 3 compares three materials under the stated batch conditions; keep the tested OTC and CIP conditions visible and do not generalise beyond them.
+- Fig. 4 contains both kinetic-model fits and intraparticle-diffusion plots. A better pseudo-second-order fit does not, by itself, prove chemisorption or identify the rate-controlling mechanism.
+- Fig. 5 shows Langmuir and Freundlich fits; avoid claiming a model is universally best from this figure alone.
+- Fig. 6 is explicitly a proposed mechanism for OTC removal by Fe₂O₃@BMBC, not a universal mechanism for all antibiotics or adsorbents.
+- Fig. 7 distinguishes regeneration performance under water washing versus ultrasound + ethanol co-processing and also reports Fe leaching. Do not describe regeneration percentage as capacity retention unless the figure's metric definition supports that equivalence.
+
