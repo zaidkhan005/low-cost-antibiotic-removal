@@ -26,6 +26,10 @@ Do not reprocess completed papers, add references, or begin PowerPoint productio
 
 **Review basis:** `presentation-content/slide-by-slide-draft.md`, Slide 1, fetched from `main` at blob SHA `6cc9544773cd59608dbb38beedce38a09d9dcb0e`.
 
-## Open review-wide issue
+## Review-wide citation rule correction
 
-The draft-wide rules at the beginning of the slide draft still instruct the author to cite claims using REF-IDs. This conflicts with the presentation citation convention requiring author–date citations. Correct that instruction as a separate controlled edit before completing the slide reviews.
+**Status:** Resolved.
+
+The draft-wide instruction was corrected to require author–date citations with PDF page/table/figure locators where appropriate. It now explicitly confines REF-01–REF-15 to internal evidence and audit records.
+
+**Verified change:** Commit `f0ef013f23085d3972de30dd058024c9b0a5bf97`. The updated draft was fetched from `main`; the old rule is absent, the new rule is present, and the file differs from its previous version only by this instruction.
