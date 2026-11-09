@@ -117,29 +117,33 @@
 
 ---
 
-## Slide 7 — MECHANISMS OF INTERACTIONS BETWEEN ANTIBIOTICS AND ADSORBENTS
+## Slide 7 — TYPES OF INTERACTIONS INVOLVED IN ANTIBIOTIC ADSORPTION
 
-**Carbon-based adsorbents**
-1. Electrostatic interactions between charged antibiotic species and charged surface groups. (Teo et al., 2022)
-2. Hydrogen bonding between suitable functional groups on the antibiotic and carbon surface. (Teo et al., 2022)
-3. π–π and electron-donor–acceptor interactions between aromatic regions. (Teo et al., 2022)
-4. Hydrophobic interactions and partitioning. (Teo et al., 2022)
-5. Pore filling where antibiotic molecules can access suitable pores. (Ajala et al., 2023; Teo et al., 2022)
+**Antibiotic molecules can be retained by adsorbents through several types of interactions. The contribution of each interaction depends on the antibiotic's chemical structure, its ionic form, the surface chemistry of the adsorbent and the solution conditions.** (Ajala et al., 2023; Teo et al., 2022; Perelomov et al., 2025)
 
-**Natural clay minerals**
-1. Electrostatic interactions with basal and edge surfaces. (Perelomov et al., 2025)
-2. Cation exchange involving exchangeable interlayer cations. (Perelomov et al., 2025)
-3. Interlayer uptake in some swelling clay minerals. (Perelomov et al., 2025)
+**Main types of interactions**
 
-**Iron-containing biochar composites**
-1. Electrostatic interactions, hydrogen bonding and π–π conjugation are discussed for Fe₂O₃@BMBC adsorption of OTC/CIP. (Chen et al., 2024)
-2. Fe–O complexation is proposed as a contributing interaction for the Fe₂O₃@BMBC system. (Chen et al., 2024)
-3. The NFO/BC graphical model for tetracycline depicts electrostatic interaction, hydrogen bonding, π–π interaction and pore filling. This is the authors’ proposed conceptual model. (Liang et al., 2024)
+1. **Electrostatic interactions:** Attraction or repulsion between charged antibiotic species and charged sites on the adsorbent surface. The direction and strength depend on antibiotic speciation and surface charge. (Teo et al., 2022; Perelomov et al., 2025)
+2. **Hydrogen bonding:** Attraction involving suitable hydrogen-bond donor and acceptor groups on the antibiotic and adsorbent surface. (Ajala et al., 2023; Teo et al., 2022)
+3. **π–π interactions:** Interactions between aromatic regions of an antibiotic molecule and aromatic domains on a carbonaceous surface. (Teo et al., 2022; Chen et al., 2024)
+4. **Hydrophobic interactions:** Association of relatively non-polar regions of the antibiotic with hydrophobic surface domains. (Teo et al., 2022)
+5. **Ion exchange / cation bridging:** Exchange of antibiotic-associated ions with surface or interlayer cations, or bridging mediated by cations. These processes are particularly discussed for mineral surfaces and some composite systems. (Perelomov et al., 2025; Meseguer et al., 2024)
+6. **Surface complexation / coordination:** Association of suitable antibiotic functional groups with surface metal-containing sites; Fe–O complexation is proposed for the Fe₂O₃@BMBC system. (Chen et al., 2024)
 
-**Important qualification:** These interactions are material- and antibiotic-specific. A kinetic or isotherm model fit alone does not prove a molecular mechanism. (Vareda, 2023; Chen et al., 2024; Liang et al., 2024)
+**Other retention pathway — pore filling:** Antibiotic molecules may enter and occupy accessible pores. Pore filling is a physical retention pathway, not a separate intermolecular force. (Ajala et al., 2023; Liang et al., 2024)
 
-**Suggested figures:** Teo et al. (2022), Fig. 6 for carbon-based interactions; Perelomov et al. (2025), Fig. 4 for clay mechanisms; Chen et al. (2024), Fig. 6 and Liang et al. (2024), graphical abstract for material-specific composites. Use one principal diagram and clearly label each as a proposed or reported interaction model.
+**Important:** These mechanisms may act together, but not every mechanism occurs in every adsorbent–antibiotic system. Their contribution must be supported by the relevant experimental evidence; a kinetic or isotherm fit alone does not establish a molecular mechanism. (Vareda, 2023; Teo et al., 2022)
 
+**Suggested diagram (main visual):** Draw one general adsorbent surface with antibiotic molecules approaching it. Use separate callouts/arrows to illustrate: (a) electrostatic attraction, (b) hydrogen bonding, (c) π–π interaction between aromatic regions, (d) hydrophobic association, (e) ion exchange/cation bridging, and (f) surface complexation. Add a small pore cross-section showing pore filling as a separate retention pathway. Keep the diagram conceptual and label it **“Possible interactions and retention pathways”**—do not imply that all are present simultaneously.
+
+**Suggested source diagrams for reference / redrawing**
+- Teo et al. (2022), Fig. 6 — interaction types discussed for carbon-based adsorbents. Use as the main source for the general interaction illustrations, while retaining the paper's carbon-surface context.
+- Ajala et al. (2023), Fig. 3 — biomass-based adsorption/sorption mechanisms, including pore filling and surface interactions.
+- Perelomov et al. (2025), Fig. 4 — clay-specific adsorption mechanisms; use to check the ion-exchange and mineral-surface examples.
+- Chen et al. (2024), Fig. 6 — experimental-system-specific proposed interactions for Fe₂O₃@BMBC and OTC/CIP.
+- Liang et al. (2024), graphical abstract — authors' conceptual model for TC adsorption on NFO/BC.
+
+**Suggested caption for your original combined diagram:** *Schematic representation of possible interactions and retention pathways involved in antibiotic adsorption. Adapted conceptually from Teo et al. (2022), Ajala et al. (2023) and Perelomov et al. (2025).*
 ---
 
 ## Slide 8 — FACTORS AFFECTING ADSORPTION
