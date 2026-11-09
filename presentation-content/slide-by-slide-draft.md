@@ -780,7 +780,7 @@ Desorption is the step in which antibiotic already held by the adsorbent is rele
 
 Regeneration is the treatment of a spent adsorbent to make it useful for another adsorption run. Depending on the system, it may involve desorption followed by washing, neutralisation, drying or another treatment. Desorption can be one part of regeneration, but the terms are not interchangeable.
 
-Reuse means that the treated adsorbent is actually placed into a new adsorption experiment or treatment cycle. To evaluate regeneration performance, the next adsorption run must be measured. Gkika et al. (2025) distinguish desorption efficiency from regeneration (removal) efficiency: a desorption test measures how much contaminant is released, whereas adsorption performance in the subsequent cycle shows whether the regenerated solid is still effective (PDF p. 7).
+Reuse means that the treated adsorbent is actually placed into a new adsorption experiment or treatment cycle. To evaluate regeneration performance, the next adsorption run must be measured. As broader pharmaceutical-adsorption context, Gkika et al. (2025) distinguish desorption efficiency from regeneration (removal) efficiency: a desorption test measures how much contaminant is released, whereas adsorption performance in the subsequent cycle shows whether the regenerated solid is still effective (PDF p. 7).
 
 **Capacity retention versus removal**
 
@@ -815,7 +815,7 @@ Regeneration creates a secondary liquid stream containing desorbed antibiotic an
 
 ### Source citations
 
-- Gkika et al. (2025), PDF p. 7 — distinction between desorption efficiency and adsorption performance in the subsequent regeneration cycle.
+- Gkika et al. (2025; pharmaceutical-wide review), PDF p. 7 — distinction between desorption efficiency and adsorption performance in the subsequent regeneration cycle.
 - Chen et al. (2024), PDF pp. 3–4 and p. 10; Fig. 7, PDF p. 11 — ethanol–ultrasound procedure, cycle conditions, capacity retention and water-washing control.
 - Liang et al. (2024), PDF p. 8, Section 3.2 and Fig. 4f; methods PDF p. 4 — four-cycle reuse result and qualification on the washing procedure.
 - Zhao et al. (2024), PDF p. 5, Section 2.7; PDF p. 13, Section 3.6; Fig. 10, PDF p. 14 — five-cycle procedure and qualitative capacity trend.
