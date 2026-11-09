@@ -13,3 +13,4 @@ Preserve source attribution on slides and in the bibliography. Experimental figu
 **Binary assets:** Download the companion source-figure bundle and extract it at the repository root to add the actual PNGs. The index/register being committed does not by itself mean the image binaries are already present in this Git tree.
 
 - Liang et al. (2024): seven figures covering NFO/BC morphology, phase/porosity/FT-IR/magnetic characterisation, XPS, TC solution effects and reuse, TC isotherms and kinetics, and before/after adsorption characterisation.
+- Meseguer et al. (2024): seven figures covering FTIR before/after CPX adsorption, pHₚzc, pH-dependent CPX adsorption with blanks, kinetic models, intraparticle diffusion, initial-concentration effects, and isotherm fits.
