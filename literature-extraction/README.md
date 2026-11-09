@@ -13,7 +13,7 @@ Planned notes:
 
 Every substantial statement should carry a REF-ID and page/table/figure locator.
 
-
 ## Completed extraction records
 
 - [Stage 2 Extraction 01 — Fundamentals and Adsorption Mechanisms](fundamentals-and-adsorption-mechanisms.md): source-grounded notes for antibiotic/water context, terminology, material families, adsorption sequence, mechanisms and controlling factors. Explicitly labels teaching definitions that are not directly defined in the 15-paper corpus.
+- [Stage 2 Extraction 02 — Quantitative Adsorption Evaluation](quantitative-adsorption-evaluation.md): batch workflow, equilibrium/time-dependent mass balance, removal efficiency, a derived REF-09 worked example, interpretation of capacity versus removal, and the REF-15 equation-sign anomaly.
