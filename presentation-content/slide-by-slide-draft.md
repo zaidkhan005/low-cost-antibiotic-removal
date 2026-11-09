@@ -387,11 +387,12 @@ Y(\%)=\frac{C_0-C_e}{C_0}\times100
 Where \(C_0\) and \(C_e\) are initial and equilibrium concentrations (mg L⁻¹), \(V\) is solution volume (L), \(m\) is adsorbent mass (g), and \(q_e\) is uptake (mg g⁻¹).
 
 **Worked example — Mirizadeh et al. (2023), tetracycline on raw date-palm fibre**
+- Conditions: pH 10; 298 K; contact time 3 h
 - \(C_0=50\) mg L⁻¹
 - \(V=30\) mL; dose = 1 g L⁻¹; therefore \(m=0.030\) g
 - Reported \(q_e=16.15\) mg g⁻¹
 - Derived \(C_e=33.85\) mg L⁻¹
-- Derived removal = 32.3%
+- Derived \(Y=32.3\%\)
 
 *Back-calculation note:* \(C_e=33.85\) mg L⁻¹ and \(Y=32.3\%\) are reconstructed from the reported \(q_e\) and dose. REF-09 Figure 1 also plots removal efficiency for the pH series, but the article text does not state an exact numerical \(Y\) value for pH 10.
 
