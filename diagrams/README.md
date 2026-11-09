@@ -11,3 +11,5 @@ The register includes:
 Preserve source attribution on slides and in the bibliography. Experimental figures must retain readable axes, units, conditions and legends. Conceptual mechanism diagrams must not be presented as universal proof of every proposed interaction.
 
 **Binary assets:** Download the companion source-figure bundle and extract it at the repository root to add the actual PNGs. The index/register being committed does not by itself mean the image binaries are already present in this Git tree.
+
+- Liang et al. (2024): seven figures covering NFO/BC morphology, phase/porosity/FT-IR/magnetic characterisation, XPS, TC solution effects and reuse, TC isotherms and kinetics, and before/after adsorption characterisation.
