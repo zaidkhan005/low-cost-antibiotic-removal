@@ -36,3 +36,29 @@ Teo, C. Y., Jong, J. S. J., & Chan, Y. Q. (2022). *Carbon-Based Materials as Eff
 - The mechanism diagrams are conceptual summaries. Do not imply that every listed interaction occurs in every adsorbent–antibiotic system; mechanisms depend on the adsorbent, antibiotic speciation, solution chemistry, and experimental conditions.
 - When placing any source figure in the slides, include an on-slide source credit and a complete bibliography entry.
 - Binary image assets are not yet verified as committed in this repository. The register records the supplied figure set and intended paths; do not treat the paths above as existing image files until the repository tree confirms them.
+
+
+## Perelomov et al. (2025)
+
+Perelomov et al. (2025). *Adsorption of Antibiotics by Natural Clay Minerals*. **Minerals**, 15(7), 733. https://doi.org/10.3390/min15070733
+
+| Source figure | Caption / content | Presentation use | Planned asset path |
+|---|---|---|---|
+| Fig. 1 | Increase in publications over the last 10 years on the topic “Antibiotics adsorption by clay minerals” in the ScienceDirect database. | Slide 3 — Research context / literature interest (optional) | `perelomov-2025/perelomov-2025-fig-01-publication-trend.png` |
+| Fig. 2 | Structure of the tetrahedral and octahedral unit. | Slide 6 — Classification and structure of clay adsorbents | `perelomov-2025/perelomov-2025-fig-02-tetrahedral-octahedral-units.png` |
+| Fig. 3 | Crystallographic structures of various clay minerals [37]. | Slide 6 — Clay-mineral families and structures | `perelomov-2025/perelomov-2025-fig-03-clay-mineral-crystallography.png` |
+| Fig. 4 | Adsorption mechanisms of antibiotics by natural and modified clay minerals [20]. | Slides 7–8 — Mechanisms and influencing factors | `perelomov-2025/perelomov-2025-fig-04-antibiotic-clay-mechanisms.png` |
+
+**Scientific-use notes:**
+- Figure 1 is a ScienceDirect topic-search count, not a complete bibliometric dataset. The displayed year labels run from 2015 through 2025 (11 labelled years), while the caption says “last 10 years”; the 2025 count (592) should be treated as a database snapshot whose search date and query settings need to be stated or independently checked before using it quantitatively.
+- Figures 3 and 4 contain bracketed citation numbers [37] and [20] from the source article's own reference list. These are retained as part of the supplied captions/figure image and are not references 37 and 20 in this presentation's bibliography.
+- The clay-structure and adsorption-mechanism graphics are explanatory representations. Keep labels and structural meaning intact when resizing or cropping.
+- The user has stated that the supplied figures are from open-access papers; no additional permission confirmation is requested for each new batch. Preserve source attribution in the presentation.
+
+## Asset handling and scientific cautions
+
+- The combined Teo screenshot containing Figs. 2 and 3 is split into two independent figure assets so each caption remains associated with its own structure.
+- Do not treat a general antibiotic structure as the structure of every member of that antibiotic class.
+- Mechanism diagrams are conceptual summaries. Do not imply that every listed interaction occurs in every adsorbent–antibiotic system; mechanisms depend on the adsorbent, antibiotic speciation, solution chemistry, and experimental conditions.
+- When placing any source figure in the slides, include an on-slide source credit and a complete bibliography entry.
+- Binary image assets are tracked in the companion figure bundle; their presence in this Git tree must be verified independently before describing them as committed files.
