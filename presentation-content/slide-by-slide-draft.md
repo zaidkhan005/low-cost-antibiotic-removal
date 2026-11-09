@@ -644,7 +644,13 @@ Explain what Gibbs free energy, enthalpy and entropy tell us about adsorption, r
 - **Enthalpy change, \(\Delta H\):** Is heat absorbed or released during adsorption?
 - **Entropy change, \(\Delta S\):** How does the net dispersal/number of accessible arrangements change for the defined system?
 
-**How they are related**
+**Gibbs relationship reported by Liang et al. (2024)**
+
+\[
+\Delta G=-RT\ln K_d
+\]
+
+**Gibbs–Helmholtz relationship**
 
 \[
 \Delta G=\Delta H-T\Delta S
@@ -700,6 +706,8 @@ Bottom: four-point temperature-response plot from Meseguer et al. (2024), showin
 **Van't Hoff plot.** Liang et al. (2024) report \(\ln K_d=-\Delta H/(RT)+\Delta S/R\). It has the linear form \(y=mx+c\) if \(y=\ln K_d\) and \(x=1/T\): the slope is \(-\Delta H/R\), and the intercept is \(\Delta S/R\). Temperature must be in kelvin. If \(R=8.314\;\mathrm{J\,mol^{-1}\,K^{-1}}\), enthalpy must be expressed in J mol⁻¹ and entropy in J mol⁻¹ K⁻¹, or all terms must be converted consistently to kJ units.
 
 **Source-symbol note.** Liang et al. (2024) describe these as standard thermodynamic parameters in the text, but their printed Eqs. (5)–(7) use \(\Delta G\), \(\Delta H\) and \(\Delta S\) without a superscript degree symbol. The equations on this slide retain the paper's printed notation rather than silently adding \(^{\circ}\).
+
+In the equations, \(R\) is the gas constant, \(T\) is absolute temperature (K), and \(K_d\) is the equilibrium/distribution quantity used by Liang et al.; its exact operational definition and standard-state normalisation are not clear in the supplied main text.
 
 **Important equilibrium-constant limitation.** Liang et al. (2024) print \(\Delta G=-RT\ln K_d\) and the Van't Hoff equation using \(K_d\) (PDF pp. 9–10). However, the inspected main text does not clearly state its operational definition or standard-state normalisation, and Table S4 is absent from the supplied PDF. The argument of a thermodynamic logarithm must be dimensionless. Therefore, reproduce the equations as the authors' reported relationships, but do not independently calculate or reconstruct their numerical \(\Delta G\), \(\Delta H\) or \(\Delta S\) from an undefined or dimensioned coefficient. This is an evidence limitation; it is not sufficient to conclude that the authors' calculations are necessarily invalid.
 
