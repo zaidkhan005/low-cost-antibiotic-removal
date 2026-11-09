@@ -71,9 +71,11 @@ REF-02 describes the principal steps in the process for biomass-based adsorbents
 3. Movement of adsorbate molecules toward accessible active sites.
 4. Interaction between the adsorbate and adsorbent surface.
 
-The review states that the adsorption mechanism depends on the final interaction step. This makes a useful original process diagram: **bulk water → liquid-film transport → surface/pore access → surface interaction/retention**.
+The review states that the adsorption mechanism depends on the final interaction step. The source-faithful sequence for the diagram is therefore: **bulk water → movement toward the adsorbent → diffusion through the surrounding liquid film → movement toward accessible active sites → adsorbate–adsorbent interaction**.
 
-**Wording caution:** The source text has a likely typographical phrase “adsorbent–adsorbent interactions” in this passage. The surrounding context is about adsorbate molecules reaching active sites; the slide should use the chemically meaningful phrasing “adsorbate–adsorbent interaction” and note this as an editorial clarification if quoting the source wording.
+The review's Figure 3 (PDF p. 16; journal p. 4693) separately illustrates possible interactions/retention modes for antibiotics on biomass-based material, including pore filling, electrostatic interaction, hydrogen bonding, hydrophobic interaction and surface complexation. Pore filling may be shown as one possible mode, but it should not be inserted as a mandatory additional transport stage. The text on PDF p. 9 does not identify pore diffusion as a separate universal step.
+
+**Wording caution:** The source text has a likely typographical phrase “adsorbent–adsorbent interactions” in the four-step passage. The surrounding context is about adsorbate molecules reaching active sites, and Figure 3 depicts antibiotic molecules interacting with biomass-based material. The slide therefore uses the chemically meaningful phrasing “adsorbate–adsorbent interaction” as an editorial clarification, not as a verbatim correction attributed to the authors.
 
 ## 5. Adsorbent families represented in the 15-paper collection
 
