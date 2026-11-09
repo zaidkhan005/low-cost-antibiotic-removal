@@ -88,9 +88,9 @@ Extract claims with precise page/table/figure locations where possible:
 ## Scientific interpretation safeguards
 
 1. Adsorption is a separation/transfer process; do not describe it as degradation unless a coupled transformation process is independently demonstrated.
-2. Use (q_e=(C_0-C_e)V/m) only with consistent units and clearly identified equilibrium concentrations, solution volume, and adsorbent mass.
-3. Use (%R=((C_0-C_e)/C_0)	imes100) with explicit initial and final concentrations.
-4. Keep measured (q_e), derived uptake, fitted (q_m), and percent removal distinct.
+2. Use \(q_e=(C_0-C_e)V/m\) only with consistent units and clearly identified equilibrium concentrations, solution volume, and adsorbent mass.
+3. Use \(%R=((C_0-C_e)/C_0)\times100\) with explicit initial and final concentrations.
+4. Keep measured \(q_e\), derived uptake, fitted \(q_m\), and percent removal distinct.
 5. A good pseudo-second-order fit alone does not prove chemisorption.
 6. An isotherm fit alone does not establish a unique molecular mechanism.
 7. Thermodynamic conclusions require attention to the method and standard-state assumptions used to calculate parameters.
@@ -100,4 +100,4 @@ Extract claims with precise page/table/figure locations where possible:
 
 ## Current status
 
-Stage 1 is complete: the fixed 15-paper collection has been received across three batches; first-pass bibliographic/PDF-integrity audit records are present for REF-01–REF-15. Existing Batch 2 branch-chat audit and study-level findings have been transferred without reprocessing. Stage 2 scientific extraction is underway. Pass 1 (fundamentals and adsorption mechanisms) has been committed with a source-to-claim evidence matrix. Remaining Stage 2 topics include quantitative adsorption evaluation, isotherms, kinetics, thermodynamics, regeneration and economics. The Batch 2 transfer record explicitly flags page/table/figure locators that were not carried over; those must be recovered from the selected PDFs before corresponding numerical claims enter slide content. No additional references are to be added.
+Stage 1 is complete: all 15 selected PDFs have first-pass bibliographic and file-integrity audit records. Existing REF-06–REF-10 branch-chat work has been transferred without reprocessing or renumbering. Stage 2 Pass 1 (fundamentals and adsorption mechanisms) and Pass 2 (quantitative adsorption evaluation for slide 9) are now committed with corresponding source-to-claim evidence matrices. Pass 2 uses REF-09 for the positive mass-balance equations and a clearly labelled derived worked example, cross-checks the time-dependent volume-aware equation and measurement controls against REF-14, and records the apparent sign inconsistency in REF-15 without silently correcting that source. Remaining Stage 2 topics are adsorption isotherms, kinetics, thermodynamics, regeneration and economics. Exact source locators missing from the transferred REF-06–REF-10 handoff must still be recovered before using those particular claims in slide content. No additional references have been added.
