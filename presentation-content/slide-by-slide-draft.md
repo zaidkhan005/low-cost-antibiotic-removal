@@ -312,42 +312,55 @@ Use “proposed” or “contributing interactions” unless the source supports
 
 ### Learning objective
 
-Understand why performance changes with solution chemistry, material properties and operating conditions.
+Explain how antibiotic speciation, adsorbent properties and water-matrix conditions influence adsorption, and why the effects are system-specific.
 
 ### On-slide content
 
 | Factor | Why it matters |
 |---|---|
-| **pH** | Changes antibiotic speciation and adsorbent surface charge |
-| **Initial concentration** | Changes concentration gradient and site loading |
-| **Adsorbent dose** | Changes available adsorbent relative to pollutant |
-| **Contact time** | Determines time available for transport and uptake |
-| **Temperature** | Can change equilibrium uptake and transport |
-| **Ionic strength / competing ions** | Can alter interactions and compete for adsorption sites |
-| **Pore structure / particle size** | Affects access to sites and transport |
-| **Natural organic matter** | Can compete with antibiotic or interfere with surface access |
+| **pH** | Changes antibiotic speciation and adsorbent surface charge; their interaction can cause attraction or repulsion |
+| **Adsorbent properties** | Surface charge, functional groups and accessible pore structure influence available sites and interactions |
+| **Adsorbent dose** | Changes the amount of available adsorbent relative to pollutant; removal may approach a plateau |
+| **Initial concentration and contact time** | Change the solute-to-site ratio and the time available to approach equilibrium |
+| **Ionic strength / competing ions** | Different ions can alter charge effects or compete for adsorption sites |
+| **Natural organic matter** | May compete with antibiotics for adsorption sites |
+| **Temperature** | Can change equilibrium uptake; the direction and size of the effect depend on the system |
 
-**Tetracycline example:** pKa values reported by Gopal et al. (2020) are approximately 3.3, 7.7 and 9.7. Its dominant ionic form changes as pH changes.
+**Tetracycline example:** Gopal et al. (2020) report pKa values of approximately 3.3, 7.7 and 9.7. The dominant species changes progressively as pH increases.
+
+<text color="secondary" size="sm">Check for precipitation before interpreting disappearance from solution as adsorption: in one ciprofloxacin–activated-biochar study, much of the apparent removal at pH 7–9 was precipitation.</text>
 
 ### Visual specification
 
-Left: TC speciation band showing cationic, zwitterionic and anionic regions with pKa markers at 3.3, 7.7 and 9.7. Avoid implying a single sharp switch at pH 7.7; indicate progressive deprotonation and further ionisation near the third pKa. Right: factor wheel around an adsorbent particle.
+Left: reproduce an original, simplified TC speciation band based on Gopal et al. (2020), with pKa markers at 3.3, 7.7 and 9.7. Show progressive deprotonation: cationic at low pH, zwitterionic/intermediate forms, and anionic forms at alkaline pH. Mark pKa3 at 9.7 as further deprotonation in the alkaline range; do not imply that all speciation changes occur at one sharp boundary.
+
+Add a small separate inset showing that **antibiotic pKa** and **adsorbent pHₚzc** are different properties. Right: a factor wheel around an adsorbent particle, with separate labels for ions and natural organic matter. Add a small “experimental caution” note: apparent CPX removal at pH 7–9 in Meseguer et al. (2024) was mainly precipitation, not adsorption.
 
 ### Presenter notes
 
-pH affects both antibiotic charge and adsorbent surface charge. Gopal et al. (2020) report TC pKa values of approximately 3.3, 7.7 and 9.7, with cationic, zwitterionic and anionic species across the pH ranges shown in its figure. Present the boundaries as approximate transitions; the third pKa indicates further deprotonation at alkaline pH.
+pH affects both the ionic form of the antibiotic and the charge of the adsorbent. These properties must be considered together. Antibiotic pKa values describe acid–base dissociation of the molecule; the adsorbent's point of zero charge (pHₚzc) describes the pH at which its net surface charge is zero. They are not interchangeable.
 
-Perelomov et al. (2025) gives a separate OTC–kaolinite example with different pKa values and system-specific optimum conditions. Do not transfer TC pKa values or the OTC–kaolinite optimum to other systems. Liang et al. (2024) report reduced TC removal with increasing humic-acid concentration and reduced capacity in the presence of Mg²⁺ and Ca²⁺ under the tested conditions, illustrating possible matrix competition.
+**Tetracycline speciation.** Gopal et al. (2020) report TC pKa values of approximately 3.3, 7.7 and 9.7 and provide a species-distribution diagram (PDF pp. 2–3; journal pp. 27082–27083). Their simplified text describes cationic TC below pH 3.3, zwitterionic TC between pH 3.3 and 7.7, and anionic TC above pH 7.7. Retain the third pKa at 9.7 as a further alkaline deprotonation; do not omit it or imply a single sharp switch in the full distribution.
 
-Do not claim that increasing dose, temperature, time or ionic strength always improves adsorption. Direction and magnitude depend on the antibiotic, adsorbent and conditions.
+**Different antibiotics and adsorbents have different pH behaviour.** Perelomov et al. (2025) report OTC pKa values of 3.57, 7.49 and 9.88 and discuss a maximum kaolinite adsorption capacity near pH 5.5 for that particular OTC–kaolinite system (PDF p. 16). In Liang et al. (2024), the NFO/BC pHₚzc was approximately 5.35; TC removal was highest (92.4%) at pH 7.0 under the tested conditions (PDF p. 7). Do not transfer either optimum to other adsorbent–antibiotic pairs.
+
+**Precipitation must be separated from adsorption.** Meseguer et al. (2024) report that CPX was predominantly zwitterionic between pH 5.9 and 8.9 and had low solubility in that form. In their activated-bagasse-biochar study, turbidity and blank tests showed that apparent removal at pH 7–9 was mainly caused by CPX precipitation rather than adsorption (PDF p. 8). The authors used pH 3.5 in subsequent tests to minimise precipitation. They report a pHₚzc of approximately 8.1 for the activated biochar (PDF p. 7). Do not present the pH 7–9 disappearance as adsorption performance.
+
+**Dose and matrix effects.** In the NFO/BC–TC study, increasing dose from 0.2 to 1.0 g L⁻¹ raised removal from 37% to 93.9%; further increase gave little additional benefit, while adsorbent cost increased (Liang et al., 2024, PDF p. 7). Increasing humic-acid dosage reduced TC removal. NaCl had no significant effect in the reported tests, whereas MgCl₂ and CaCl₂ reduced capacity; at the reported 0.5% concentration, capacity fell to 59.8% and 63.8% of the original value, respectively (PDF p. 8). Perelomov et al. (2025) also report decreasing tetracycline adsorption with increasing ionic strength and reduced OTC sorption onto clay in the presence of high dissolved organic matter (PDF p. 16). These findings show that salt identity, matrix composition and adsorbent type matter.
+
+**Temperature and contact time are also system-dependent.** For CIP on K₂CO₃-activated bagasse biochar, equilibrium uptake increased from 34.6 mg g⁻¹ at 10 °C to 109.9 mg g⁻¹ at 55 °C (Meseguer et al., 2024, PDF p. 8). About 82% of equilibrium uptake was reached after 24 h, with equilibrium at approximately 80 h under the stated conditions (PDF pp. 1 and 5). This is one experimental system, not a universal temperature or contact-time rule.
+
+Initial concentration changes the solute-to-site ratio and is varied in the selected adsorption experiments. Particle size is reported as a preparation/operating parameter in Rodríguez-López et al. (2024, PDF p. 2), but that cited passage does not establish a universal directional effect of particle size on antibiotic uptake.
+
+Do not claim that increasing dose, temperature, time or ionic strength always improves adsorption. Report the material, antibiotic and conditions whenever giving a directional trend.
 
 ### Source citations
 
-- Gopal et al. (2020), PDF pp. 2–3 — TC pKa values and speciation diagram.
-- Perelomov et al. (2025), PDF pp. 5–7 and p. 16 — clay properties, pH and OTC example.
-- Rodríguez-López et al. (2024), PDF p. 2 — pH, particle size and temperature.
-- Liang et al. (2024), PDF pp. 7–8 — humic acid and competing-ion effects.
-- Meseguer et al. (2024), PDF pp. 4–5 — solution and operating variables.
+- Gopal et al. (2020), PDF pp. 2–3 — TC pKa values and species-distribution diagram.
+- Perelomov et al. (2025), PDF pp. 5–7 and p. 16 — clay surface properties, OTC pKa/pH example and ionic-strength/dissolved-organic-matter effects.
+- Rodríguez-López et al. (2024), PDF p. 2 — particle-size preparation and operational parameters.
+- Liang et al. (2024), PDF pp. 7–8 — NFO/BC pHₚzc, TC pH response, dose response, humic acid and competing salts.
+- Meseguer et al. (2024), PDF pp. 1, 5 and 7–8 — CPX–bagasse-biochar operating conditions, pH/precipitation control, pHₚzc, temperature and contact-time results.
 
 ---
 
