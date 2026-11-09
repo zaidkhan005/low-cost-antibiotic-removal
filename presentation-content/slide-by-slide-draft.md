@@ -142,7 +142,7 @@ A four-column technology comparison with a small icon per process. At the bottom
 
 ### Presenter notes
 
-Gopal et al. (2020) reviews advanced/tertiary treatment including AOPs, membrane filtration, reverse osmosis and adsorption. It states that primary and secondary treatment is not sufficient to remove all residual tetracycline in the treatment settings reviewed. The paper describes membrane filtration and reverse osmosis as comparatively costly in the context discussed; do not generalise this into a universal cost ranking for all installations.
+Gopal et al. (2020) review advanced/tertiary treatment including AOPs, membrane filtration, reverse osmosis and adsorption. It states that primary and secondary treatment is not sufficient to remove all residual tetracycline in the treatment settings reviewed. The paper describes membrane filtration and reverse osmosis as comparatively costly in the context discussed; do not generalise this into a universal cost ranking for all installations.
 
 AOPs transform contaminants through oxidative chemistry. The degree of transformation and mineralisation, and the identity of by-products, matter. Adsorption instead retains antibiotic on a solid phase, creating a separate management task for the loaded adsorbent and any desorption liquid.
 
@@ -420,7 +420,7 @@ Four conceptual panels: Langmuir plateau; Freundlich heterogeneous curve without
 
 An isotherm is an equilibrium relation, not a rate equation. It does not show how long equilibrium takes to establish. \(q_{mL}\) and \(q_{mS}\) are fitted capacities. Freundlich has no explicit finite saturation-capacity parameter, so \(K_F\) must not be called a maximum capacity. Units for several constants depend on concentration and exponent conventions.
 
-Mirizadeh et al. (2023) report Langmuir as the best tested model for TC (\(R^2=0.977\)) and D–R as best for CIP (\(R^2=0.975\)); its authors interpret the TC Langmuir fit using the idealised homogeneous-site/monolayer description (PDF pp. 6–7). Egbedina et al. (2021) show model selection varies with antibiotic and activation state (PDF pp. 5–7). Meseguer et al. (2024) fits nonlinear equations and identifies Freundlich as best by the lowest ARE (2.44%); the measured curve does not reach a clear plateau in the tested range (PDF pp. 6 and 11–12).
+Mirizadeh et al. (2023) report Langmuir as the best tested model for TC (\(R^2=0.977\)) and D–R as best for CIP (\(R^2=0.975\)); the authors interpret the TC Langmuir fit using the idealised homogeneous-site/monolayer description (PDF pp. 6–7). Egbedina et al. (2021) show model selection varies with antibiotic and activation state (PDF pp. 5–7). Meseguer et al. (2024) fit nonlinear equations and identify Freundlich as best by the lowest ARE (2.44%); the measured curve does not reach a clear plateau in the tested range (PDF pp. 6 and 11–12).
 
 Ayawei et al. (2017) explain that linearisation changes the error structure and recommends nonlinear regression on original equations; model selection should not rely on \(R^2\) alone. The Sips equation shown follows Meseguer et al. (2024)'s parameterisation. Ayawei et al. (2017) prints a different denominator sign/parameterisation; the source discrepancy is preserved in the extraction.
 
