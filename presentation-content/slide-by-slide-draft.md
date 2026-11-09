@@ -83,6 +83,7 @@ Use “aqueous medium” operationally for a water-based liquid phase. It may be
 - Ajala et al. (2023), PDF pp. 2–3 — antibiotic uses, sources, classes and environmental context.
 - Teo et al. (2022), PDF pp. 1–2 — hospital, industrial and agricultural sources and occurrence.
 - Rodríguez-López et al. (2024), PDF p. 2 — CIP, clarithromycin and trimethoprim as environmentally relevant examples.
+- Ajala et al. (2023), PDF p. 9 (journal p. 4686), and Teo et al. (2022), PDF pp. 7–8 — competing ions and natural organic matter can influence adsorption in more complex water matrices.
 
 ---
 
