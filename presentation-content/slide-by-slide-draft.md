@@ -421,71 +421,115 @@ Use \(q_e\) only for uptake at equilibrium; at a specified earlier time, use \(q
 
 ### Learning objective
 
-Understand how equilibrium uptake depends on residual concentration and how common models describe that relationship.
+Explain what an adsorption isotherm tells us, what the four common models assume, and how to interpret their fitted parameters without confusing a model fit with a proven mechanism.
 
 ### On-slide content
 
-An **adsorption isotherm** relates equilibrium uptake \(q_e\) to equilibrium liquid concentration \(C_e\) at specified temperature and solution conditions.
+An **adsorption isotherm** is an equilibrium relationship measured at a specified temperature and solution condition. It shows how much antibiotic remains attached to the adsorbent as the dissolved concentration left in the water changes.
 
-**Langmuir**
+- \(C_e\): equilibrium concentration still dissolved in the water (mg L⁻¹).
+- \(q_e\): equilibrium amount retained per gram of adsorbent (mg g⁻¹).
+
+In a graph, \(C_e\) is usually on the horizontal axis and \(q_e\) on the vertical axis. Each point represents an equilibrium measurement.
+
+**Langmuir — finite, idealised monolayer**
 
 \[
 q_e=\frac{q_{mL}K_LC_e}{1+K_LC_e}
 \]
 
-Finite fitted capacity; idealised monolayer model.
+Assumes a limited number of equivalent adsorption sites. As these sites become occupied, uptake approaches a plateau.
 
-**Freundlich**
+- \(q_{mL}\): fitted limiting capacity (mg g⁻¹).
+- \(K_L\): Langmuir affinity/equilibrium constant (L mg⁻¹).
+
+**Freundlich — empirical, heterogeneous surface**
 
 \[
 q_e=K_FC_e^{1/n}
 \]
 
-Empirical heterogeneous-surface model; no explicit finite \(q_m\).
+Describes adsorption on a non-uniform surface, where sites can differ in their adsorption energies. It has no explicit finite saturation-capacity term.
 
-**Temkin**
+- \(K_F\): Freundlich coefficient; its units depend on the exponent and concentration units.
+- \(n\): exponent parameter controlling the curvature/intensity of the fitted relationship.
+
+**Temkin — coverage-dependent adsorption heat**
 
 \[
 q_e=\frac{RT}{b_T}\ln(K_TC_e)
 \]
 
-Assumes a coverage-related decrease in adsorption heat.
+Accounts for adsorbate–adsorbate interactions and assumes that the heat of adsorption decreases linearly as surface coverage increases.
 
-**Sips**
+- \(R\): gas constant; \(T\): absolute temperature.
+- \(b_T\): parameter related to heat of sorption.
+- \(K_T\): Temkin equilibrium constant.
+
+**Sips — heterogeneous surface with finite saturation**
 
 \[
 q_e=\frac{q_{mS}K_SC_e^{1/n_S}}
 {1+K_SC_e^{1/n_S}}
 \]
 
-Combines Freundlich-like low-concentration behaviour with Langmuir-like high-concentration saturation.
+Combines Freundlich-like behaviour at low concentration with Langmuir-like saturation at high concentration.
+
+- \(q_{mS}\): fitted limiting capacity (mg g⁻¹).
+- \(K_S\): Sips constant; units depend on \(n_S\).
+- \(n_S\): dimensionless exponent associated with surface heterogeneity.
 
 **Examples: the best fit depends on the antibiotic and adsorbent.**
 - Mirizadeh et al. (2023): Langmuir best for TC; D–R best for CIP.
-- Egbedina et al. (2021): best model varies across CIP/TET and KCB material treatments.
+- Egbedina et al. (2021): model selection varies across CIP/TET and KCB material treatments.
 - Meseguer et al. (2024): Freundlich best for CIP on activated bagasse biochar (ARE = 2.44%).
+
+*Important:* A fitted model describes the measured equilibrium data. It does not, by itself, prove the molecular adsorption mechanism.
 
 ### Visual specification
 
-Four conceptual panels: Langmuir plateau; Freundlich heterogeneous curve without finite saturation parameter; Temkin logarithmic relationship; Sips heterogeneous-to-saturating curve. Label all model curves “schematic”. Add a compact study-comparison strip.
+Top: a small equilibrium schematic: dissolved antibiotic at concentration \(C_e\) ⇌ antibiotic retained on adsorbent, expressed as \(q_e\). Include the axes \(C_e\) (horizontal) and \(q_e\) (vertical).
+
+Below: four compact model panels. Use schematic curves and label them as conceptual, not experimental data:
+- Langmuir: rises then approaches a clear plateau.
+- Freundlich: rises on a heterogeneous surface; do not draw a forced finite plateau.
+- Temkin: show the model's logarithmic relationship over its applicable intermediate range.
+- Sips: heterogeneous low-concentration behaviour that approaches a finite plateau.
+
+At the bottom, add a compact comparison strip with the three study examples. Use the message: “Best fit is system- and condition-specific.”
 
 ### Presenter notes
 
-An isotherm is an equilibrium relation, not a rate equation. It does not show how long equilibrium takes to establish. \(q_{mL}\) and \(q_{mS}\) are fitted capacities. Freundlich has no explicit finite saturation-capacity parameter, so \(K_F\) must not be called a maximum capacity. Units for several constants depend on concentration and exponent conventions.
+**What an isotherm tells us.** An isotherm is made by allowing a series of adsorption experiments to reach equilibrium, then plotting the amount retained per mass of adsorbent against the concentration left in solution. The horizontal variable \(C_e\) is what remains dissolved after equilibrium; the vertical variable \(q_e\) is what has been taken up per gram of solid. A higher \(q_e\) at a given \(C_e\) means greater uptake under those stated conditions. Temperature, pH, antibiotic speciation, adsorbent dose and the concentration range all matter. It is not a rate curve: the isotherm does not tell us how long equilibrium takes to establish.
 
-Mirizadeh et al. (2023) report Langmuir as the best tested model for TC (\(R^2=0.977\)) and D–R as best for CIP (\(R^2=0.975\)); the authors interpret the TC Langmuir fit using the idealised homogeneous-site/monolayer description (PDF pp. 6–7). Egbedina et al. (2021) show model selection varies with antibiotic and activation state (PDF pp. 5–7). Meseguer et al. (2024) fit nonlinear equations and identify Freundlich as best by the lowest ARE (2.44%); the measured curve does not reach a clear plateau in the tested range (PDF pp. 6 and 11–12).
+**Langmuir.** The model imagines a surface with a finite number of adsorption sites. In its idealised interpretation, those sites are equivalent and each site accommodates one adsorbed molecule, producing a monolayer. At low concentration, many sites are unoccupied and uptake rises with concentration. As concentration increases, more sites become occupied; eventually the curve approaches the limiting fitted capacity \(q_{mL}\). \(K_L\) describes the model's affinity/equilibrium response to concentration: a larger value generally gives a steeper rise under the same units and model form. These are model assumptions and fitted parameters, not direct proof that a real biochar surface is perfectly uniform.
 
-Ayawei et al. (2017) explain that linearisation changes the error structure and recommends nonlinear regression on original equations; model selection should not rely on \(R^2\) alone. The Sips equation shown follows Meseguer et al. (2024)'s parameterisation. Ayawei et al. (2017) prints a different denominator sign/parameterisation; the source discrepancy is preserved in the extraction.
+Mirizadeh et al. (2023) report Langmuir as the best tested model for TC (\(R^2=0.977\)) and D–R as best for CIP (\(R^2=0.975\)); the authors interpret the TC Langmuir fit using the idealised homogeneous-site/monolayer description (PDF pp. 6–7). Do not infer that the surface has been microscopically proven to contain identical sites.
 
-A good isotherm fit is a statistical description under particular conditions, not proof of a unique molecular mechanism.
+**Freundlich.** This is an empirical model used to describe heterogeneous surfaces: adsorption sites may differ in their energies or affinities. The exponent \(1/n\) controls how strongly uptake changes with dissolved concentration and therefore the curvature of the fitted line. \(K_F\) is a coefficient in that relationship; it is not a maximum capacity. Unlike Langmuir and Sips, the equation has no explicit finite saturation term. Do not extrapolate a Freundlich curve indefinitely and treat the resulting values as a physical unlimited capacity.
+
+The selected studies do not use a fully uniform convention for the Freundlich exponent. Mirizadeh et al. (2023) report \(n=0.307\) for TC and \(n=0.384\) for CIP (PDF p. 7), whereas Meseguer et al. (2024) report \(n=6.44\) and interpret \(n>1\) as favourable under their stated convention (PDF p. 12); Egbedina et al. (2021) also uses \(n>1\) as a favourability indicator (PDF p. 7). Check the exact equation before interpreting or comparing \(n\); do not apply a universal threshold to raw values from different papers.
+
+**Temkin.** The model accounts for indirect interactions between adsorbed molecules. Its central assumption is that the heat of adsorption decreases linearly as surface coverage increases. In plain language, the energetic benefit of adding more adsorbate is represented as changing with how much of the surface is already covered. The model is identified by Ayawei et al. (2017) as applicable over an intermediate range of ion concentrations (PDF p. 3). \(b_T\) is related to heat of sorption; \(K_T\) is the model equilibrium constant. Do not infer that adsorption is endothermic or exothermic from a Temkin fit alone. Mirizadeh et al. (2023) explicitly state that the Temkin model alone is insufficient to establish that thermodynamic direction (PDF p. 6); use separate thermodynamic analysis.
+
+**Sips.** This model combines features of Freundlich and Langmuir. At low concentration, its exponent allows heterogeneous, Freundlich-like behaviour. At high concentration, the denominator allows the curve to approach the finite fitted limit \(q_{mS}\), like Langmuir. It is therefore useful when the data show surface heterogeneity but also approach saturation. \(n_S\) controls the heterogeneity-related curvature; \(K_S\) is the model constant. The fitted \(q_{mS}\) is not automatically an experimentally achieved uptake.
+
+The Sips equation shown follows the parameterisation in Meseguer et al. (2024), Table 2 (PDF p. 6). Ayawei et al. (2017), Eq. (21) (PDF p. 4), prints a different denominator sign/parameterisation. Preserve this source discrepancy; do not claim the displayed expression is a verbatim transcription of both sources.
+
+**Comparing actual studies.**
+- Mirizadeh et al. (2023): Langmuir best for TC; D–R best for CIP (PDF pp. 6–7).
+- Egbedina et al. (2021): among two-parameter models, CIP fits vary from Temkin on KCB to Langmuir on KCB-A/KCB-B; TET fits vary between D–R and Langmuir depending on material treatment (PDF pp. 5–7). The supplementary Table S1 was not supplied, so do not add missing detailed three-parameter values.
+- Meseguer et al. (2024): nonlinear fits identify Freundlich as best for CIP on activated bagasse biochar by the lowest average relative error (ARE = 2.44%). The experimental curve approaches about 110 mg g⁻¹ but does not reach a clear plateau in the tested concentration range (PDF pp. 11–12).
+
+**How to judge a fit.** Ayawei et al. (2017) explain that linearising an isotherm changes the error structure and recommend nonlinear regression on the original equation; model selection should not rely on \(R^2\) alone (PDF pp. 7–8). Meseguer et al. (2024) provide an example using nonlinear fitting and ARE. Compare candidate models within the same dataset, inspect residuals where available, report the fitting method and error criterion, and ensure parameters are physically meaningful. Do not compare an \(R^2\) from one paper directly with an ARE from another.
 
 ### Source citations
 
-- Ayawei et al. (2017), PDF pp. 2–5 — isotherm assumptions and models.
-- Ayawei et al. (2017), PDF pp. 7–8 — linearisation and nonlinear regression.
-- Mirizadeh et al. (2023), PDF pp. 6–7, Table 2 — TC/CIP model selection.
+- Ayawei et al. (2017), PDF pp. 2–5 — Langmuir, Freundlich, Temkin and Sips model descriptions and assumptions.
+- Ayawei et al. (2017), PDF pp. 7–8 — linearisation, nonlinear regression and error-function comparison.
+- Mirizadeh et al. (2023), PDF pp. 6–7, Table 2 — TC/CIP model selection and fitted parameters.
 - Egbedina et al. (2021), PDF pp. 5–7 — CIP/TET model selection by material treatment.
-- Meseguer et al. (2024), PDF p. 6 and pp. 11–12, Table 4 — fitting and ARE results.
+- Meseguer et al. (2024), PDF p. 6 and pp. 11–12, Table 4 — model equations, nonlinear fitting and ARE results.
 
 ---
 
