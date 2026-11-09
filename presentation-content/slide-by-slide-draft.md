@@ -100,22 +100,22 @@ Explain the environmental concern and why antibiotic residues require attention.
 1. **Environmental occurrence** — reported in surface water, groundwater, seawater, soil and wastewater-related matrices.
 2. **Ecological effects** — residues may affect aquatic organisms and microbial communities.
 3. **Antimicrobial resistance** — environmental exposure raises concern about antibiotic-resistant bacteria (ARB) and antibiotic-resistance genes (ARGs).
-4. **Treatment challenge** — conventional wastewater treatment may not completely eliminate every antibiotic compound.
+4. **Treatment challenge** — conventional biological treatment may not remove antibiotic residues efficiently; primary and secondary treatment were reported insufficient for complete tetracycline removal.
 
 **Key point:** Occurrence and removal are compound-, matrix- and treatment-specific.
 
 ### Visual specification
 
-A simple pathway: antibiotic use and discharge → residues in aquatic systems → exposure of organisms and microbial communities → ecological and antimicrobial-resistance concerns. Add a separate note that incomplete removal has been reported in some conventional-treatment settings.
+A simple pathway: antibiotic use and discharge → residues in aquatic systems → exposure of organisms and microbial communities → ecological and antimicrobial-resistance concerns. Add a separate note that conventional-treatment limitations have been reported, without implying one removal value applies to every antibiotic or wastewater plant.
 
 ### Presenter notes
 
-The sources document different antibiotics in different environmental matrices and locations. Do not combine these measurements into one “typical” concentration. The reviews discuss both ecological concerns and antimicrobial resistance. Adsorption of dissolved antibiotic molecules should not be described as direct removal of ARB or ARGs unless a study separately measures that outcome.
+The sources document different antibiotics in different environmental matrices and locations. Do not combine these measurements into one “typical” concentration. The reviews discuss both ecological concerns and antimicrobial resistance. Adsorption of dissolved antibiotic molecules should not be described as direct removal of ARB or ARGs unless a study separately measures that outcome. For treatment limitations, Teo et al. (2022) describe conventional biological treatment as inefficient for antibiotic residues; Gopal et al. (2020) specifically report that primary and secondary treatment were insufficient for complete TC removal. Do not generalise the TC statement to every antibiotic or wastewater-treatment plant.
 
 ### Source citations
 
-- Gopal et al. (2020), journal pp. 27082–27083 — tetracycline occurrence and environmental context.
-- Teo et al. (2022), PDF pp. 1–2 — antibiotic pollution, ecological effects and ARB/ARG concerns.
+- Gopal et al. (2020), journal pp. 27082–27084 — tetracycline occurrence and environmental context; primary and secondary treatment limitations for TC.
+- Teo et al. (2022), PDF pp. 1–2 — antibiotic pollution, ecological effects, ARB/ARG concerns and conventional biological treatment limitations.
 - Ajala et al. (2023), PDF pp. 2–3 — antibiotic residues and environmental pathways.
 
 ---
