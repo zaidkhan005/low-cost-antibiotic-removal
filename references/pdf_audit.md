@@ -1,46 +1,34 @@
 # PDF Audit
 
-**Overall status:** Batch-based audit in progress. **10 of 15 PDFs received and first-pass audited.** Five papers (REF-11–REF-15) remain outstanding.
+**Overall status:** Batch 1 and Batch 3 first-pass audits recorded in this repository. REF-06–REF-10 were processed in the branch chat; their audit details must be reconciled from that existing work, not repeated.
 
-## Completed batches
+## Batch records
 
 - [Batch 1 audit: REF-01–REF-05](batch-01-audit.md)
-- [Batch 2 audit: REF-06–REF-10](batch-02-audit.md)
+- [Batch 3 audit: REF-11–REF-15](batch-03-audit.md)
 
-## Per-file audit requirements
+## Batch 2 — branch-chat work
 
-For each file:
-- map uploaded filename to REF-ID;
-- check whether PDF opens and record page count;
-- confirm first-page bibliographic metadata;
-- verify DOI and journal details;
-- check parsed text and final pages for document completeness;
-- note figures, tables, equations and supplementary information;
-- record topic coverage and scope limitations;
-- note pages that may need image inspection during extraction.
+REF-06–REF-10 were processed in the branch chat. The user explicitly instructed that this work should not be repeated. The current repository has only the `main` branch and did not expose a separate branch-chat audit file when checked. Preserve the status as **processed in branch chat; audit record to be reconciled**, rather than marking these papers unaudited.
 
-## Cumulative results
+## Batch 1 first-pass results
 
-### Batch 1 — original chat (REF-01–REF-05)
+- REF-01: 15 pages; readable and unencrypted; first-pass audit complete.
+- REF-02: 35 pages; readable and unencrypted; first-pass audit complete.
+- REF-03: 32 pages; readable and unencrypted; first-pass audit complete; broad wastewater scope, not antibiotic-specific.
+- REF-04: 17 pages; readable and unencrypted; first-pass audit complete; journal identified as *Adsorption Science & Technology* (not *Journal of Chemistry*).
+- REF-05: 23 pages; readable and unencrypted; first-pass audit complete.
 
-- REF-01: 15 pages; readable and unencrypted.
-- REF-02: 35 pages; readable and unencrypted.
-- REF-03: 32 pages; readable and unencrypted; broad wastewater scope, not antibiotic-specific.
-- REF-04: 17 pages; readable and unencrypted; journal corrected to *Adsorption Science & Technology*.
-- REF-05: 23 pages; readable and unencrypted.
+## Batch 3 first-pass results
 
-See [Batch 1 audit](batch-01-audit.md) for full file names and scope notes.
+- REF-11: 11 pages; readable and unencrypted; first-pass audit complete.
+- REF-12: 13 pages; readable and unencrypted; first-pass audit complete.
+- REF-13: 13 pages; readable and unencrypted; first-pass audit complete.
+- REF-14: 16 pages; readable and unencrypted; first-pass audit complete.
+- REF-15: 18 pages; readable and unencrypted; first-pass audit complete.
 
-### Batch 2 — branched chat (REF-06–REF-10)
+For each of the above, title/author/journal/DOI were checked from the first-page text, final page was read, and the file reached the stated final page. Detailed figure/table extraction and scientific claim validation are reserved for Stage 2.
 
-- REF-06: 11 pages; readable and unencrypted; adsorption isotherm models and regression.
-- REF-07: 14 pages; readable and unencrypted; adsorption kinetic model validity and regression; empirical model fits do not uniquely establish mechanism.
-- REF-08: 19 pages; readable and unencrypted; broad pharmaceutical regeneration/cost review, not antibiotic-specific.
-- REF-09: 8 pages; readable and unencrypted; raw date-palm waste for TC and CIP; supplementary information not included.
-- REF-10: 10 pages; readable and unencrypted; kaolinite/coconut-husk hybrid biochar for simultaneous CIP/TET; supplementary information not included.
+## Next
 
-The first and final pages of all five Batch 2 PDFs were text-extracted successfully. REF-10 produced a minor PDF parser warning, but all pages remained readable.
-
-## Pending
-
-REF-11–REF-15 remain unaudited until the final five PDFs arrive.
+Reconcile the existing branch-chat work for REF-06–REF-10 and proceed to consolidated extraction. Do not request more papers or start literature searching.
