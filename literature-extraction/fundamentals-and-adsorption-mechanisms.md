@@ -189,17 +189,46 @@ REF-11 reports pKa1/pKa2 values of 6.1/8.7 for ciprofloxacin, 9/12.5 for clarith
 
 ## 8. Other factors affecting adsorption
 
-| Factor | Why it matters according to the selected sources | Supporting sources |
+The selected sources identify several factors, but their effects are system-dependent. A factor may change antibiotic speciation, adsorbent surface properties, the number of available sites, the transport rate, or competition from other water constituents. The direction and magnitude of the response must be tied to the particular antibiotic, adsorbent and experimental conditions.
+
+| Factor | What it can influence | Source-grounded qualification |
 |---|---|---|
-| pH | Changes antibiotic speciation and adsorbent surface charge; changes attraction/repulsion | REF-01, pp. 2–3; REF-05, pp. 5–7 and 16; REF-11, p. 2 |
-| Ionic strength / competing ions | Alters the electrical double layer and may influence charge-based interactions; competing ions may affect capacity | REF-05, p. 6; REF-02, p. 4686 |
-| Surface area and pore structure | Influences available surface and access to adsorption sites | REF-02, p. 4686; REF-04, pp. 6–7; REF-05, pp. 5–7 |
-| Surface functional groups | –OH, –COOH, –NH2 and metal–oxygen groups can contribute to specific interactions | REF-04, p. 7; REF-12, p. 1; REF-13, p. 2 |
-| Adsorbent type and preparation | Biomass precursor, pyrolysis temperature, activation and composite formation change biochar properties | REF-02, p. 4686; REF-14, p. 2; REF-15, pp. 1–2 |
-| Adsorbent dose, initial concentration and contact time | Define the number of available sites relative to solute and the time available for transfer/uptake; repeatedly varied in experimental studies | REF-02, p. 4686; REF-14, pp. 1–3; REF-15, pp. 1–2 |
-| Temperature | Identified as an experimental control and a factor that may alter adsorption behaviour | REF-02, p. 4686; REF-05, abstract and discussion; REF-14, pp. 1–2 |
-| Natural organic matter / real-water competitors | Other constituents can compete for sites or reduce removal compared with simplified water | REF-04, pp. 7–8; REF-02, p. 4686 |
-| Particle size | Affects material preparation and is considered as an operational parameter in by-product sorption studies | REF-11, p. 2 |
+| pH | Antibiotic speciation and adsorbent surface charge; attraction or repulsion may change | The pKa values of TC, OTC and CIP differ. Kaolinite–OTC, NFO/BC–TC and activated-bagasse-biochar–CIP show different system-specific pH behaviour (REF-01, PDF pp. 2–3; REF-05, PDF p. 16; REF-13, PDF p. 7; REF-14, PDF pp. 7–8). |
+| Ionic strength / competing ions | Can change the electrical double layer or competition for adsorption sites | Clay-mineral studies report a decrease in tetracycline adsorption as ionic strength increases (REF-05, PDF p. 16). In the NFO/BC–TC study, NaCl had no significant effect, whereas MgCl2 and CaCl2 reduced uptake (REF-13, PDF p. 8). Do not assume all salts have the same effect. |
+| Natural organic matter (NOM) | May compete with antibiotic molecules for adsorbent sites | Increasing humic-acid dosage reduced TC removal by NFO/BC in the tested system (REF-13, PDF p. 8). |
+| Adsorbent dose | Changes the amount of adsorbent and available sites relative to the pollutant | In the NFO/BC–TC study, removal rose with dose up to a point and then approached a plateau; more adsorbent also increased material cost (REF-13, PDF p. 7). |
+| Initial antibiotic concentration | Changes the concentration gradient and the solute-to-site ratio | The selected experiments vary initial concentration, but the direction of change in removal percentage or capacity must be read from the specific data; do not assume both metrics move in the same direction (REF-09, PDF p. 2; REF-14, PDF p. 5; REF-15, PDF pp. 3–4). |
+| Contact time | Determines how long transport and uptake can proceed before equilibrium | Equilibrium time differs substantially between adsorbent–antibiotic systems. For the bagasse-derived activated biochar and CIP, the authors report about 82% of the equilibrium uptake after 24 h and an equilibrium time of approximately 80 h under the stated conditions (REF-14, PDF pp. 1 and 5). |
+| Temperature | May change equilibrium uptake and adsorption behaviour | CIP uptake by the activated bagasse biochar increased between 10 and 55 °C in that study; this is one system-specific result, not a universal temperature rule (REF-14, PDF pp. 1 and 8). |
+| Surface area, pore structure and functional groups | Influence accessible sites and possible interactions | Surface area alone does not determine performance; pore accessibility, surface chemistry, speciation and solution matrix also matter (REF-02, PDF p. 9 / journal p. 4686; REF-04, PDF pp. 6–7; REF-12, PDF pp. 5–6). |
+| Particle size | Is a preparation/operating variable that can differ among by-product sorbents | Rodríguez-López et al. report particle-size preparation details for hemp waste, oak ash and mussel shell, but this cited passage does not establish a universal directional effect of particle size on antibiotic uptake (REF-11, PDF p. 2). |
+
+### Specific examples that must remain system-specific
+
+**1. Tetracycline speciation (REF-01).** Gopal et al. report pKa values of approximately 3.3, 7.7 and 9.7 and show the pH-dependent species distribution in Figure 1 (PDF pp. 2–3; journal pp. 27082–27083). Their simplified text describes cationic TC below pH 3.3, zwitterionic TC between pH 3.3 and 7.7, and anionic TC above pH 7.7. The third pKa at approximately 9.7 marks further alkaline deprotonation; do not omit it from the diagram or imply that the species distribution changes at one sharp pH boundary.
+
+**2. Oxytetracycline with kaolinite (REF-05).** The review reports OTC pKa values of 3.57, 7.49 and 9.88 and a maximum kaolinite adsorption capacity near pH 5.5 for the discussed system (PDF p. 16). This optimum must not be transferred to another clay, antibiotic or biochar.
+
+**3. Tetracycline with NiFe2O4/biochar (REF-13).**
+- The NFO/BC point of zero charge was approximately 5.35. In the tested system, TC removal was highest (92.4%) at pH 7.0; the authors explain the lower removal at pH 3 through electrostatic repulsion between positively charged NFO/BC and predominantly cationic TC (PDF p. 7).
+- Raising NFO/BC dose from 0.2 to 1.0 g L−1 increased TC removal from 37% to 93.9%; further increase gave only a small additional removal benefit, while the adsorbent cost increased, so 1.0 g L−1 was selected for subsequent tests (PDF p. 7).
+- Increasing humic-acid dosage significantly decreased TC removal (PDF p. 8).
+- NaCl did not significantly affect TC adsorption in the reported tests, whereas MgCl2 and CaCl2 decreased adsorption capacity; at the reported 0.5% concentration, capacity fell to 59.8% and 63.8% of the original value, respectively (PDF p. 8).
+
+**4. Ciprofloxacin with K2CO3-activated bagasse biochar (REF-14).**
+- The authors report a pHPZC of approximately 8.1 for the activated biochar (PDF p. 7).
+- At pH 6–10, they observed CPX precipitation. Their blank tests showed that the apparent removal at pH 7–9 was mainly precipitation rather than adsorption; these values must not be presented as adsorption performance (PDF p. 8).
+- The authors therefore performed subsequent adsorption tests at pH 3.5 to minimise precipitation. At this pH CPX was predominantly cationic, while the activated-biochar surface was positively charged; the authors discuss hydrogen bonding and π–π interactions as possible contributions beyond electrostatic attraction (PDF pp. 7–8).
+- The reported equilibrium uptake increased from 34.6 mg g−1 at 10 °C to 109.9 mg g−1 at 55 °C, showing endothermic behaviour for this particular system (PDF p. 8; abstract on PDF p. 1).
+- About 82% of equilibrium uptake was reached after 24 h, while equilibrium was reached at approximately 80 h under the stated conditions (PDF pp. 1 and 5).
+
+### Interpretation safeguards for Slide 8
+
+1. pKa values belong to the antibiotic; pHPZC belongs to the adsorbent. They describe different properties and should be labelled separately.
+2. pH effects arise from the combined speciation of the antibiotic and surface charge of the adsorbent. An optimum pH is specific to the tested material–antibiotic pair.
+3. Apparent disappearance from solution is not automatically adsorption. Check whether precipitation, degradation or blank losses were controlled, particularly for ciprofloxacin at pH 6–10 in REF-14.
+4. Do not claim that increasing dose, temperature, contact time or ionic strength always improves adsorption. Preserve salt-specific and matrix-specific differences.
+5. Particle size is reported as a preparation parameter in REF-11; the cited passage does not establish a universal direction of its effect.
 
 ## 9. Recommended original diagrams for slides
 
