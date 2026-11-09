@@ -216,7 +216,7 @@ Recognise the main material forms represented in the selected studies and distin
 | Material form | Examples from the selected studies |
 |---|---|
 | Natural mineral sorbents | Kaolinite; smectite-group minerals, including montmorillonite |
-| Uncarbonized by-product sorbents | Raw date-palm fibre; hemp waste; oak ash; uncalcined mussel shell |
+| Non-biochar by-product sorbents | Raw date-palm fibre; hemp waste; oak ash; uncalcined mussel shell |
 | Carbonaceous sorbents | Biochar, activated biochar and activated carbon; feedstocks include cotton husk, sawdust, brewing bagasse and antibiotic fermentation residue |
 
 **Processing / engineering is a second descriptor**
