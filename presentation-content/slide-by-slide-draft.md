@@ -394,7 +394,7 @@ Where \(C_0\) and \(C_e\) are initial and equilibrium concentrations (mg L⁻¹)
 - Derived \(C_e=33.85\) mg L⁻¹
 - Derived \(Y=32.3\%\)
 
-*Back-calculation note:* \(C_e=33.85\) mg L⁻¹ and \(Y=32.3\%\) are reconstructed from the reported \(q_e\) and dose. REF-09 Figure 1 also plots removal efficiency for the pH series, but the article text does not state an exact numerical \(Y\) value for pH 10.
+*Back-calculation note:* \(C_e=33.85\) mg L⁻¹ and \(Y=32.3\%\) are reconstructed from the reported \(q_e\) and dose. Mirizadeh et al. (2023), Figure 1, also plots removal efficiency for the pH series, but the article text does not state an exact numerical \(Y\) value for pH 10.
 
 ### Visual specification
 
