@@ -526,6 +526,8 @@ Interpret thermodynamic signs used to discuss favourability and heat effects dur
 \ln K_d=-\frac{\Delta H^\circ}{RT}+\frac{\Delta S^\circ}{R}
 \]
 
+*The (K_d) notation is reproduced from REF-13; its standard-state normalisation is not clear in the supplied main text.*
+
 **Sign interpretation**
 - \(\Delta G^\circ<0\): spontaneous/favourable under the stated conditions
 - \(\Delta H^\circ>0\): endothermic
