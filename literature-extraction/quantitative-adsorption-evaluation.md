@@ -129,7 +129,7 @@ Removal efficiency derived from the reported capacity and dose:
 Y=\frac{50-33.85}{50}\times100=32.3\%
 \]
 
-**Interpretation and provenance:** The reported value is \(q=16.15\;\mathrm{mg\,g^{-1}}\). The residual concentration (33.85 mg L⁻¹) and removal percentage (32.3%) above are **derived calculations**, not separately quoted measured values from the article. This is a worked mass-balance illustration anchored to one reported REF-09 condition; it must not be presented as an independently reported removal result.
+**Interpretation and provenance:** The reported value is \(q=16.15\;\mathrm{mg\,g^{-1}}\). The residual concentration (33.85 mg L⁻¹) is back-calculated from the reported capacity and dose; the removal percentage (32.3%) is then reconstructed from that residual concentration using the mass-balance equation. REF-09 Figure 1 (PDF p. 3) also plots removal efficiency for the pH series, but the article text does not state an exact numerical removal percentage for pH 10. Therefore, label 32.3% as a **derived reconstruction**, not as an independently quoted numerical value from the paper.
 
 ## 5. What the experimental results teach about the two metrics
 
