@@ -16,6 +16,8 @@ The presentation concerns the removal of antibiotic compounds from water-based s
 - REF-01, pp. 27082–27083: tetracycline structure/speciation, reported aqueous matrices, persistence and resistance context.
 - REF-12, pp. 1–2: OTC/CIP in rivers, lakes, sewage effluent and livestock wastewater; weak biodegradability and persistence as described by the authors.
 - REF-11, p. 2: CIP, clarithromycin and trimethoprim are selected as environmentally relevant antibiotic examples; the article discusses wastewater pathways and retention/release.
+- REF-01, PDF p. 4 / journal p. 27084: the review states that primary and secondary treatment of residual antibiotic wastewater was insufficient to remove 100% of TC; this supports the need for advanced/tertiary treatment in that TC context.
+- REF-04, PDF p. 2: the review states that conventional biological wastewater treatments are unable to remove antibiotic residues efficiently; treat this as a review-level limitation, not a universal treatment-performance estimate.
 
 **Teaching qualification:** Avoid saying that every antibiotic is persistent in exactly the same way or that every conventional treatment plant has one universal removal percentage. The selected papers cover different compounds, matrices and treatment conditions. Present persistence and treatment limitations as concerns documented for the compounds and settings described by each source.
 
