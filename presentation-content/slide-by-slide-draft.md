@@ -165,36 +165,41 @@ Adsorption transfers chemical substances from the liquid phase to the solid phas
 
 ### Learning objective
 
-Explain the adsorbate–adsorbent system and how dissolved molecules reach adsorption sites.
+Explain the adsorbate–adsorbent system and the principal steps by which dissolved molecules reach adsorption sites.
 
 ### On-slide content
 
 **Key terms**
 - **Adsorbate:** dissolved antibiotic species being captured.
-- **Adsorbent:** solid material providing surface, pores and/or active sites.
+- **Adsorbent:** solid material providing the surface, pores and/or active sites.
 - **Adsorption:** accumulation or retention at an interface.
 - **Absorption:** uptake into the bulk of another phase.
 
-**How adsorption proceeds**
+**Principal steps described in the review**
 
-Bulk liquid → liquid-film transport → access to surface/pores → interaction at adsorption sites
+Bulk water → movement toward the adsorbent → diffusion through the surrounding liquid film → movement toward accessible active sites → adsorbate–adsorbent interaction
+
+*Pore filling is one possible adsorption mode, not an additional compulsory step.*
 
 ### Visual specification
 
-Draw a porous adsorbent particle with antibiotic molecules in bulk water, a liquid boundary film, movement to the external surface and into accessible pores, and retention at surface sites. Add a small inset contrasting surface accumulation with uptake into a material’s bulk.
+Draw an original porous adsorbent particle with antibiotic molecules in bulk water, a liquid boundary film and arrows showing the four-step sequence: movement from bulk water toward the particle; diffusion across the liquid film; movement toward accessible active sites; and final interaction at the surface. Show pore filling as a separate, labelled callout (“possible retention mode”), not as a universal transport stage. Add a small inset contrasting surface accumulation with uptake into the material’s bulk.
 
 ### Presenter notes
 
-Ajala et al. (2023) describe movement from the bulk matrix, diffusion through the liquid film, movement towards active sites and final interaction with the adsorbent surface (PDF p. 9; journal p. 4686). The slide uses “adsorbate–adsorbent interaction” because the surrounding context concerns the antibiotic molecule reaching the adsorbent site.
+Ajala et al. (2023) describe four principal steps: movement of adsorbate molecules from the bulk matrix toward the adsorbent, diffusion through the liquid film surrounding the adsorbent particle, movement toward active sites, and a final interaction with the adsorbent surface (PDF p. 9; journal p. 4686). The review's Figure 3 separately illustrates possible modes such as pore filling, electrostatic interaction, hydrogen bonding, hydrophobic interaction and surface complexation (PDF p. 16; journal p. 4693). Pore filling should therefore be shown as a possible mode, not inserted as a mandatory fifth transport step.
 
-The adsorption-versus-absorption distinction is standard chemistry teaching terminology. The inspected passages in the fixed papers do not provide a dedicated formal comparison of those terms. Rodríguez-López et al. (2024) separately discuss biosorption in terms of biological sorbent origin.
+The four-step passage in Ajala et al. appears to contain the phrase “adsorbent–adsorbent interactions”. In context, the passage concerns antibiotic molecules (the adsorbate) reaching sites on the adsorbent; the slide therefore uses “adsorbate–adsorbent interaction” as an editorial clarification, not as a verbatim quotation.
 
-Stress that adsorption removes the antibiotic from the liquid phase by retaining it on a solid; this alone does not prove degradation or mineralisation.
+The adsorption-versus-absorption distinction is standard chemistry teaching terminology. The inspected passages in the fixed papers do not provide a dedicated formal comparison of those terms. Rodríguez-López et al. (2024) separately distinguish adsorption and biosorption in terms of the sorbent's biological origin; this is a different distinction.
+
+Stress that adsorption retains the antibiotic on a solid phase; this alone does not prove degradation or mineralisation.
 
 ### Source citations
 
-- Ajala et al. (2023), PDF p. 9 / journal p. 4686 — adsorption sequence.
-- Rodríguez-López et al. (2024), PDF p. 2 — adsorption/biosorption terminology by sorbent origin.
+- Ajala et al. (2023), PDF p. 9 / journal p. 4686 — four principal steps in the adsorption sequence.
+- Ajala et al. (2023), Figure 3, PDF p. 16 / journal p. 4693 — illustrative adsorption modes, including pore filling.
+- Rodríguez-López et al. (2024), PDF p. 2 — adsorption/biosorption distinction based on sorbent origin.
 
 ---
 
