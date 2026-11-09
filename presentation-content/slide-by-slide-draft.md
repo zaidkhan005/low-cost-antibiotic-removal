@@ -124,34 +124,40 @@ The sources document different antibiotics in different environmental matrices a
 
 ### Learning objective
 
-Compare the main treatment roles of biological processes, advanced oxidation, membrane processes and adsorption.
+Compare the roles and selected limitations of biological treatment, advanced oxidation, membrane processes and adsorption.
 
 ### On-slide content
 
 | Technology | Main role | Important consideration |
 |---|---|---|
-| Biological treatment | Microorganisms treat wastewater | May not completely remove residual antibiotics |
-| Advanced oxidation (AOPs) | Oxidative species transform/degrade contaminants | Transformation products and mineralisation need consideration |
-| Membrane filtration / reverse osmosis | Separates contaminants from the water stream | Production and operating costs can be high |
-| Adsorption | Transfers antibiotics from water to a solid | Recovery, regeneration and spent-solid management are required |
+| Biological treatment | Microorganisms treat wastewater | Conventional biological treatment may remove antibiotic residues inefficiently |
+| Advanced oxidation (AOPs) | Reactive oxidation transforms/degrades antibiotics | Oxidised by-products may be toxic; transformation is not automatically mineralisation |
+| Membrane filtration / reverse osmosis | Separates contaminants from the water stream | Fouling, energy demand and operating cost can limit use; reverse osmosis has additional reported limitations |
+| Adsorption | Transfers antibiotics from water to a solid | The loaded adsorbent and captured antibiotic require recovery, regeneration and/or appropriate disposal |
 
-**Adsorption is a separation process — not destruction of the antibiotic molecule.**
+**Adsorption separates the antibiotic from water; it does not, by itself, establish destruction of the antibiotic molecule.**
 
 ### Visual specification
 
-A four-column technology comparison with a small icon per process. At the bottom show: antibiotic-containing water → contact with adsorbent → treated liquid + antibiotic-loaded solid.
+A four-column technology comparison with a small icon per process. At the bottom show: antibiotic-containing water → contact with adsorbent → treated liquid + antibiotic-loaded solid. Label the solid stream “recover / regenerate / dispose appropriately”. Add a small AOP note: “check transformation products and toxicity”.
 
 ### Presenter notes
 
-Gopal et al. (2020) review advanced/tertiary treatment including AOPs, membrane filtration, reverse osmosis and adsorption. It states that primary and secondary treatment is not sufficient to remove all residual tetracycline in the treatment settings reviewed. The paper describes membrane filtration and reverse osmosis as comparatively costly in the context discussed; do not generalise this into a universal cost ranking for all installations.
+The selected sources describe several approaches to antibiotic removal, but they do not provide a universal ranking across compounds, water matrices or treatment installations.
 
-AOPs transform contaminants through oxidative chemistry. The degree of transformation and mineralisation, and the identity of by-products, matter. Adsorption instead retains antibiotic on a solid phase, creating a separate management task for the loaded adsorbent and any desorption liquid.
+Biological treatment remains a wastewater-treatment route, but Teo et al. (2022) describe conventional biological treatment as inefficient for antibiotic residues. Gopal et al. (2020) specifically report that primary and secondary treatment were insufficient for complete tetracycline (TC) removal in the settings reviewed. Keep that example TC-specific.
+
+AOPs use oxidative chemistry to transform/degrade antibiotics. The sources caution that oxidised by-products may be toxic or more toxic; disappearance of the parent antibiotic should not automatically be described as complete mineralisation or detoxification.
+
+Gopal et al. (2020) report membrane fouling, high energy requirements and high operating costs as limitations for nanofiltration/ultrafiltration; they also describe fouling, high operational cost and limitations at residual antibiotic concentrations for reverse osmosis. Avoid making a universal cost ranking across all membrane installations.
+
+Adsorption transfers chemical substances from the liquid phase to the solid phase. It is therefore a separation/retention process, not proof of degradation. The loaded adsorbent and captured antibiotic require a recovery, regeneration and/or disposal strategy.
 
 ### Source citations
 
-- Gopal et al. (2020), journal p. 27086 and pp. 27086–27087 — treatment technologies and adsorption.
-- Zhao et al. (2024), PDF p. 2 — authors’ discussion of biological/AOP limitations and adsorption context.
-- Teo et al. (2022), PDF pp. 6–8 — carbon adsorbents and limitations.
+- Gopal et al. (2020), journal pp. 27084, 27086–27087 and 27091 — TC treatment options, AOPs, adsorption and treatment limitations.
+- Teo et al. (2022), PDF pp. 2, 6 and 14 — conventional biological treatment, AOP/physical-treatment distinction, liquid-to-solid adsorption transfer and secondary-waste limitations.
+- Zhao et al. (2024), PDF p. 2 — authors’ discussion of oxidation-product toxicity and biological-treatment limitations.
 
 ---
 
