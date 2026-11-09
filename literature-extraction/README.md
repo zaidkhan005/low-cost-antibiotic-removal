@@ -12,3 +12,8 @@ Planned notes:
 - `cost-analysis.md`: material production, recovery, regeneration, scale-up and cost metrics.
 
 Every substantial statement should carry a REF-ID and page/table/figure locator.
+
+
+## Completed extraction records
+
+- [Stage 2 Extraction 01 — Fundamentals and Adsorption Mechanisms](fundamentals-and-adsorption-mechanisms.md): source-grounded notes for antibiotic/water context, terminology, material families, adsorption sequence, mechanisms and controlling factors. Explicitly labels teaching definitions that are not directly defined in the 15-paper corpus.
