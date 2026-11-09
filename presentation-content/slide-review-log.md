@@ -358,6 +358,48 @@ The slide draft and citation map were fetched from `main` after the updates. The
 
 All four working files were fetched from `main` after their updates. The Slide 11 block uses author–date citations, contains no reader-facing REF identifiers, explains all four models and preserves the source-specific notation differences.
 
+## Slide 12 — Thermodynamics of Adsorption
+
+**Status:** Pass; definitions expanded, all three reported equations retained, and source notation corrected.
+
+**Original-source verification**
+- Liang et al. (2024), PDF pp. 9–10, Section 3.5, print the three relationships:
+  - `ΔG = −RT ln Kd` (Eq. 5, PDF p. 9);
+  - `ΔG = ΔH − TΔS` (Eq. 6, PDF p. 10);
+  - `ln Kd = −ΔH/(RT) + ΔS/R` (Eq. 7, PDF p. 10).
+- The printed equations use `ΔG`, `ΔH` and `ΔS` **without** superscript degree symbols, although the surrounding text describes these as standard thermodynamic parameters. The slide, extraction and evidence matrix now preserve the printed symbols and explicitly record the difference.
+- Liang et al. (2024), PDF p. 10, report negative ΔG values for TC adsorption on BC, NFO and NFO/BC; describe NFO adsorption as exothermic and BC/NFO-BC as endothermic; give ΔH = +31.384 kJ mol⁻¹ for NFO/BC; and describe its entropy change as positive. Table S4 is absent from the supplied PDF, so the missing numerical values are not reconstructed.
+- Meseguer et al. (2024), PDF p. 5, use 0.025 g adsorbent, 50 mL of 300 mg L⁻¹ CPX solution, pH 3.5 and 72 h at 10, 25, 40 and 55 °C. PDF p. 9 reports equilibrium uptake of 34.6, 41.4, 89.3 and 109.9 mg g⁻¹, respectively; the authors interpret the trend as endothermic. No numerical ΔG, ΔH or ΔS table is supplied in the main paper.
+- Mirizadeh et al. (2023), PDF p. 6, report endothermicity qualitatively but state that the Temkin model alone cannot establish the heat-effect direction; the supporting information was not supplied.
+- Zhao et al. (2024), PDF p. 11, report increasing temperature-dependent uptake and describe it as endothermic. Its PDF p. 13 values at 298, 308 and 318 K are Langmuir-fitted (q_m) values, not numerical thermodynamic parameters.
+- Chen et al. (2024), PDF p. 3, mention thermodynamics in the methods, but accessible numerical thermodynamic results are not present in the supplied main-paper PDF.
+
+**Definition and teaching improvements**
+- Expanded Gibbs free energy: explains thermodynamic favourability under the authors' convention and distinguishes it from speed and molecular mechanism.
+- Expanded enthalpy: explains positive ΔH as heat absorbed/endothermic and negative ΔH as heat released/exothermic; clarifies that positive ΔH alone does not prove chemisorption.
+- Expanded entropy: explains it as a net change in accessible microscopic arrangements/energy and matter dispersal, while avoiding unsupported claims about surface disorder alone.
+- Explains how ΔG = ΔH − TΔS combines the enthalpy and entropy contributions and why temperature can affect favourability.
+- Retained all three relationships from Liang et al. (2024), including ΔG = −RT ln Kd, the Gibbs–Helmholtz relation and the Van't Hoff equation.
+- Explains the Van't Hoff plot as ln Kd against 1/T, with slope −ΔH/R and intercept ΔS/R, and provides unit guidance for R, T, ΔH and ΔS.
+- Added (K_d)'s source-specific definition caveat and retained the requirement that a thermodynamic logarithm have a dimensionless argument. The missing Table S4 and unclear standard-state normalisation mean the numerical thermodynamic values cannot be independently reconstructed from the supplied main text.
+- Preserved the Meseguer temperature-response example with its operating conditions and all four reported uptake values.
+- Kept all cross-study temperature effects system-specific; the selected sources do not support a universal endothermic-adsorption claim.
+
+**Source notation and evidence-quality correction**
+- Removed the superscript degree symbols that had been added to Liang et al.'s printed ΔG, ΔH and ΔS equations. Added a notation note explaining that the authors' text describes the quantities as standard but the equations print the symbols without °.
+- Added THM-026 to `evidence-matrix/adsorption-thermodynamics.md` to record the printed-symbol audit.
+- Updated the Stage 2 extraction to preserve the same printed notation.
+
+**Verified commits**
+- Expanded Slide 12 definitions and presenter notes: `d7a4f761ef61407018f204cf2bf913bfa41ff596`
+- Slide source-symbol correction: `d52343697c136fdb13878cd688607aa8ea598329`
+- Literature extraction notation correction: `a0c0bd81ec6301856979b701344e72bf8d9cb45b`
+- Evidence matrix notation audit / THM-026: `76a914a835114b744bceb16fd713811590def076`
+- Citation map update: `ce2f20c6bcb9377b7a9d3e6f9595679ac11a802e`
+- Restored Gibbs equilibrium relation and Kd definition in Slide 12: `7c0b2ae1d6912d0ca5f8ee1502de4e80d59c3c23`
+
+The slide draft, citation map, thermodynamics extraction and evidence matrix were fetched from `main` after updating. The final Slide 12 block contains all three source equations, expanded definitions, author–date citations and no reader-facing REF identifiers.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
