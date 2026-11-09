@@ -319,7 +319,7 @@ Explain how antibiotic speciation, adsorbent properties and water-matrix conditi
 | Factor | Why it matters |
 |---|---|
 | **pH** | Changes antibiotic speciation and adsorbent surface charge; their interaction can cause attraction or repulsion |
-| **Adsorbent properties** | Surface charge, functional groups and accessible pore structure influence available sites and interactions |
+| **Adsorbent properties** | Surface area, surface charge, functional groups, accessible pore structure and particle size influence site accessibility and interactions |
 | **Adsorbent dose** | Changes the amount of available adsorbent relative to pollutant; removal may approach a plateau |
 | **Initial concentration and contact time** | Change the solute-to-site ratio and the time available to approach equilibrium |
 | **Ionic strength / competing ions** | Different ions can alter charge effects or compete for adsorption sites |
