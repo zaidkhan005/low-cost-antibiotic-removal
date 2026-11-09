@@ -98,6 +98,32 @@ All four files were fetched from `main` after their updates. The Slide 3 present
 
 All six files were fetched again from `main`. The Slide 4 block contains all four technologies, preserves the process distinctions and qualifications, and contains no reader-facing REF identifiers.
 
+## Slide 5 — Fundamentals of Adsorption
+
+**Status:** Pass; sequence and visual specification clarified.
+
+**Checked**
+- The adsorbate, adsorbent and adsorption terms match the project's working definitions in the Stage 2 extraction.
+- The adsorption/absorption distinction remains explicitly labelled as standard chemistry teaching terminology because the inspected fixed-source passages do not provide a dedicated formal comparison.
+- Rodríguez-López et al. (2024), PDF p. 2, supports a separate distinction: biosorption refers to sorbents derived from biological materials, while the term adsorption does not specify sorbent origin. The slide does not conflate this with adsorption-versus-absorption.
+- Ajala et al. (2023), PDF p. 9 / journal p. 4686, gives four principal steps: movement from the bulk matrix toward the adsorbent, liquid-film diffusion, movement toward accessible active sites, and final interaction with the adsorbent surface.
+- Ajala et al. (2023), Figure 3, PDF p. 16 / journal p. 4693, illustrates pore filling and other possible adsorption modes. Pore filling is not described as a separate mandatory stage in the four-step passage.
+
+**Correction:** Refined the process sequence to retain all four steps in the source order. Separated pore filling as a possible retention mode rather than showing pore entry as a universal fifth transport step. The source's phrase “adsorbent–adsorbent interactions” appears typographical in context; the slide uses “adsorbate–adsorbent interaction” as an explicitly identified editorial clarification.
+
+**Evidence updates**
+- Revised the adsorption-sequence passage in `literature-extraction/fundamentals-and-adsorption-mechanisms.md` to distinguish the four-step sequence from Figure 3's possible adsorption modes.
+- Updated FND-005 and added FND-014 in `evidence-matrix/fundamentals-mechanisms.md`.
+- Updated Slide 5 and its source/caveat row in the citation map.
+
+**Verified commits**
+- Extraction: `644f7234f25103d811a6a27fcb73a734706aea0c`
+- Evidence matrix: `105eaec9f8c675e49fff85ab3a5650defa1e6d59`
+- Slide draft: `ef4fd3ac5f9242ae75f8259c06110e3fd5c6827c`
+- Citation map: `bbd4038503d900422c6bff67f90ef37154512611`
+
+All four records were fetched from `main` after committing. Presentation-facing citations use author–date format; no REF identifiers appear in the Slide 5 block.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
