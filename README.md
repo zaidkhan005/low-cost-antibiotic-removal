@@ -40,4 +40,4 @@ This repository is separate from the manuscript project `reviewAdsorbants`. It s
 
 ## Current status
 
-Stage 1 is underway: REF-01–REF-05 from the original chat and REF-06–REF-10 from the branched chat have passed first-pass bibliographic and PDF-integrity audits (10/15 received). Awaiting REF-11–REF-15. No additional references will be added.
+All 15 selected PDFs (REF-01–REF-15) have passed first-pass bibliographic and file-integrity audits. The existing Batch 2 work (REF-06–REF-10) from the branch chat has been reconciled into the repository, including its audit and carried-forward scientific findings; no reprocessing or additional references were introduced. Stage 2 extraction/evidence-matrix consolidation remains in progress. PowerPoint production remains gated on review of the completed extraction, evidence matrix and slide content.
