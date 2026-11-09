@@ -25,11 +25,11 @@ REF-13 reports the following equations in its thermodynamics section (PDF pp. 9�
 ### 2.1 Gibbs free-energy relationship
 
 \[
-\Delta G^\circ=-RT\ln K_d
+\Delta G=-RT\ln K_d
 \]
 
 where:
-- \(\Delta G^\circ\) = standard Gibbs free-energy change;
+- \(\Delta G\) = standard Gibbs free-energy change;
 - \(R\) = universal gas constant, reported as \(8.314\ \mathrm{J\,mol^{-1}\,K^{-1}}\);
 - \(T\) = absolute temperature in kelvin;
 - \(K_d\) = the adsorption distribution/equilibrium quantity used by the authors.
@@ -39,7 +39,7 @@ The source prints the equilibrium term as \(K_d\). Its main-text discussion does
 ### 2.2 Gibbs–Helmholtz relation used in the study
 
 \[
-\Delta G^\circ=\Delta H^\circ-T\Delta S^\circ
+\Delta G=\Delta H-T\Delta S
 \]
 
 This relates the Gibbs free-energy change to enthalpy and entropy at the specified temperature.
@@ -47,14 +47,16 @@ This relates the Gibbs free-energy change to enthalpy and entropy at the specifi
 ### 2.3 Van't Hoff relationship
 
 \[
-\ln K_d=-\frac{\Delta H^\circ}{RT}+\frac{\Delta S^\circ}{R}
+\ln K_d=-\frac{\Delta H}{RT}+\frac{\Delta S}{R}
 \]
 
 When \(\ln K_d\) is plotted against \(1/T\):
-- slope \(=-\Delta H^\circ/R\);
-- intercept \(=\Delta S^\circ/R\).
+- slope \(=-\Delta H/R\);
+- intercept \(=\Delta S/R\).
 
 These slope/intercept relationships follow algebraically from the equation above. A thermodynamic calculation needs multiple temperature points and a consistently defined equilibrium quantity.
+
+**Source-symbol note — REF-13:** Liang et al. describe the quantities as standard Gibbs free energy, enthalpy and entropy in the surrounding text, but the printed Eqs. (5)–(7) use \(\Delta G\), \(\Delta H\) and \(\Delta S\) without a superscript degree symbol. This extraction preserves the symbols as printed. The unresolved standard-state normalisation of \(K_d\) is recorded separately below.
 
 ### 2.4 Sign interpretation
 
@@ -62,12 +64,12 @@ Under the thermodynamic convention used by the authors:
 
 | Parameter | Sign | Interpretation |
 |---|---|---|
-| \(\Delta G^\circ\) | Negative | Adsorption is thermodynamically spontaneous/favourable under the stated conditions |
-| \(\Delta G^\circ\) | Positive | Adsorption is non-spontaneous under the stated conditions |
-| \(\Delta H^\circ\) | Positive | Endothermic; heat is absorbed |
-| \(\Delta H^\circ\) | Negative | Exothermic; heat is released |
-| \(\Delta S^\circ\) | Positive | Positive entropy change under the study's convention |
-| \(\Delta S^\circ\) | Negative | Negative entropy change under the study's convention |
+| \(\Delta G\) | Negative | Adsorption is thermodynamically spontaneous/favourable under the stated conditions |
+| \(\Delta G\) | Positive | Adsorption is non-spontaneous under the stated conditions |
+| \(\Delta H\) | Positive | Endothermic; heat is absorbed |
+| \(\Delta H\) | Negative | Exothermic; heat is released |
+| \(\Delta S\) | Positive | Positive entropy change under the study's convention |
+| \(\Delta S\) | Negative | Negative entropy change under the study's convention |
 
 “Spontaneous” does not mean instantaneous; the rate is addressed by kinetic experiments. A process can be thermodynamically favourable and still require long contact time.
 
@@ -75,14 +77,14 @@ Under the thermodynamic convention used by the authors:
 
 Thermodynamic equations require consistent units:
 - Use absolute temperature in kelvin, not degrees Celsius, in the equations.
-- If \(R=8.314\ \mathrm{J\,mol^{-1}\,K^{-1}}\), express \(\Delta H^\circ\) in J mol\(^{-1}\) and \(\Delta S^\circ\) in J mol\(^{-1}\) K\(^{-1}\), or convert all terms consistently to kJ-based units.
+- If \(R=8.314\ \mathrm{J\,mol^{-1}\,K^{-1}}\), express \(\Delta H\) in J mol\(^{-1}\) and \(\Delta S\) in J mol\(^{-1}\) K\(^{-1}\), or convert all terms consistently to kJ-based units.
 - The argument of a natural logarithm in a thermodynamic equilibrium expression must be dimensionless. A distribution coefficient reported with units cannot be inserted into \(\ln K\) without a stated standard-state normalisation.
 
 **Source-specific data-quality flag — REF-09:** The symbols list identifies \(K_D\) as a distribution coefficient with units of L g\(^{-1}\) (PDF p. 7), while the supporting equations for thermodynamic parameters are located in Supporting Information Section S1, which was not supplied. This means its standard-state normalisation cannot be checked from the available files. The main paper's reported qualitative endothermic conclusion may be cited as the authors' result, but its missing numerical thermodynamic parameters should not be recreated.
 
 **Source-specific data-quality flag — REF-13:** The main text uses \(K_d\) in logarithmic thermodynamic expressions but does not clearly state its operational definition or standard-state normalisation in the inspected pages. The numerical thermodynamic values are referred to Table S4, which was not included in the supplied PDF. Only the numerical values explicitly stated in the main text are retained below.
 
-Do not compare \(\Delta G^\circ\), \(\Delta H^\circ\) or \(\Delta S^\circ\) from different papers unless the equilibrium-constant definitions, units, standard states, concentration basis and experimental conditions are compatible.
+Do not compare \(\Delta G\), \(\Delta H\) or \(\Delta S\) from different papers unless the equilibrium-constant definitions, units, standard states, concentration basis and experimental conditions are compatible.
 
 ## 4. Evidence from the selected antibiotic-adsorption studies
 
@@ -114,7 +116,7 @@ REF-09 fitted the Temkin isotherm and notes that positive \(b_T\) values might s
 
 The REF-09 symbols list gives \(K_D\) units of L g\(^{-1}\) (PDF p. 7). Because the thermodynamic equations are in the missing SI, the standard-state treatment cannot be verified from the supplied file.
 
-**Do not confuse parameters:** REF-09 also reports Dubinin–Radushkevich mean adsorption-energy parameter \(E\) values of 0.247 kJ mol\(^{-1}\) for TC and 0.157 kJ mol\(^{-1}\) for CIP (PDF p. 7, Table 2). These are isotherm-derived energy parameters, not the thermodynamic enthalpy change \(\Delta H^\circ\).
+**Do not confuse parameters:** REF-09 also reports Dubinin–Radushkevich mean adsorption-energy parameter \(E\) values of 0.247 kJ mol\(^{-1}\) for TC and 0.157 kJ mol\(^{-1}\) for CIP (PDF p. 7, Table 2). These are isotherm-derived energy parameters, not the thermodynamic enthalpy change \(\Delta H\).
 
 ### 4.3 REF-14 — Ciprofloxacin on K\(_2\)CO\(_3\)-activated barley-bagasse biochar
 
@@ -131,7 +133,7 @@ The paper reports that equilibrium uptake increased with temperature:
 
 Source: REF-14, PDF p. 9, Section 3.2, temperature-effect discussion.
 
-The authors interpret the rise in uptake as evidence that adsorption is favoured by increasing temperature and is endothermic. This is a temperature-response result; the main paper does not provide a numerical \(\Delta G^\circ\), \(\Delta H^\circ\) or \(\Delta S^\circ\) table. Do not calculate these values from the four uptake values alone.
+The authors interpret the rise in uptake as evidence that adsorption is favoured by increasing temperature and is endothermic. This is a temperature-response result; the main paper does not provide a numerical \(\Delta G\), \(\Delta H\) or \(\Delta S\) table. Do not calculate these values from the four uptake values alone.
 
 ### 4.4 REF-15 — Tetracycline on fermentation-residue-derived porous biochar
 
@@ -147,7 +149,7 @@ Its temperature-dependent Langmuir table reports fitted \(q_m\) values:
 
 Source: REF-15, PDF p. 13, Table 6.
 
-These are model-fitted Langmuir maximum-capacity parameters, not direct measurements of \(\Delta H^\circ\), \(\Delta G^\circ\) or \(\Delta S^\circ\). The article's conclusion describes the process as endothermic, but the main PDF does not provide a numerical thermodynamic-parameter table. Do not infer a numerical enthalpy from the Langmuir \(q_m\) trend.
+These are model-fitted Langmuir maximum-capacity parameters, not direct measurements of \(\Delta H\), \(\Delta G\) or \(\Delta S\). The article's conclusion describes the process as endothermic, but the main PDF does not provide a numerical thermodynamic-parameter table. Do not infer a numerical enthalpy from the Langmuir \(q_m\) trend.
 
 ### 4.5 REF-12 — Oxytetracycline and ciprofloxacin on magnetic cotton-husk biochar
 
@@ -169,12 +171,12 @@ The collection demonstrates that temperature effects are material-specific: REF-
 
 ## 6. Thermodynamics and mechanism: limits on inference
 
-1. A negative \(\Delta G^\circ\) supports thermodynamic favourability under the stated conditions; it does not specify the rate or prove a particular molecular adsorption mechanism.
-2. A positive \(\Delta H^\circ\) indicates an endothermic process; it is not, by itself, proof of chemisorption.
-3. An increase in uptake with temperature is consistent with an endothermic trend in the studied system, but it does not provide a numerical \(\Delta H^\circ\) without a defined equilibrium constant and an appropriate thermodynamic analysis.
-4. \(\Delta S^\circ\) is a system-level thermodynamic quantity; the sign should be interpreted only with the study's equilibrium definition and convention.
+1. A negative \(\Delta G\) supports thermodynamic favourability under the stated conditions; it does not specify the rate or prove a particular molecular adsorption mechanism.
+2. A positive \(\Delta H\) indicates an endothermic process; it is not, by itself, proof of chemisorption.
+3. An increase in uptake with temperature is consistent with an endothermic trend in the studied system, but it does not provide a numerical \(\Delta H\) without a defined equilibrium constant and an appropriate thermodynamic analysis.
+4. \(\Delta S\) is a system-level thermodynamic quantity; the sign should be interpreted only with the study's equilibrium definition and convention.
 5. The magnitude thresholds used by individual authors to label “physical” or “chemical” adsorption should be reported as that paper's interpretation rather than universal rules.
-6. Keep the isotherm parameter \(E\) from the D–R model distinct from thermodynamic enthalpy \(\Delta H^\circ\).
+6. Keep the isotherm parameter \(E\) from the D–R model distinct from thermodynamic enthalpy \(\Delta H\).
 7. Do not compare thermodynamic values across papers when equilibrium-constant definitions, standard-state normalisations, units, temperatures or concentration bases are unavailable or inconsistent.
 
 ## 7. Slide 12 content recommendation
@@ -183,9 +185,9 @@ The collection demonstrates that temperature effects are material-specific: REF-
 
 Recommended sequence:
 
-1. Introduce \(\Delta G^\circ\), \(\Delta H^\circ\) and \(\Delta S^\circ\) with their signs and units.
+1. Introduce \(\Delta G\), \(\Delta H\) and \(\Delta S\) with their signs and units.
 2. Present the Gibbs equation and the Van't Hoff relationship.
-3. Explain a Van't Hoff plot: \(\ln K\) against \(1/T\), with slope \(-\Delta H^\circ/R\) and intercept \(\Delta S^\circ/R\).
+3. Explain a Van't Hoff plot: \(\ln K\) against \(1/T\), with slope \(-\Delta H/R\) and intercept \(\Delta S/R\).
 4. Use REF-13 as the numerical example: all three TC adsorption systems reported spontaneous; NFO/BC had \(\Delta H=+31.384\) kJ mol\(^{-1}\), while NFO was exothermic and BC/NFO-BC were endothermic.
 5. Use REF-14 as the clearest observed temperature-response example: CIP \(q_e\) increases from 34.6 to 109.9 mg g\(^{-1}\) between 10 and 55 °C under the stated test conditions.
 6. Add a small source note that REF-09 and REF-15 also report endothermic trends, but their full thermodynamic parameter tables are unavailable in the supplied PDFs.
