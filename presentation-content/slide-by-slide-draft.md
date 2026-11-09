@@ -736,51 +736,91 @@ In the equations, \(R\) is the gas constant, \(T\) is absolute temperature (K), 
 
 ### Learning objective
 
-Distinguish desorption from restored adsorption performance and assess whether an adsorbent can be reused.
+Explain how a spent adsorbent is treated for reuse and distinguish antibiotic release from restored adsorption performance.
 
 ### On-slide content
 
-**Regeneration cycle**
+**A regeneration and reuse cycle**
 
-Adsorption → solid/liquid separation → desorption/regeneration → rinse/dry → next adsorption cycle
+Adsorption → separate the loaded solid → desorb antibiotic into a regenerant → rinse / neutralise / dry → test the next adsorption cycle
 
-**Do not confuse these measures**
-- **Desorption efficiency:** how much adsorbed antibiotic is released.
-- **Regeneration performance:** how well the material adsorbs again after treatment.
-- **Capacity retention:** reused capacity relative to fresh capacity.
+**Four terms that should not be confused**
 
-**Selected cycle evidence**
+- **Desorption:** release of adsorbed antibiotic from the solid into a liquid regenerant.
+- **Regeneration:** treatment of the spent adsorbent to restore usable adsorption function; it may include desorption, rinsing, neutralisation and drying.
+- **Reuse:** placing the treated adsorbent into a new adsorption run.
+- **Capacity retention:** capacity after reuse relative to the capacity of the fresh adsorbent.
 
-| Study | Regeneration procedure | Reported reuse result |
+\[
+\text{Capacity retention (\%)}=
+\frac{q_n}{q_{\text{fresh}}}\times100
+\]
+
+Here, \(q_n\) is the adsorption capacity measured after cycle \(n\), and \(q_{\text{fresh}}\) is the capacity of the fresh adsorbent, measured on the same basis and under comparable conditions.
+
+**Selected repeated-cycle evidence**
+
+| Study | Regeneration procedure | Reported result |
 |---|---|---|
-| Chen et al. (2024): OTC/CIP on magnetic cotton-husk biochar | Ethanol + ultrasound | After 5 cycles: 86.8% OTC and 91.1% CIP capacity retained |
-| Liang et al. (2024): TC on NiFe₂O₄/biochar | DI-water desorption in the reusability test | 72% TC removal reported after cycle 4 |
-| Zhao et al. (2024): TC on fermentation-residue biochar | 0.1 M NaOH, rinse to pH 7, dry | 5 cycles; authors report only a slight capacity decrease |
+| Chen et al. (2024): OTC and CIP on magnetic cotton-husk biochar | Ethanol + ultrasound; rinse and dry | After 5 cycles: 86.8% OTC and 91.1% CIP capacity retained |
+| Liang et al. (2024): TC on NiFe₂O₄/biochar | DI-water desorption in the reusability test | 72% TC removal after cycle 4—not a reported capacity-retention percentage |
+| Zhao et al. (2024): TC on fermentation-residue biochar | 0.1 M NaOH; rinse to pH 7 and dry | 5 cycles; the authors describe a slight capacity decrease, without stating an exact final retention percentage in the text |
+
+**A cycle-removal percentage is not the same as capacity retention.**
 
 ### Visual specification
 
-A circular process diagram for adsorption → separation → desorption → rinse/dry → reuse. Place the three-study comparison beside it. Label Liang et al. (2024)'s value as “removal after cycle 4”, not “capacity retention”.
+Use a circular process diagram: adsorption → solid/liquid separation → desorption into a regenerant stream → rinse/neutralise/dry → next adsorption test. Show the antibiotic-containing regenerant as a separate liquid stream that requires recovery or appropriate treatment. Beside it, place the three-study table. Highlight Chen et al.'s result as capacity retention; label Liang et al.'s 72% explicitly as removal after cycle 4; label Zhao et al.'s outcome as a qualitative capacity trend, not a numerical retention value.
 
 ### Presenter notes
 
-Desorption alone does not establish restored adsorption performance. Gkika et al. (2025) explain that a desorption test does not measure performance in the following adsorption cycle; regeneration performance requires a subsequent adsorption test (PDF p. 7).
+**What each term means**
 
-Chen et al. (2024) report 86.8% OTC and 91.1% CIP capacity remaining after five ethanol/ultrasound cycles; its water-washing control retained 21.2% and 19.7%, respectively (PDF pp. 3–4 and p. 10, Figure 7). Liang et al. (2024) report a 72% TC removal rate after its fourth reuse cycle (PDF p. 8), not explicitly 72% of initial capacity retained. Zhao et al. (2024) use 0.1 M NaOH for five cycles and reports only a slight capacity decrease, without a precise final retention percentage in the text (PDF p. 5 and pp. 13–14).
+Desorption is the step in which antibiotic already held by the adsorbent is released into a liquid regenerant or eluent. The antibiotic has moved from the solid into another liquid stream; it has not necessarily been destroyed.
 
-Rodríguez-López et al. (2024) report antibiotic desorption/release from hemp waste, oak ash and mussel shell, but not a multi-cycle regeneration test (PDF pp. 3–6). Meseguer et al. (2024) calls for further regeneration/reuse work rather than reporting completed cycles in its supplied main paper (PDF p. 13).
+Regeneration is the treatment of a spent adsorbent to make it useful for another adsorption run. Depending on the system, it may involve desorption followed by washing, neutralisation, drying or another treatment. Desorption can be one part of regeneration, but the terms are not interchangeable.
 
-Regeneration creates a liquid stream containing desorbed antibiotic. Eluent, wash water, energy, drying, adsorbent loss and possible leaching all affect feasibility.
+Reuse means that the treated adsorbent is actually placed into a new adsorption experiment or treatment cycle. To evaluate regeneration performance, the next adsorption run must be measured. Gkika et al. (2025) distinguish desorption efficiency from regeneration (removal) efficiency: a desorption test measures how much contaminant is released, whereas adsorption performance in the subsequent cycle shows whether the regenerated solid is still effective (PDF p. 7).
+
+**Capacity retention versus removal**
+
+Capacity retention compares the adsorption capacity after reuse with that of the fresh adsorbent:
+
+\[
+\text{Capacity retention (\%)}=
+\frac{q_n}{q_{\text{fresh}}}\times100
+\]
+
+The comparison is meaningful only when both capacities are measured using the same calculation basis and comparable conditions, such as antibiotic, initial concentration, pH, adsorbent dose, temperature and contact time.
+
+Removal efficiency answers a different question: what fraction of the antibiotic initially present in the liquid was removed during that particular adsorption run? A percentage removal measured in cycle four does not by itself say what fraction of the fresh adsorbent's original capacity remains. This is why Liang et al.'s 72% TC removal after cycle four must not be rewritten as 72% capacity retention.
+
+**What the selected experimental papers report**
+
+Chen et al. (2024) regenerated magnetic cotton-husk biochar composite (Fe₂O₃@BMBC) using ethanol plus ultrasound. The procedure used 0.5 L ethanol with 50 mg adsorbent, sonicated at 500 W for 60 min, followed by 0.5 L ultrapure-water washing and drying at 70 °C. The reuse test used 50 mg adsorbent, 20 mL antibiotic solution at an initial concentration of 500 mg L⁻¹, 25 °C and 24 h adsorption (PDF pp. 3–4). After five reuse cycles, the authors report 86.8% of fresh OTC capacity and 91.1% of fresh CIP capacity remaining (PDF p. 10; Fig. 7, PDF p. 11). The water-washing control retained only 21.2% and 19.7%, respectively. These are capacity-retention values, not desorption efficiencies.
+
+The stated 0.5 L ethanol and 0.5 L rinse-water volumes for 50 mg adsorbent each correspond to 10 L of liquid per gram of adsorbent. This is a direct unit conversion from the reported laboratory protocol, not a process-cost or scale-up estimate. It flags the need to account for regenerant and wash-water demand. The article also reports Fe leaching below 0.4 mg L⁻¹ over the tested pH range of 3–11 (PDF p. 10); this does not replace a full mass balance on adsorbent loss or the treatment of the spent regenerant.
+
+Liang et al. (2024) tested tetracycline adsorption–desorption for four cycles. In the reusability subsection, the authors state that the adsorbent was recovered by centrifugation and desorbed with deionized water before being returned to TC solution. They report a TC removal rate of 72% after the fourth cycle (PDF p. 8; Fig. 4f). The result is a cycle-specific removal rate, not an explicit percentage of fresh adsorption capacity retained. The methods section also mentions washing with DI water and ethanol and drying at 60 °C (PDF p. 4), but the role of ethanol in the cycle protocol is not fully clarified in the main text; the slide therefore describes the reusability subsection's DI-water desorption without implying a fully specified combined protocol.
+
+Zhao et al. (2024) conducted five consecutive adsorption–desorption cycles for OSOB-3-700. The stated conditions were 0.25 g L⁻¹ adsorbent, 250 mg L⁻¹ initial TC concentration, 180 rpm and 24 h. Regeneration used 0.1 M NaOH, followed by deionized-water rinsing to pH 7 and drying at 80 °C (PDF p. 5). The authors state that capacity decreased slightly across the five cycles (PDF p. 13); Figure 10 plots both removal rate and adsorption capacity over the cycles (PDF p. 14). The main-text conclusion does not provide a precise final capacity-retention percentage, so none is inferred from the plotted lines.
+
+**Desorption is not automatically successful regeneration**
+
+Rodríguez-López et al. (2024) measure antibiotic sorption and desorption/release from hemp waste, oak ash and mussel shell, but do not report a repeated adsorption–desorption reuse series. For CIP at the highest initial concentration tested, the reported single-desorption percentages were 22.4% for hemp waste, 16.4% for oak ash and 15.5% for mussel shell (PDF p. 5). These data describe release from the tested solids; they do not demonstrate that the solids recovered their original adsorption performance. Their stirred-flow experiments also show that antibiotics can be released from by-products, so remobilisation and the fate of the released antibiotic matter.
+
+Meseguer et al. (2024) identify regeneration and reuse tests as further work needed to establish the practical applicability of their activated bagasse biochar; the supplied main paper does not report completed reuse cycles (PDF p. 13).
+
+Regeneration creates a secondary liquid stream containing desorbed antibiotic and regenerant. Eluent demand, wash-water demand, ultrasound or other energy use, treatment time, drying, adsorbent loss, leaching and disposal or recovery of the spent regenerant all affect practical feasibility. The different studies use different antibiotics, adsorbents, procedures and performance metrics; their cycle results should not be directly ranked.
 
 ### Source citations
 
-- Gkika et al. (2025), PDF p. 7 — desorption versus regeneration performance.
-- Chen et al. (2024), PDF pp. 3–4 and p. 10, Figure 7 — procedure and capacity retention.
-- Liang et al. (2024), PDF p. 8, Figure 4f — four-cycle reuse result.
-- Zhao et al. (2024), PDF p. 5 and pp. 13–14, Figure 10 — NaOH procedure and five-cycle result.
-- Rodríguez-López et al. (2024), PDF pp. 3–6 — desorption/release experiments.
-- Meseguer et al. (2024), PDF p. 13 — future regeneration/reuse need.
-
----
+- Gkika et al. (2025), PDF p. 7 — distinction between desorption efficiency and adsorption performance in the subsequent regeneration cycle.
+- Chen et al. (2024), PDF pp. 3–4 and p. 10; Fig. 7, PDF p. 11 — ethanol–ultrasound procedure, cycle conditions, capacity retention and water-washing control.
+- Liang et al. (2024), PDF p. 8, Section 3.2 and Fig. 4f; methods PDF p. 4 — four-cycle reuse result and qualification on the washing procedure.
+- Zhao et al. (2024), PDF p. 5, Section 2.7; PDF p. 13, Section 3.6; Fig. 10, PDF p. 14 — five-cycle procedure and qualitative capacity trend.
+- Rodríguez-López et al. (2024), PDF pp. 5–6 — single-desorption and release results, not repeated-cycle regeneration.
+- Meseguer et al. (2024), PDF p. 13 — future-work statement on regeneration and reuse.
 
 # Slide 14 — Low-Cost Potential and Practical Challenges
 
