@@ -3,7 +3,7 @@
 **Working title:** Low-Cost Adsorbents for the Removal of Antibiotics from Aqueous Medium  
 **Status:** First complete 15-slide content draft for scientific and pedagogical review.  
 **Format target:** 16:9 academic review presentation.  
-**Source boundary:** Exactly the approved 15 papers, REF-01–REF-15. No additional references are introduced.  
+**Source boundary:** Exactly the approved 15 papers, Gopal et al. (2020)–Zhao et al. (2024). No additional references are introduced.  
 **Production gate:** This is content, not the PowerPoint. Do not begin deck production until this draft is reviewed and approved.
 
 ## Draft-wide rules
@@ -80,9 +80,9 @@ Use “aqueous medium” operationally for a water-based liquid phase. It may be
 
 ### Source citations
 
-- REF-02, PDF pp. 2–3 — antibiotic uses, sources, classes and environmental context.
-- REF-04, PDF pp. 1–2 — hospital, industrial and agricultural sources and occurrence.
-- REF-11, PDF p. 2 — CIP, clarithromycin and trimethoprim as environmentally relevant examples.
+- Ajala et al. (2023), PDF pp. 2–3 — antibiotic uses, sources, classes and environmental context.
+- Teo et al. (2022), PDF pp. 1–2 — hospital, industrial and agricultural sources and occurrence.
+- Rodríguez-López et al. (2024), PDF p. 2 — CIP, clarithromycin and trimethoprim as environmentally relevant examples.
 
 ---
 
@@ -113,9 +113,9 @@ The sources document different antibiotics in different environmental matrices a
 
 ### Source citations
 
-- REF-01, journal pp. 27082–27083 — tetracycline occurrence and environmental context.
-- REF-04, PDF pp. 1–2 — antibiotic pollution, ecological effects and ARB/ARG concerns.
-- REF-02, PDF pp. 2–3 — antibiotic residues and environmental pathways.
+- Gopal et al. (2020), journal pp. 27082–27083 — tetracycline occurrence and environmental context.
+- Teo et al. (2022), PDF pp. 1–2 — antibiotic pollution, ecological effects and ARB/ARG concerns.
+- Ajala et al. (2023), PDF pp. 2–3 — antibiotic residues and environmental pathways.
 
 ---
 
@@ -142,15 +142,15 @@ A four-column technology comparison with a small icon per process. At the bottom
 
 ### Presenter notes
 
-REF-01 reviews advanced/tertiary treatment including AOPs, membrane filtration, reverse osmosis and adsorption. It states that primary and secondary treatment is not sufficient to remove all residual tetracycline in the treatment settings reviewed. The paper describes membrane filtration and reverse osmosis as comparatively costly in the context discussed; do not generalise this into a universal cost ranking for all installations.
+Gopal et al. (2020) reviews advanced/tertiary treatment including AOPs, membrane filtration, reverse osmosis and adsorption. It states that primary and secondary treatment is not sufficient to remove all residual tetracycline in the treatment settings reviewed. The paper describes membrane filtration and reverse osmosis as comparatively costly in the context discussed; do not generalise this into a universal cost ranking for all installations.
 
 AOPs transform contaminants through oxidative chemistry. The degree of transformation and mineralisation, and the identity of by-products, matter. Adsorption instead retains antibiotic on a solid phase, creating a separate management task for the loaded adsorbent and any desorption liquid.
 
 ### Source citations
 
-- REF-01, journal p. 27086 and pp. 27086–27087 — treatment technologies and adsorption.
-- REF-15, PDF p. 2 — authors’ discussion of biological/AOP limitations and adsorption context.
-- REF-04, PDF pp. 6–8 — carbon adsorbents and limitations.
+- Gopal et al. (2020), journal p. 27086 and pp. 27086–27087 — treatment technologies and adsorption.
+- Zhao et al. (2024), PDF p. 2 — authors’ discussion of biological/AOP limitations and adsorption context.
+- Teo et al. (2022), PDF pp. 6–8 — carbon adsorbents and limitations.
 
 ---
 
@@ -178,16 +178,16 @@ Draw a porous adsorbent particle with antibiotic molecules in bulk water, a liqu
 
 ### Presenter notes
 
-REF-02 describes movement from the bulk matrix, diffusion through the liquid film, movement towards active sites and final interaction with the adsorbent surface (PDF p. 9; journal p. 4686). The slide uses “adsorbate–adsorbent interaction” because the surrounding context concerns the antibiotic molecule reaching the adsorbent site.
+Ajala et al. (2023) describe movement from the bulk matrix, diffusion through the liquid film, movement towards active sites and final interaction with the adsorbent surface (PDF p. 9; journal p. 4686). The slide uses “adsorbate–adsorbent interaction” because the surrounding context concerns the antibiotic molecule reaching the adsorbent site.
 
-The adsorption-versus-absorption distinction is standard chemistry teaching terminology. The inspected passages in the fixed papers do not provide a dedicated formal comparison of those terms. REF-11 separately discusses biosorption in terms of biological sorbent origin.
+The adsorption-versus-absorption distinction is standard chemistry teaching terminology. The inspected passages in the fixed papers do not provide a dedicated formal comparison of those terms. Rodríguez-López et al. (2024) separately discusses biosorption in terms of biological sorbent origin.
 
 Stress that adsorption removes the antibiotic from the liquid phase by retaining it on a solid; this alone does not prove degradation or mineralisation.
 
 ### Source citations
 
-- REF-02, PDF p. 9 / journal p. 4686 — adsorption sequence.
-- REF-11, PDF p. 2 — adsorption/biosorption terminology by sorbent origin.
+- Ajala et al. (2023), PDF p. 9 / journal p. 4686 — adsorption sequence.
+- Rodríguez-López et al. (2024), PDF p. 2 — adsorption/biosorption terminology by sorbent origin.
 
 ---
 
@@ -215,19 +215,19 @@ A five-branch classification tree. Examples: activated carbon; date-palm/bagasse
 
 ### Presenter notes
 
-The fixed collection covers a range of materials rather than one uniform “low-cost adsorbent” class. REF-05 discusses natural clay-mineral structures and surface chemistry. REF-02 and REF-04 cover carbon-based adsorbents and biochar. REF-11 studies hemp waste, oak ash and mussel shell. REF-12 and REF-13 examine magnetic biochar composites. REF-14 uses brewing-industry bagasse, while REF-15 uses antibiotic fermentation residues.
+The fixed collection covers a range of materials rather than one uniform “low-cost adsorbent” class. Perelomov et al. (2025) discuss natural clay-mineral structures and surface chemistry. Ajala et al. (2023) and Teo et al. (2022) cover carbon-based adsorbents and biochar. Rodríguez-López et al. (2024) studies hemp waste, oak ash and mussel shell. Chen et al. (2024) and Liang et al. (2024) examine magnetic biochar composites. Meseguer et al. (2024) use brewing-industry bagasse, while Zhao et al. (2024) use antibiotic fermentation residues.
 
 Biochar properties vary with biomass type and preparation conditions. Activation may increase porosity or change surface functionality, but it introduces more processing steps and potential reagent/energy costs. Do not assume every waste-derived precursor is free, locally available or suitable without preparation.
 
 ### Source citations
 
-- REF-02, PDF p. 9 / journal p. 4686 — biochar and biomass-derived adsorbents.
-- REF-05, PDF pp. 4–7 — clay mineral structure and surface properties.
-- REF-11, PDF p. 2 — tested by-products.
-- REF-12, PDF pp. 1–3 — magnetic cotton-husk biochar.
-- REF-13, PDF pp. 1–3 — NiFe₂O₄/biochar.
-- REF-14, PDF pp. 2–3 — brewing bagasse and activated biochar preparation.
-- REF-15, PDF pp. 1–3 — fermentation-residue biochar.
+- Ajala et al. (2023), PDF p. 9 / journal p. 4686 — biochar and biomass-derived adsorbents.
+- Perelomov et al. (2025), PDF pp. 4–7 — clay mineral structure and surface properties.
+- Rodríguez-López et al. (2024), PDF p. 2 — tested by-products.
+- Chen et al. (2024), PDF pp. 1–3 — magnetic cotton-husk biochar.
+- Liang et al. (2024), PDF pp. 1–3 — NiFe₂O₄/biochar.
+- Meseguer et al. (2024), PDF pp. 2–3 — brewing bagasse and activated biochar preparation.
+- Zhao et al. (2024), PDF pp. 1–3 — fermentation-residue biochar.
 
 ---
 
@@ -255,17 +255,17 @@ Draw an antibiotic molecule next to a simplified carbon/clay/composite surface. 
 
 ### Presenter notes
 
-REF-04 discusses electrostatic interactions, hydrogen bonding, hydrophobic interactions and π–π/electron-donor–acceptor interactions for carbon adsorbents. REF-05 explains clay surface charge, exchangeable cations and pH-dependent edge chemistry. REF-12 reports π–π conjugation, hydrogen bonding, Fe–O complexation and electrostatic interactions for its iron-containing cotton-husk biochar. REF-13’s graphical abstract depicts hydrogen bonding, π–π interaction, electrostatic force and pore filling for tetracycline on NiFe₂O₄/biochar.
+Teo et al. (2022) discuss electrostatic interactions, hydrogen bonding, hydrophobic interactions and π–π/electron-donor–acceptor interactions for carbon adsorbents. Perelomov et al. (2025) explain clay surface charge, exchangeable cations and pH-dependent edge chemistry. Chen et al. (2024) report π–π conjugation, hydrogen bonding, Fe–O complexation and electrostatic interactions for its iron-containing cotton-husk biochar. Liang et al. (2024)’s graphical abstract depicts hydrogen bonding, π–π interaction, electrostatic force and pore filling for tetracycline on NiFe₂O₄/biochar.
 
 Use “proposed” or “contributing interactions” unless multiple independent measurements support the interpretation. A kinetic or isotherm model fit alone does not prove a chemical bond or unique molecular mechanism.
 
 ### Source citations
 
-- REF-04, PDF p. 7 — carbon-based antibiotic interactions.
-- REF-05, PDF pp. 5–7 — clay charge, exchange and pH effects.
-- REF-12, PDF p. 1 — authors’ reported OTC/CIP interactions.
-- REF-13, PDF p. 2, graphical abstract — authors’ illustrated TC interaction model.
-- REF-14, PDF p. 2 — mechanisms reported for pharmaceutical adsorption.
+- Teo et al. (2022), PDF p. 7 — carbon-based antibiotic interactions.
+- Perelomov et al. (2025), PDF pp. 5–7 — clay charge, exchange and pH effects.
+- Chen et al. (2024), PDF p. 1 — authors’ reported OTC/CIP interactions.
+- Liang et al. (2024), PDF p. 2, graphical abstract — authors’ illustrated TC interaction model.
+- Meseguer et al. (2024), PDF p. 2 — mechanisms reported for pharmaceutical adsorption.
 
 ---
 
@@ -288,7 +288,7 @@ Understand why performance changes with solution chemistry, material properties 
 | **Pore structure / particle size** | Affects access to sites and transport |
 | **Natural organic matter** | Can compete with antibiotic or interfere with surface access |
 
-**Tetracycline example:** pKa values reported by REF-01 are approximately 3.3, 7.7 and 9.7. Its dominant ionic form changes as pH changes.
+**Tetracycline example:** pKa values reported by Gopal et al. (2020) are approximately 3.3, 7.7 and 9.7. Its dominant ionic form changes as pH changes.
 
 ### Visual specification
 
@@ -296,19 +296,19 @@ Left: TC speciation band showing cationic, zwitterionic and anionic regions with
 
 ### Presenter notes
 
-pH affects both antibiotic charge and adsorbent surface charge. REF-01 reports TC pKa values of approximately 3.3, 7.7 and 9.7, with cationic, zwitterionic and anionic species across the pH ranges shown in its figure. Present the boundaries as approximate transitions; the third pKa indicates further deprotonation at alkaline pH.
+pH affects both antibiotic charge and adsorbent surface charge. Gopal et al. (2020) report TC pKa values of approximately 3.3, 7.7 and 9.7, with cationic, zwitterionic and anionic species across the pH ranges shown in its figure. Present the boundaries as approximate transitions; the third pKa indicates further deprotonation at alkaline pH.
 
-REF-05 gives a separate OTC–kaolinite example with different pKa values and system-specific optimum conditions. Do not transfer TC pKa values or the OTC–kaolinite optimum to other systems. REF-13 reports reduced TC removal with increasing humic-acid concentration and reduced capacity in the presence of Mg²⁺ and Ca²⁺ under the tested conditions, illustrating possible matrix competition.
+Perelomov et al. (2025) gives a separate OTC–kaolinite example with different pKa values and system-specific optimum conditions. Do not transfer TC pKa values or the OTC–kaolinite optimum to other systems. Liang et al. (2024) report reduced TC removal with increasing humic-acid concentration and reduced capacity in the presence of Mg²⁺ and Ca²⁺ under the tested conditions, illustrating possible matrix competition.
 
 Do not claim that increasing dose, temperature, time or ionic strength always improves adsorption. Direction and magnitude depend on the antibiotic, adsorbent and conditions.
 
 ### Source citations
 
-- REF-01, PDF pp. 2–3 — TC pKa values and speciation diagram.
-- REF-05, PDF pp. 5–7 and p. 16 — clay properties, pH and OTC example.
-- REF-11, PDF p. 2 — pH, particle size and temperature.
-- REF-13, PDF pp. 7–8 — humic acid and competing-ion effects.
-- REF-14, PDF pp. 4–5 — solution and operating variables.
+- Gopal et al. (2020), PDF pp. 2–3 — TC pKa values and speciation diagram.
+- Perelomov et al. (2025), PDF pp. 5–7 and p. 16 — clay properties, pH and OTC example.
+- Rodríguez-López et al. (2024), PDF p. 2 — pH, particle size and temperature.
+- Liang et al. (2024), PDF pp. 7–8 — humic acid and competing-ion effects.
+- Meseguer et al. (2024), PDF pp. 4–5 — solution and operating variables.
 
 ---
 
@@ -334,7 +334,7 @@ q_e=\frac{(C_0-C_e)V}{m}
 
 Where \(C_0\) and \(C_e\) are initial and equilibrium concentrations (mg L⁻¹), \(V\) is solution volume (L), \(m\) is adsorbent mass (g), and \(q_e\) is uptake (mg g⁻¹).
 
-**Worked example — REF-09, tetracycline on raw date-palm fibre**
+**Worked example — Mirizadeh et al. (2023), tetracycline on raw date-palm fibre**
 - \(C_0=50\) mg L⁻¹
 - \(V=30\) mL; dose = 1 g L⁻¹; therefore \(m=0.030\) g
 - Reported \(q_e=16.15\) mg g⁻¹
@@ -351,16 +351,16 @@ Left: known solution + known adsorbent mass → controlled conditions → solid/
 
 Capacity and removal percentage describe different things. Capacity is the amount retained per mass of adsorbent; removal percentage is the fractional decrease in liquid concentration. High percentage removal does not necessarily mean high capacity per gram.
 
-REF-09 reports the TC uptake of 16.15 mg g⁻¹ at \(C_0=50\) mg L⁻¹, dose 1 g L⁻¹, volume 30 mL, pH 10 and 298 K, with 3 h contact time (PDF pp. 2–3). The dose and volume imply \(m=0.030\) g. The adsorbed mass is \(16.15\times0.030=0.4845\) mg. The concentration decrease is \(0.4845/0.030=16.15\) mg L⁻¹, so derived \(C_e=33.85\) mg L⁻¹ and derived removal \(=(50-33.85)/50\times100=32.3\%\).
+Mirizadeh et al. (2023) report the TC uptake of 16.15 mg g⁻¹ at \(C_0=50\) mg L⁻¹, dose 1 g L⁻¹, volume 30 mL, pH 10 and 298 K, with 3 h contact time (PDF pp. 2–3). The dose and volume imply \(m=0.030\) g. The adsorbed mass is \(16.15\times0.030=0.4845\) mg. The concentration decrease is \(0.4845/0.030=16.15\) mg L⁻¹, so derived \(C_e=33.85\) mg L⁻¹ and derived removal \(=(50-33.85)/50\times100=32.3\%\).
 
-REF-14 uses a volume-aware mass balance when liquid volume changes during sampling. REF-15 prints \((C_e-C_0)\) in its capacity/removal equations despite defining \(C_0\) as initial and \(C_e\) as equilibrium concentration; do not reproduce that sign as the positive uptake convention.
+Meseguer et al. (2024) use a volume-aware mass balance when liquid volume changes during sampling. Zhao et al. (2024) prints \((C_e-C_0)\) in its capacity/removal equations despite defining \(C_0\) as initial and \(C_e\) as equilibrium concentration; do not reproduce that sign as the positive uptake convention.
 
 ### Source citations
 
-- REF-09, PDF p. 2, Eqs. (1)–(2) and Section 2.3 — positive mass balance and batch protocol.
-- REF-09, PDF p. 3, Figure 1 and Section 3.1 — reported uptake and conditions.
-- REF-14, PDF p. 4, Eq. (1) — volume-aware balance.
-- REF-15, PDF p. 3, Eqs. (1)–(2) — source-sign anomaly, speaker-note caution only.
+- Mirizadeh et al. (2023), PDF p. 2, Eqs. (1)–(2) and Section 2.3 — positive mass balance and batch protocol.
+- Mirizadeh et al. (2023), PDF p. 3, Figure 1 and Section 3.1 — reported uptake and conditions.
+- Meseguer et al. (2024), PDF p. 4, Eq. (1) — volume-aware balance.
+- Zhao et al. (2024), PDF p. 3, Eqs. (1)–(2) — source-sign anomaly, speaker-note caution only.
 
 ---
 
@@ -408,9 +408,9 @@ q_e=\frac{q_{mS}K_SC_e^{1/n_S}}
 Combines Freundlich-like low-concentration behaviour with Langmuir-like high-concentration saturation.
 
 **Examples: the best fit depends on the antibiotic and adsorbent.**
-- REF-09: Langmuir best for TC; D–R best for CIP.
-- REF-10: best model varies across CIP/TET and KCB material treatments.
-- REF-14: Freundlich best for CIP on activated bagasse biochar (ARE = 2.44%).
+- Mirizadeh et al. (2023): Langmuir best for TC; D–R best for CIP.
+- Egbedina et al. (2021): best model varies across CIP/TET and KCB material treatments.
+- Meseguer et al. (2024): Freundlich best for CIP on activated bagasse biochar (ARE = 2.44%).
 
 ### Visual specification
 
@@ -420,19 +420,19 @@ Four conceptual panels: Langmuir plateau; Freundlich heterogeneous curve without
 
 An isotherm is an equilibrium relation, not a rate equation. It does not show how long equilibrium takes to establish. \(q_{mL}\) and \(q_{mS}\) are fitted capacities. Freundlich has no explicit finite saturation-capacity parameter, so \(K_F\) must not be called a maximum capacity. Units for several constants depend on concentration and exponent conventions.
 
-REF-09 reports Langmuir as the best tested model for TC (\(R^2=0.977\)) and D–R as best for CIP (\(R^2=0.975\)); its authors interpret the TC Langmuir fit using the idealised homogeneous-site/monolayer description (PDF pp. 6–7). REF-10 shows model selection varies with antibiotic and activation state (PDF pp. 5–7). REF-14 fits nonlinear equations and identifies Freundlich as best by the lowest ARE (2.44%); the measured curve does not reach a clear plateau in the tested range (PDF pp. 6 and 11–12).
+Mirizadeh et al. (2023) report Langmuir as the best tested model for TC (\(R^2=0.977\)) and D–R as best for CIP (\(R^2=0.975\)); its authors interpret the TC Langmuir fit using the idealised homogeneous-site/monolayer description (PDF pp. 6–7). Egbedina et al. (2021) show model selection varies with antibiotic and activation state (PDF pp. 5–7). Meseguer et al. (2024) fits nonlinear equations and identifies Freundlich as best by the lowest ARE (2.44%); the measured curve does not reach a clear plateau in the tested range (PDF pp. 6 and 11–12).
 
-REF-06 explains that linearisation changes the error structure and recommends nonlinear regression on original equations; model selection should not rely on \(R^2\) alone. The Sips equation shown follows REF-14's parameterisation. REF-06 prints a different denominator sign/parameterisation; the source discrepancy is preserved in the extraction.
+Ayawei et al. (2017) explain that linearisation changes the error structure and recommends nonlinear regression on original equations; model selection should not rely on \(R^2\) alone. The Sips equation shown follows Meseguer et al. (2024)'s parameterisation. Ayawei et al. (2017) prints a different denominator sign/parameterisation; the source discrepancy is preserved in the extraction.
 
 A good isotherm fit is a statistical description under particular conditions, not proof of a unique molecular mechanism.
 
 ### Source citations
 
-- REF-06, PDF pp. 2–5 — isotherm assumptions and models.
-- REF-06, PDF pp. 7–8 — linearisation and nonlinear regression.
-- REF-09, PDF pp. 6–7, Table 2 — TC/CIP model selection.
-- REF-10, PDF pp. 5–7 — CIP/TET model selection by material treatment.
-- REF-14, PDF p. 6 and pp. 11–12, Table 4 — fitting and ARE results.
+- Ayawei et al. (2017), PDF pp. 2–5 — isotherm assumptions and models.
+- Ayawei et al. (2017), PDF pp. 7–8 — linearisation and nonlinear regression.
+- Mirizadeh et al. (2023), PDF pp. 6–7, Table 2 — TC/CIP model selection.
+- Egbedina et al. (2021), PDF pp. 5–7 — CIP/TET model selection by material treatment.
+- Meseguer et al. (2024), PDF p. 6 and pp. 11–12, Table 4 — fitting and ARE results.
 
 ---
 
@@ -471,9 +471,9 @@ q_t=\frac{1}{\beta}\ln(1+\alpha\beta t)
 \]
 
 **Contact time differs across studied systems**
-- REF-09: about 120 min for TC and 90 min for CIP on raw date-palm fibre.
-- REF-10: most uptake in the first 15 min for the tested hybrid biochars.
-- REF-14: more than 3 days to reach equilibrium for CIP on activated bagasse biochar.
+- Mirizadeh et al. (2023): about 120 min for TC and 90 min for CIP on raw date-palm fibre.
+- Egbedina et al. (2021): most uptake in the first 15 min for the tested hybrid biochars.
+- Meseguer et al. (2024): more than 3 days to reach equilibrium for CIP on activated bagasse biochar.
 
 *These are not head-to-head results; conditions and materials differ.*
 
@@ -483,19 +483,19 @@ Top: illustrative \(q_t\)-versus-time curve with rapid initial uptake and a late
 
 ### Presenter notes
 
-For constant volume, time-dependent uptake is \(q_t=(C_0-C_t)V/m\). If liquid volume changes during sampling, use the volume-aware mass balance. REF-07 describes bulk transport, film diffusion, pore diffusion and surface interaction as relevant steps (PDF p. 2).
+For constant volume, time-dependent uptake is \(q_t=(C_0-C_t)V/m\). If liquid volume changes during sampling, use the volume-aware mass balance. Vareda (2023) describes bulk transport, film diffusion, pore diffusion and surface interaction as relevant steps (PDF p. 2).
 
-PFO and PSO are empirical kinetic descriptions. A better PSO fit alone does not prove chemisorption: REF-07 explains that PSO can fit surface-reaction-controlled and diffusion-controlled systems. Linearisation can bias model selection; the review recommends nonlinear regression on original equations and discusses AIC and BIC (PDF pp. 4–9). A Weber–Morris nonzero intercept or multiple linear regions indicates that intraparticle diffusion alone does not describe the entire uptake curve under the model assumptions. REF-07 describes Elovich as most useful far from equilibrium and notes limitations at long times (PDF p. 6).
+PFO and PSO are empirical kinetic descriptions. A better PSO fit alone does not prove chemisorption: Vareda (2023) explains that PSO can fit surface-reaction-controlled and diffusion-controlled systems. Linearisation can bias model selection; the review recommends nonlinear regression on original equations and discusses AIC and BIC (PDF pp. 4–9). A Weber–Morris nonzero intercept or multiple linear regions indicates that intraparticle diffusion alone does not describe the entire uptake curve under the model assumptions. Vareda (2023) describes Elovich as most useful far from equilibrium and notes limitations at long times (PDF p. 6).
 
-REF-09 reports about 120 min for TC and 90 min for CIP (PDF p. 3). REF-10 reports most uptake within 15 min for its hybrid biochars (PDF p. 7). REF-14 reports more than three days to equilibrium for its activated bagasse/CIP system (PDF p. 9). Do not rank the materials by these times without matching conditions.
+Mirizadeh et al. (2023) report about 120 min for TC and 90 min for CIP (PDF p. 3). Egbedina et al. (2021) report most uptake within 15 min for its hybrid biochars (PDF p. 7). Meseguer et al. (2024) report more than three days to equilibrium for its activated bagasse/CIP system (PDF p. 9). Do not rank the materials by these times without matching conditions.
 
 ### Source citations
 
-- REF-07, PDF pp. 2–6 — transport sequence and kinetic models.
-- REF-07, PDF pp. 7–9 — linearisation bias and model-selection cautions.
-- REF-09, PDF pp. 3 and 5–6 — contact time and kinetics.
-- REF-10, PDF pp. 7–8 — hybrid-biochar kinetics.
-- REF-14, PDF pp. 9–10 — contact time and model comparison.
+- Vareda (2023), PDF pp. 2–6 — transport sequence and kinetic models.
+- Vareda (2023), PDF pp. 7–9 — linearisation bias and model-selection cautions.
+- Mirizadeh et al. (2023), PDF pp. 3 and 5–6 — contact time and kinetics.
+- Egbedina et al. (2021), PDF pp. 7–8 — hybrid-biochar kinetics.
+- Meseguer et al. (2024), PDF pp. 9–10 — contact time and model comparison.
 
 ---
 
@@ -512,7 +512,7 @@ Interpret thermodynamic signs used to discuss favourability and heat effects dur
 - \(\Delta H^\circ\): enthalpy change
 - \(\Delta S^\circ\): entropy change
 
-**Relationships reported in REF-13**
+**Relationships reported in Liang et al. (2024)**
 
 \[
 \Delta G^\circ=-RT\ln K_d
@@ -526,7 +526,7 @@ Interpret thermodynamic signs used to discuss favourability and heat effects dur
 \ln K_d=-\frac{\Delta H^\circ}{RT}+\frac{\Delta S^\circ}{R}
 \]
 
-*The \(K_d\) notation is reproduced from REF-13; its standard-state normalisation is not clear in the supplied main text.*
+*The \(K_d\) notation is reproduced from Liang et al. (2024); its standard-state normalisation is not clear in the supplied main text.*
 
 **Sign interpretation**
 - \(\Delta G^\circ<0\): spontaneous/favourable under the stated conditions
@@ -537,24 +537,24 @@ Interpret thermodynamic signs used to discuss favourability and heat effects dur
 
 ### Visual specification
 
-Left: the three quantities with sign labels. Right: a Van't Hoff plot schematic of \(\ln K\) versus \(1/T\), with slope \(=-\Delta H^\circ/R\) and intercept \(=\Delta S^\circ/R\). Label “relationship, not experimental data”. Bottom: four-point temperature-response plot from REF-14.
+Left: the three quantities with sign labels. Right: a Van't Hoff plot schematic of \(\ln K\) versus \(1/T\), with slope \(=-\Delta H^\circ/R\) and intercept \(=\Delta S^\circ/R\). Label “relationship, not experimental data”. Bottom: four-point temperature-response plot from Meseguer et al. (2024).
 
 ### Presenter notes
 
 Thermodynamics addresses favourability and heat effects, not rate. A spontaneous process need not be fast. A positive enthalpy indicates an endothermic process; it does not independently prove chemisorption.
 
-REF-13 reports negative \(\Delta G\) for TC adsorption on BC, NFO and NFO/BC, interpreted as spontaneous. It describes TC adsorption on NFO as exothermic and on BC/NFO-BC as endothermic, and explicitly reports \(\Delta H=+31.384\) kJ mol⁻¹ for NFO/BC (PDF pp. 9–10). Table S4 is not in the supplied PDF. The main text also does not clearly define the standard-state normalisation of \(K_d\). The displayed equations reproduce the paper's notation; in thermodynamic logarithms the equilibrium constant must be dimensionless, so do not independently calculate \(\Delta G^\circ\) from a dimensional distribution coefficient without a justified standard-state conversion.
+Liang et al. (2024) report negative \(\Delta G\) for TC adsorption on BC, NFO and NFO/BC, interpreted as spontaneous. It describes TC adsorption on NFO as exothermic and on BC/NFO-BC as endothermic, and explicitly reports \(\Delta H=+31.384\) kJ mol⁻¹ for NFO/BC (PDF pp. 9–10). Table S4 is not in the supplied PDF. The main text also does not clearly define the standard-state normalisation of \(K_d\). The displayed equations reproduce the paper's notation; in thermodynamic logarithms the equilibrium constant must be dimensionless, so do not independently calculate \(\Delta G^\circ\) from a dimensional distribution coefficient without a justified standard-state conversion.
 
-REF-14 reports CIP uptake of 34.6, 41.4, 89.3 and 109.9 mg g⁻¹ at 10, 25, 40 and 55 °C (PDF p. 9). Conditions: pH 3.5, 0.025 g adsorbent, 50 mL of 300 mg L⁻¹ solution and 72 h contact time (PDF p. 5). The authors interpret the trend as endothermic; the main text does not give a numerical \(\Delta H^\circ\) table.
+Meseguer et al. (2024) report CIP uptake of 34.6, 41.4, 89.3 and 109.9 mg g⁻¹ at 10, 25, 40 and 55 °C (PDF p. 9). Conditions: pH 3.5, 0.025 g adsorbent, 50 mL of 300 mg L⁻¹ solution and 72 h contact time (PDF p. 5). The authors interpret the trend as endothermic; the main text does not give a numerical \(\Delta H^\circ\) table.
 
-REF-09 qualitatively reports endothermicity from its missing Supporting Information. REF-15 reports increasing temperature-dependent fitted Langmuir capacities and interprets its result as endothermic. Keep fitted \(q_m\) distinct from enthalpy.
+Mirizadeh et al. (2023) qualitatively reports endothermicity from its missing Supporting Information. Zhao et al. (2024) report increasing temperature-dependent fitted Langmuir capacities and interprets its result as endothermic. Keep fitted \(q_m\) distinct from enthalpy.
 
 ### Source citations
 
-- REF-13, PDF pp. 9–10, Section 3.5, Eqs. (5)–(7) — equations and authors’ findings.
-- REF-14, PDF pp. 5 and 9 — temperature conditions and uptake.
-- REF-09, PDF p. 6 — qualitative endothermic result and Temkin caution.
-- REF-15, PDF pp. 11 and 13 — temperature trend and fitted Langmuir capacities.
+- Liang et al. (2024), PDF pp. 9–10, Section 3.5, Eqs. (5)–(7) — equations and authors’ findings.
+- Meseguer et al. (2024), PDF pp. 5 and 9 — temperature conditions and uptake.
+- Mirizadeh et al. (2023), PDF p. 6 — qualitative endothermic result and Temkin caution.
+- Zhao et al. (2024), PDF pp. 11 and 13 — temperature trend and fitted Langmuir capacities.
 
 ---
 
@@ -579,32 +579,32 @@ Adsorption → solid/liquid separation → desorption/regeneration → rinse/dry
 
 | Study | Regeneration procedure | Reported reuse result |
 |---|---|---|
-| REF-12: OTC/CIP on magnetic cotton-husk biochar | Ethanol + ultrasound | After 5 cycles: 86.8% OTC and 91.1% CIP capacity retained |
-| REF-13: TC on NiFe₂O₄/biochar | DI-water desorption in the reusability test | 72% TC removal reported after cycle 4 |
-| REF-15: TC on fermentation-residue biochar | 0.1 M NaOH, rinse to pH 7, dry | 5 cycles; authors report only a slight capacity decrease |
+| Chen et al. (2024): OTC/CIP on magnetic cotton-husk biochar | Ethanol + ultrasound | After 5 cycles: 86.8% OTC and 91.1% CIP capacity retained |
+| Liang et al. (2024): TC on NiFe₂O₄/biochar | DI-water desorption in the reusability test | 72% TC removal reported after cycle 4 |
+| Zhao et al. (2024): TC on fermentation-residue biochar | 0.1 M NaOH, rinse to pH 7, dry | 5 cycles; authors report only a slight capacity decrease |
 
 ### Visual specification
 
-A circular process diagram for adsorption → separation → desorption → rinse/dry → reuse. Place the three-study comparison beside it. Label REF-13's value as “removal after cycle 4”, not “capacity retention”.
+A circular process diagram for adsorption → separation → desorption → rinse/dry → reuse. Place the three-study comparison beside it. Label Liang et al. (2024)'s value as “removal after cycle 4”, not “capacity retention”.
 
 ### Presenter notes
 
-Desorption alone does not establish restored adsorption performance. REF-08 explains that a desorption test does not measure performance in the following adsorption cycle; regeneration performance requires a subsequent adsorption test (PDF p. 7).
+Desorption alone does not establish restored adsorption performance. Gkika et al. (2025) explain that a desorption test does not measure performance in the following adsorption cycle; regeneration performance requires a subsequent adsorption test (PDF p. 7).
 
-REF-12 reports 86.8% OTC and 91.1% CIP capacity remaining after five ethanol/ultrasound cycles; its water-washing control retained 21.2% and 19.7%, respectively (PDF pp. 3–4 and p. 10, Figure 7). REF-13 reports a 72% TC removal rate after its fourth reuse cycle (PDF p. 8), not explicitly 72% of initial capacity retained. REF-15 uses 0.1 M NaOH for five cycles and reports only a slight capacity decrease, without a precise final retention percentage in the text (PDF p. 5 and pp. 13–14).
+Chen et al. (2024) report 86.8% OTC and 91.1% CIP capacity remaining after five ethanol/ultrasound cycles; its water-washing control retained 21.2% and 19.7%, respectively (PDF pp. 3–4 and p. 10, Figure 7). Liang et al. (2024) report a 72% TC removal rate after its fourth reuse cycle (PDF p. 8), not explicitly 72% of initial capacity retained. Zhao et al. (2024) use 0.1 M NaOH for five cycles and reports only a slight capacity decrease, without a precise final retention percentage in the text (PDF p. 5 and pp. 13–14).
 
-REF-11 reports antibiotic desorption/release from hemp waste, oak ash and mussel shell, but not a multi-cycle regeneration test (PDF pp. 3–6). REF-14 calls for further regeneration/reuse work rather than reporting completed cycles in its supplied main paper (PDF p. 13).
+Rodríguez-López et al. (2024) report antibiotic desorption/release from hemp waste, oak ash and mussel shell, but not a multi-cycle regeneration test (PDF pp. 3–6). Meseguer et al. (2024) calls for further regeneration/reuse work rather than reporting completed cycles in its supplied main paper (PDF p. 13).
 
 Regeneration creates a liquid stream containing desorbed antibiotic. Eluent, wash water, energy, drying, adsorbent loss and possible leaching all affect feasibility.
 
 ### Source citations
 
-- REF-08, PDF p. 7 — desorption versus regeneration performance.
-- REF-12, PDF pp. 3–4 and p. 10, Figure 7 — procedure and capacity retention.
-- REF-13, PDF p. 8, Figure 4f — four-cycle reuse result.
-- REF-15, PDF p. 5 and pp. 13–14, Figure 10 — NaOH procedure and five-cycle result.
-- REF-11, PDF pp. 3–6 — desorption/release experiments.
-- REF-14, PDF p. 13 — future regeneration/reuse need.
+- Gkika et al. (2025), PDF p. 7 — desorption versus regeneration performance.
+- Chen et al. (2024), PDF pp. 3–4 and p. 10, Figure 7 — procedure and capacity retention.
+- Liang et al. (2024), PDF p. 8, Figure 4f — four-cycle reuse result.
+- Zhao et al. (2024), PDF p. 5 and pp. 13–14, Figure 10 — NaOH procedure and five-cycle result.
+- Rodríguez-López et al. (2024), PDF pp. 3–6 — desorption/release experiments.
+- Meseguer et al. (2024), PDF p. 13 — future regeneration/reuse need.
 
 ---
 
@@ -641,22 +641,22 @@ A process-cost pipeline with a “hidden costs” band: energy | chemicals | wat
 
 ### Presenter notes
 
-Waste-derived feedstock does not automatically mean a low-cost treatment process. REF-03 identifies equipment, adsorbent consumption, electricity, regeneration/reactivation and spent-adsorbent disposal as cost elements; it warns that a low-cost adsorbent that is difficult to regenerate may not be economical (PDF pp. 19–20).
+Waste-derived feedstock does not automatically mean a low-cost treatment process. Kyzas and Kostoglou (2014) identifies equipment, adsorbent consumption, electricity, regeneration/reactivation and spent-adsorbent disposal as cost elements; it warns that a low-cost adsorbent that is difficult to regenerate may not be economical (PDF pp. 19–20).
 
-The antibiotic studies describe process requirements but do not provide comparable full cost calculations. REF-14 includes drying, argon pyrolysis, K₂CO₃ activation, an 800 °C treatment, washing and further drying (PDF pp. 2–4). REF-15 uses high-moisture fermentation residue, KOH activation, nitrogen pyrolysis, acid washing, water rinsing and vacuum drying (PDF pp. 2–4). REF-12's magnetic composite requires high-temperature pyrolysis, iron precursor and ball milling; its ethanol/ultrasound regeneration uses substantial liquid volumes relative to adsorbent mass (PDF pp. 3–4). REF-13 uses nickel and iron salts, ammonia adjustment, hydrothermal processing, centrifugation and repeated washing (PDF pp. 3–4).
+The antibiotic studies describe process requirements but do not provide comparable full cost calculations. Meseguer et al. (2024) includes drying, argon pyrolysis, K₂CO₃ activation, an 800 °C treatment, washing and further drying (PDF pp. 2–4). Zhao et al. (2024) use high-moisture fermentation residue, KOH activation, nitrogen pyrolysis, acid washing, water rinsing and vacuum drying (PDF pp. 2–4). Chen et al. (2024)'s magnetic composite requires high-temperature pyrolysis, iron precursor and ball milling; its ethanol/ultrasound regeneration uses substantial liquid volumes relative to adsorbent mass (PDF pp. 3–4). Liang et al. (2024) use nickel and iron salts, ammonia adjustment, hydrothermal processing, centrifugation and repeated washing (PDF pp. 3–4).
 
-REF-08 provides a useful cost-accounting framework and numerical examples, but many cases concern non-antibiotic pollutants such as ibuprofen and BPA. Do not present these figures as antibiotic-treatment costs. The source also contains an unresolved difference between one Table 5 cost entry and the summary range in its conclusion.
+Gkika et al. (2025) provide a useful cost-accounting framework and numerical examples, but many cases concern non-antibiotic pollutants such as ibuprofen and BPA. Do not present these figures as antibiotic-treatment costs. The source also contains an unresolved difference between one Table 5 cost entry and the summary range in its conclusion.
 
-A cost per kilogram of adsorbent cannot be directly compared with a cost per litre or cubic metre of treated water. Treatment cost depends on dose, influent and target concentrations, working capacity, recovery and regeneration. REF-14 explicitly calls for real-effluent and regeneration/reuse work (PDF p. 13).
+A cost per kilogram of adsorbent cannot be directly compared with a cost per litre or cubic metre of treated water. Treatment cost depends on dose, influent and target concentrations, working capacity, recovery and regeneration. Meseguer et al. (2024) explicitly calls for real-effluent and regeneration/reuse work (PDF p. 13).
 
 ### Source citations
 
-- REF-03, PDF pp. 19–20 — techno-economic and scale-up considerations.
-- REF-08, PDF pp. 7–8 and 13–15 — regeneration costs and cost examples; pharmaceutical-wide scope.
-- REF-12, PDF pp. 3–4 — preparation and regeneration requirements.
-- REF-13, PDF pp. 3–4 — composite preparation requirements.
-- REF-14, PDF pp. 2–4 and p. 13 — preparation and future real-effluent/reuse studies.
-- REF-15, PDF pp. 2–4 and p. 16 — preparation and qualitative cost-saving claim.
+- Kyzas and Kostoglou (2014), PDF pp. 19–20 — techno-economic and scale-up considerations.
+- Gkika et al. (2025), PDF pp. 7–8 and 13–15 — regeneration costs and cost examples; pharmaceutical-wide scope.
+- Chen et al. (2024), PDF pp. 3–4 — preparation and regeneration requirements.
+- Liang et al. (2024), PDF pp. 3–4 — composite preparation requirements.
+- Meseguer et al. (2024), PDF pp. 2–4 and p. 13 — preparation and future real-effluent/reuse studies.
+- Zhao et al. (2024), PDF pp. 2–4 and p. 16 — preparation and qualitative cost-saving claim.
 
 ---
 
@@ -681,39 +681,39 @@ Summarise the scientific lessons and identify the main research and engineering 
 
 ### Visual specification
 
-Four concise conclusion statements at the top; list all 15 references in two compact columns below or use abbreviated on-slide entries with complete bibliographic details in the presenter handout/notes. Keep the order REF-01 to REF-15.
+Four concise conclusion statements at the top; list all 15 references in two compact columns below or use abbreviated on-slide entries with complete bibliographic details in the presenter handout/notes. Keep the order Gopal et al. (2020) to Zhao et al. (2024).
 
 ### Presenter notes — complete selected bibliography
 
-**REF-01.** Gopal, G.; Alex, S.A.; Chandrasekaran, N.; Mukherjee, A. “A review on tetracycline removal from aqueous systems by advanced treatment techniques.” *RSC Advances*, 2020, 10, 27081–27095. DOI: 10.1039/D0RA04264A.
+**Gopal et al. (2020).** Gopal, G.; Alex, S.A.; Chandrasekaran, N.; Mukherjee, A. “A review on tetracycline removal from aqueous systems by advanced treatment techniques.” *RSC Advances*, 2020, 10, 27081–27095. DOI: 10.1039/D0RA04264A.
 
-**REF-02.** Ajala, O.A.; Akinnawo, S.O.; Bamisaye, A.; Adedipe, D.T.; Adesina, M.O.; Okon-Akan, O.A.; Adebusuyi, T.A.; Ojedokun, A.T.; Adegoke, K.A.; Bello, O.S. “Adsorptive removal of antibiotic pollutants from wastewater using biomass/biochar-based adsorbents.” *RSC Advances*, 2023, 13, 4678–4712. DOI: 10.1039/D2RA06436G.
+**Ajala et al. (2023).** Ajala, O.A.; Akinnawo, S.O.; Bamisaye, A.; Adedipe, D.T.; Adesina, M.O.; Okon-Akan, O.A.; Adebusuyi, T.A.; Ojedokun, A.T.; Adegoke, K.A.; Bello, O.S. “Adsorptive removal of antibiotic pollutants from wastewater using biomass/biochar-based adsorbents.” *RSC Advances*, 2023, 13, 4678–4712. DOI: 10.1039/D2RA06436G.
 
-**REF-03.** Kyzas, G.Z.; Kostoglou, M. “Green Adsorbents for Wastewaters: A Critical Review.” *Materials*, 2014, 7, 333–364. DOI: 10.3390/ma7010333.
+**Kyzas and Kostoglou (2014).** Kyzas, G.Z.; Kostoglou, M. “Green Adsorbents for Wastewaters: A Critical Review.” *Materials*, 2014, 7, 333–364. DOI: 10.3390/ma7010333.
 
-**REF-04.** Teo, C.Y.; Jong, J.S.J.; Chan, Y.Q. “Carbon-Based Materials as Effective Adsorbents for the Removal of Pharmaceutical Compounds from Aqueous Solution.” *Adsorption Science & Technology*, 2022, Article ID 3079663, 17 pages. DOI: 10.1155/2022/3079663.
+**Teo et al. (2022).** Teo, C.Y.; Jong, J.S.J.; Chan, Y.Q. “Carbon-Based Materials as Effective Adsorbents for the Removal of Pharmaceutical Compounds from Aqueous Solution.” *Adsorption Science & Technology*, 2022, Article ID 3079663, 17 pages. DOI: 10.1155/2022/3079663.
 
-**REF-05.** Perelomov, L.; Gertsen, M.; Mandzhieva, S.; Sychev, V.; Dudnikova, T.; Khaidanov, I.; Perelomova, I.; Minkina, T.; Atroshchenko, Y. “Adsorption of Antibiotics by Natural Clay Minerals.” *Minerals*, 2025, 15, 733. DOI: 10.3390/min15070733.
+**Perelomov et al. (2025).** Perelomov, L.; Gertsen, M.; Mandzhieva, S.; Sychev, V.; Dudnikova, T.; Khaidanov, I.; Perelomova, I.; Minkina, T.; Atroshchenko, Y. “Adsorption of Antibiotics by Natural Clay Minerals.” *Minerals*, 2025, 15, 733. DOI: 10.3390/min15070733.
 
-**REF-06.** Ayawei, N.; Ebelegi, A.N.; Wankasi, D. “Modelling and Interpretation of Adsorption Isotherms.” *Journal of Chemistry*, 2017, Article ID 3039817. DOI: 10.1155/2017/3039817.
+**Ayawei et al. (2017).** Ayawei, N.; Ebelegi, A.N.; Wankasi, D. “Modelling and Interpretation of Adsorption Isotherms.” *Journal of Chemistry*, 2017, Article ID 3039817. DOI: 10.1155/2017/3039817.
 
-**REF-07.** Vareda, J.P. “On validity, physical meaning, mechanism insights and regression of adsorption kinetic models.” *Journal of Molecular Liquids*, 2023, 376, 121416. DOI: 10.1016/j.molliq.2023.121416.
+**Vareda (2023).** Vareda, J.P. “On validity, physical meaning, mechanism insights and regression of adsorption kinetic models.” *Journal of Molecular Liquids*, 2023, 376, 121416. DOI: 10.1016/j.molliq.2023.121416.
 
-**REF-08.** Gkika, D.A.; Tolkou, A.K.; Poulopoulos, S.G.; Kalavrouziotis, I.K.; Kyzas, G.Z. “Cost-effectiveness of regenerated green materials for removal of pharmaceuticals from wastewater.” *Waste Management*, 2025, 204, 114952. DOI: 10.1016/j.wasman.2025.114952.
+**Gkika et al. (2025).** Gkika, D.A.; Tolkou, A.K.; Poulopoulos, S.G.; Kalavrouziotis, I.K.; Kyzas, G.Z. “Cost-effectiveness of regenerated green materials for removal of pharmaceuticals from wastewater.” *Waste Management*, 2025, 204, 114952. DOI: 10.1016/j.wasman.2025.114952.
 
-**REF-09.** Mirizadeh, S.; Al Arni, S.; Elwaheidi, M.; Salih, A.A.M.; Converti, A.; Casazza, A.A. “Adsorption of Tetracycline and Ciprofloxacin from Aqueous Solution on Raw Date Palm Waste.” *Chemical Engineering & Technology*, 2023, 46(9), 1957–1964. DOI: 10.1002/ceat.202300193.
+**Mirizadeh et al. (2023).** Mirizadeh, S.; Al Arni, S.; Elwaheidi, M.; Salih, A.A.M.; Converti, A.; Casazza, A.A. “Adsorption of Tetracycline and Ciprofloxacin from Aqueous Solution on Raw Date Palm Waste.” *Chemical Engineering & Technology*, 2023, 46(9), 1957–1964. DOI: 10.1002/ceat.202300193.
 
-**REF-10.** Egbedina, A.O.; Adebowale, K.O.; Olu-Owolabi, B.I.; Unuabonah, E.I.; Adesina, M.O. “Green synthesis of ZnO coated hybrid biochar for the synchronous removal of ciprofloxacin and tetracycline in wastewater.” *RSC Advances*, 2021, 11, 18483–18492. DOI: 10.1039/D1RA01130H.
+**Egbedina et al. (2021).** Egbedina, A.O.; Adebowale, K.O.; Olu-Owolabi, B.I.; Unuabonah, E.I.; Adesina, M.O. “Green synthesis of ZnO coated hybrid biochar for the synchronous removal of ciprofloxacin and tetracycline in wastewater.” *RSC Advances*, 2021, 11, 18483–18492. DOI: 10.1039/D1RA01130H.
 
-**REF-11.** Rodríguez-López, L.; Santás-Miguel, V.; Cela-Dablanca, R.; Núñez-Delgado, A.; Álvarez-Rodríguez, E.; Rodríguez-Seijo, A.; Arias-Estévez, M. “Comparison of by-products as adsorbents for the removal of the antibiotics ciprofloxacin, trimethoprim and clarithromycin.” *Journal of Environmental Management*, 2024, 370, 122842. DOI: 10.1016/j.jenvman.2024.122842.
+**Rodríguez-López et al. (2024).** Rodríguez-López, L.; Santás-Miguel, V.; Cela-Dablanca, R.; Núñez-Delgado, A.; Álvarez-Rodríguez, E.; Rodríguez-Seijo, A.; Arias-Estévez, M. “Comparison of by-products as adsorbents for the removal of the antibiotics ciprofloxacin, trimethoprim and clarithromycin.” *Journal of Environmental Management*, 2024, 370, 122842. DOI: 10.1016/j.jenvman.2024.122842.
 
-**REF-12.** Chen, C.; Yang, F.; Ma, Y.; Dai, L.; Zhang, Z.; Guo, H.; Ding, Y. “Ball milling boosted magnetic cotton husk-derived biochar adsorptive removal of oxytetracycline and ciprofloxacin from water.” *Carbon Research*, 2024, 3, 63. DOI: 10.1007/s44246-024-00146-9.
+**Chen et al. (2024).** Chen, C.; Yang, F.; Ma, Y.; Dai, L.; Zhang, Z.; Guo, H.; Ding, Y. “Ball milling boosted magnetic cotton husk-derived biochar adsorptive removal of oxytetracycline and ciprofloxacin from water.” *Carbon Research*, 2024, 3, 63. DOI: 10.1007/s44246-024-00146-9.
 
-**REF-13.** Liang, H.; Zhu, C.; Wang, A.; Chen, F. “Facile preparation of NiFe₂O₄/biochar composite adsorbent for efficient adsorption removal of antibiotics in water.” *Carbon Research*, 2024, 3, 2. DOI: 10.1007/s44246-023-00094-w.
+**Liang et al. (2024).** Liang, H.; Zhu, C.; Wang, A.; Chen, F. “Facile preparation of NiFe₂O₄/biochar composite adsorbent for efficient adsorption removal of antibiotics in water.” *Carbon Research*, 2024, 3, 2. DOI: 10.1007/s44246-023-00094-w.
 
-**REF-14.** Meseguer, V.F.; Ortuño, J.F.; Aguilar, M.I.; Lloréns, M.; Pérez-Marín, A.B.; Fuentes, E. “Ciprofloxacin Uptake from an Aqueous Solution via Adsorption with K₂CO₃-Activated Biochar Derived from Brewing Industry Bagasse.” *Processes*, 2024, 12, 199. DOI: 10.3390/pr12010199.
+**Meseguer et al. (2024).** Meseguer, V.F.; Ortuño, J.F.; Aguilar, M.I.; Lloréns, M.; Pérez-Marín, A.B.; Fuentes, E. “Ciprofloxacin Uptake from an Aqueous Solution via Adsorption with K₂CO₃-Activated Biochar Derived from Brewing Industry Bagasse.” *Processes*, 2024, 12, 199. DOI: 10.3390/pr12010199.
 
-**REF-15.** Zhao, X.; Zhu, G.; Liu, J.; Wang, J.; Zhang, S.; Wei, C.; Cao, L.; Zhao, S.; Zhang, S. “Efficient Removal of Tetracycline from Water by One-Step Pyrolytic Porous Biochar Derived from Antibiotic Fermentation Residue.” *Nanomaterials*, 2024, 14, 1377. DOI: 10.3390/nano14171377.
+**Zhao et al. (2024).** Zhao, X.; Zhu, G.; Liu, J.; Wang, J.; Zhang, S.; Wei, C.; Cao, L.; Zhao, S.; Zhang, S. “Efficient Removal of Tetracycline from Water by One-Step Pyrolytic Porous Biochar Derived from Antibiotic Fermentation Residue.” *Nanomaterials*, 2024, 14, 1377. DOI: 10.3390/nano14171377.
 
 ### Conclusion source basis
 
@@ -728,9 +728,9 @@ The conclusion synthesises evidence and qualifications developed across slides 2
 - [ ] Verify all displayed equations, subscripts and parameter units at presentation size.
 - [ ] Preserve the distinction between measured uptake, derived uptake, fitted capacity, removal percentage and capacity retention.
 - [ ] Preserve model-fit limitations on slides 10–11.
-- [ ] Preserve the missing REF-13 supplementary thermodynamic table and \(K_d\) standard-state uncertainty on slide 12 notes.
+- [ ] Preserve the missing Liang et al. (2024) supplementary thermodynamic table and \(K_d\) standard-state uncertainty on slide 12 notes.
 - [ ] Preserve the difference between cycle removal and capacity retention on slide 13.
-- [ ] Do not present REF-08’s non-antibiotic cost examples as antibiotic-treatment costs on slide 14.
+- [ ] Do not present Gkika et al. (2025)’s non-antibiotic cost examples as antibiotic-treatment costs on slide 14.
 - [ ] Confirm slide 15's abbreviated entries match the full bibliography.
 - [ ] Recheck each slide citation against the fixed source inventory before PowerPoint production.
 
