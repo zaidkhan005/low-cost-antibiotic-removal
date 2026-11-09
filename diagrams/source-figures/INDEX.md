@@ -87,3 +87,27 @@ Chen et al. (2024). *Ball milling boosted magnetic cotton husk-derived biochar a
 - Fig. 6 is explicitly a proposed mechanism for OTC removal by Fe₂O₃@BMBC, not a universal mechanism for all antibiotics or adsorbents.
 - Fig. 7 distinguishes regeneration performance under water washing versus ultrasound + ethanol co-processing and also reports Fe leaching. Do not describe regeneration percentage as capacity retention unless the figure's metric definition supports that equivalence.
 
+
+
+## Liang et al. (2024)
+
+Liang et al. (2024). *Facile preparation of NiFe₂O₄/biochar composite adsorbent for efficient adsorption removal of antibiotics in water*. **Carbon Research**, 3, Article 2. https://doi.org/10.1007/s44246-023-00094-w
+
+| Source figure | Caption / content | Presentation use | Planned asset path |
+|---|---|---|---|
+| Fig. 1 | SEM images of NFO (a), BC (b) and NFO/BC (c,d). | Slide 6 — Morphology and composite formation | `liang-2024/liang-2024-fig-01-sem-morphology.png` |
+| Fig. 2 | XRD patterns (a), N₂ adsorption–desorption isotherms and pore-size distributions (b), FT-IR spectra (c) of BC, NFO and NFO/BC, and field-dependent magnetisation curve (d) of NFO/BC. | Slide 6 — Structural, textural, surface-functional and magnetic characterisation | `liang-2024/liang-2024-fig-02-xrd-porosity-ftir-magnetisation.png` |
+| Fig. 3 | High-resolution C 1s (a), O 1s (b), Ni 2p (c), and Fe 2p (d) XPS spectra of NFO/BC. | Slide 7 — Surface chemistry and proposed interactions | `liang-2024/liang-2024-fig-03-xps-spectra.png` |
+| Fig. 4 | Adsorption performance of different adsorbents for TC (a) and effect of dosage (inset); zeta potential of NFO/BC at different pH (b); effect of solution pH (c), humic acid (d), ionic strength (e) on TC removal by NFO/BC; and reusability (f) of different adsorbents. | Slides 8 and 13 — Solution effects and reuse | `liang-2024/liang-2024-fig-04-tc-adsorption-factors-and-reuse.png` |
+| Fig. 5 | Adsorption isotherms of TC on NFO/BC. | Slide 10 — Adsorption isotherms | `liang-2024/liang-2024-fig-05-tc-isotherms.png` |
+| Fig. 6 | Adsorption kinetics for TC on different adsorbents. | Slide 11 — Adsorption kinetics | `liang-2024/liang-2024-fig-06-tc-adsorption-kinetics.png` |
+| Fig. 7 | XRD patterns (a), high-resolution C 1s XPS spectra (b), FT-IR spectra (c), and N₂ isothermal adsorption–desorption curves (d) of NFO/BC before and after TC adsorption. | Slide 7 — Characterisation changes after adsorption | `liang-2024/liang-2024-fig-07-before-after-tc-characterisation.png` |
+
+**Interpretation notes:**
+- Fig. 1 compares the morphology of nickel ferrite (NFO), biochar (BC), and their composite (NFO/BC); the micrographs support morphology discussion, not adsorption capacity claims by themselves.
+- Fig. 2 brings together phase identification, porosity, FT-IR and magnetic response. Keep the different subpanels and their material labels distinct.
+- Fig. 3 provides fitted XPS spectra for C, O, Ni and Fe. Treat peak assignments as the authors' surface-chemistry interpretation; do not infer a unique mechanism from XPS alone.
+- Fig. 4 is specifically about tetracycline (TC). It combines adsorbent comparison, dosage, zeta potential, pH, humic acid, ionic strength and reuse; do not generalise these results to other antibiotics.
+- Fig. 5 compares Langmuir and Freundlich fits for TC on BC, NFO and NFO/BC. Model fit should be evaluated from the underlying study statistics, not visual appearance alone.
+- Fig. 6 compares pseudo-first-order and pseudo-second-order fits for TC on the three adsorbents. A better PSO fit alone does not prove chemisorption or identify the rate-limiting step.
+- Fig. 7 compares characterisation before and after TC adsorption and can support discussion of changes in surface/porosity signals; it is not direct proof of degradation.
