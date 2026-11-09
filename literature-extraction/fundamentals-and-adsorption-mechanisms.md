@@ -145,14 +145,26 @@ Pore filling refers to antibiotic molecules entering and occupying accessible po
 - REF-13's graphical abstract (PDF p. 2) depicts pore filling.
 - REF-02 describes the importance of porosity and pore structure in biochar/activated carbon (PDF p. 9; journal p. 4686).
 
-### 6.6 Ion exchange, cation bridging and surface complexation
+### 6.6 Material-specific ion exchange and complexation
 
-- REF-05 explains that clay-mineral layer charge is compensated by exchangeable cations, that these cations can exchange with solution cations, and that swelling clays may exchange cations on internal and external basal surfaces (PDF p. 6).
-- REF-14 lists ion exchange, metal complexing and cation bridging among reported mechanisms for pharmaceutical pollutants (PDF p. 2).
-- REF-12 reports Fe–O complexation for its iron-containing magnetic biochar (PDF p. 1).
-- REF-13 depicts electrostatic force as well as hydrogen bonding, π–π interaction and pore filling (PDF p. 2).
+These labels describe different interactions and should not be merged into one universal mechanism:
 
-**Mechanistic caution:** Do not infer a specific surface complex or chemical bond merely because a kinetic or isotherm model fits. The selected papers sometimes report mechanisms on the basis of multiple characterisation and solution-chemistry observations; the slide should say “proposed/contributing mechanism” unless direct evidence is supplied.
+- **Cation exchange in clay minerals:** REF-05 explains that clay-layer charge is compensated by exchangeable cations. In swelling clays, cation exchange can occur on internal and external basal surfaces; particle size and interlayer distance can influence the process (PDF p. 6). The review also describes pH-dependent edge charge and short-range binding at clay edges (PDF pp. 5–6).
+- **Metal complexation on iron-containing adsorbents:** REF-12 reports Fe–O complexation among the proposed contributing interactions for OTC/CIP on Fe₂O₃@BMBC (PDF p. 1; its FTIR/XPS and surface-chemistry discussion is on PDF pp. 5–6).
+- **Cation bridging and other broad categories:** REF-14's introduction lists ion exchange, metal complexing and cation bridging among mechanisms reported in the wider pharmaceutical-adsorption literature (PDF p. 2). This is a broad literature list, not evidence that all these mechanisms occur in its own ciprofloxacin–activated-bagasse-biochar system.
+- **Specific NiFe₂O₄/biochar example:** REF-13's graphical abstract depicts electrostatic force, hydrogen bonding, π–π interaction and pore filling for tetracycline on NFO/BC (PDF p. 2). Treat that figure as the authors' proposed conceptual mechanism for that material–antibiotic pair, not as a universal mechanism map.
+
+### 6.7 Matching mechanism claims to evidence scope
+
+| Source | Material–antibiotic context | Mechanisms that the source discusses or depicts | Evidence scope |
+|---|---|---|---|
+| REF-04, PDF p. 7 | Carbon-based adsorbents and antibiotics, review-level | Electrostatic interactions, hydrogen bonding, hydrophobic interactions, π–π and π–π electron-donor–acceptor interactions | Broad review synthesis; not every interaction occurs in every carbon–antibiotic pair |
+| REF-05, PDF pp. 5–7 | Natural clay minerals and different antibiotics | Basal/edge charge, pH effects, exchangeable cations, cation exchange and interlayer uptake of some antibiotics | Clay-specific surface/mineral chemistry |
+| REF-12, PDF pp. 1, 5–6 | Fe₂O₃@BMBC with OTC/CIP | Electrostatic interactions, hydrogen bonding, π–π conjugation and Fe–O complexation | Authors' proposed/contributing interactions for this material and these antibiotics |
+| REF-13, PDF p. 2, graphical abstract | NiFe₂O₄/biochar with TC | Electrostatic force, hydrogen bonding, π–π interaction and pore filling | Authors' graphical conceptual model for this TC/composite system |
+| REF-14, PDF p. 2 | General pharmaceutical adsorption literature | Pore filling, metal complexing, precipitation, hydrogen bonding, ion exchange, cation bridging and hydrophobic partition | Broad introductory list; not experimental proof for REF-14's own CIP–activated-biochar system |
+
+**Mechanistic caution:** Do not infer a specific surface complex or chemical bond merely because a kinetic or isotherm model fits. Where a paper proposes a mechanism from pH behaviour, spectroscopy, surface chemistry or other observations, describe it as a “proposed” or “contributing” interaction unless the source establishes stronger evidence. A graphical abstract is the authors' conceptual representation and should be labelled accordingly.
 
 ## 7. Why pH and antibiotic speciation are central
 
