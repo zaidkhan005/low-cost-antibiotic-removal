@@ -275,6 +275,45 @@ The arithmetic is correct. The slide now labels (C_e=33.85\;\mathrm{mg\,L^{-1}})
 
 The final draft, citation map, extraction and evidence matrix were fetched from `main` after their respective updates. The Slide 9 block uses author–date citations and contains no reader-facing REF identifiers.
 
+## Slide 10 — Adsorption Isotherms
+
+**Status:** Pass; model definitions and parameter explanations expanded at the user's request.
+
+**Original-source verification**
+- Ayawei et al. (2017), PDF pp. 2–3, describe Langmuir dynamic equilibrium between adsorption on open surface fractions and desorption from covered fractions; explain Freundlich as applicable to heterogeneous surfaces with a distribution of active-site energies; and state the Temkin assumption that heat of adsorption decreases linearly with increasing surface coverage.
+- Ayawei et al. (2017), PDF p. 5, describe Sips as a Langmuir–Freundlich combination. The low-concentration behaviour is Freundlich-like and high-concentration behaviour is Langmuir-like.
+- Ayawei et al. (2017), PDF pp. 7–8, explain that linearisation changes the error structure and discuss nonlinear regression and multiple error functions.
+- Mirizadeh et al. (2023), PDF pp. 6–7, report Langmuir as the best tested model for TC and D–R as best for CIP. The authors interpret the TC Langmuir fit using the idealised homogeneous-site/monolayer model; this is retained as an interpretation, not microscopic proof.
+- Egbedina et al. (2021), PDF pp. 5–7, show that the best-fitting two-parameter model varies by antibiotic and material treatment. The missing supplementary Table S1 remains a limitation; no missing three-parameter values were inferred.
+- Meseguer et al. (2024), PDF p. 6 and pp. 11–12, provide the Sips parameterisation used in the slide and report Freundlich as best by the lowest ARE (2.44%). Their experimental curve approaches approximately 110 mg g⁻¹ but does not reach a clear plateau in the tested range.
+
+**Definition improvements**
+- Added a plain-language definition of an isotherm and explained what the two axes mean: (C_e) is the concentration remaining in solution at equilibrium; (q_e) is the amount retained per gram of adsorbent at equilibrium.
+- Expanded Langmuir to explain finite, idealised equivalent sites, monolayer coverage and why the curve approaches a plateau; defined (q_{mL}) and (K_L).
+- Expanded Freundlich to explain heterogeneous site energies, the role of the exponent (1/n), and why (K_F) is not a finite maximum capacity.
+- Expanded Temkin to explain the coverage-dependent decrease in heat of adsorption and the roles of (b_T), (K_T), (R) and (T).
+- Expanded Sips to explain the low-concentration Freundlich-like and high-concentration Langmuir-like limits; defined (q_{mS}), (K_S) and (n_S).
+- Added an explicit reminder that an isotherm is an equilibrium relation, not a rate equation, and that model fit alone does not prove a molecular mechanism.
+- Added more explanation to the presenter notes while keeping the on-slide definitions concise enough to support a visual four-model comparison.
+
+**Scientific cautions retained**
+- Freundlich exponent conventions differ across the selected papers; check the exact equation before interpreting or comparing (n).
+- Fitted (q_m), (q_{mS}) and related capacities are model parameters, not automatically experimentally achieved uptake.
+- Compare models within the same dataset and report the fit criterion; do not compare (R^2) from one paper directly with ARE from another.
+- The slide uses the Sips equation specified by Meseguer et al. (2024); Ayawei et al. (2017), Eq. (21), prints a different denominator sign/parameterisation. The discrepancy remains documented.
+- Temkin fitting alone is not used to infer endothermic or exothermic behaviour.
+
+**Repository updates**
+- Revised `presentation-content/slide-by-slide-draft.md` with expanded definitions and presenter explanations.
+- Updated the Slide 10 row in `presentation-content/citation-map.md` to match the expanded teaching content.
+- The existing literature extraction and evidence matrix were retained; they already contain the source-grounded definitions, model assumptions, parameter qualifications and source discrepancy. No reprocessing or new references were added.
+
+**Verified commits**
+- Slide 10 expanded definitions: `3b1c34c5bbb058d28f6a2e70b75050b554a36508`
+- Citation map update: `dda00b5e38704119a9cbe654c7b9a29648ca97b2`
+
+The slide draft and citation map were fetched from `main` after the updates. The Slide 10 block uses author–date citations only and retains the fixed 15-reference source boundary.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
