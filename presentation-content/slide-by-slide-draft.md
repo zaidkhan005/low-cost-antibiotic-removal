@@ -826,53 +826,101 @@ Regeneration creates a secondary liquid stream containing desorbed antibiotic an
 
 ### Learning objective
 
-Evaluate whether a waste-derived adsorbent is cost-effective across the whole treatment process.
+Assess whether a waste-derived adsorbent is cost-effective across the whole treatment process, rather than judging cost from the feedstock alone.
 
 ### On-slide content
 
 **The real cost chain**
 
-Feedstock → preparation → activation/modification → adsorption operation → recovery → regeneration → residual-waste management
+Feedstock → preparation → activation / modification → adsorption operation → recovery → regeneration → residual-waste management
 
 **Cost drivers**
-- Feedstock collection, transport, storage and drying
+- Feedstock collection, transport, storage, drying and competing uses
 - Reagents, pyrolysis, inert gas, milling and synthesis
-- Adsorbent dose, contact time, mixing and separation
+- Adsorbent dose, contact time, mixing, pumping and separation
 - Eluent, washing, drying and solvent recovery
 - Treatment of antibiotic-loaded liquids and spent solids
+
+**Cost units answer different questions**
+
+- **€/kg adsorbent:** cost to produce or purchase a unit mass of adsorbent.
+- **€/m³ treated:** cost to treat a unit volume of water.
+
+\[
+\text{Fresh-adsorbent cost contribution}
+\left(\frac{€}{m^3}\right)
+=
+\text{adsorbent unit cost}
+\left(\frac{€}{kg}\right)
+\times
+\text{dose}
+\left(\frac{kg}{m^3}\right)
+\]
+
+*This estimates only the fresh-adsorbent component—not the full treatment cost.*
 
 **Practical questions**
 - Does it work in real wastewater?
 - Can the solid be recovered efficiently?
-- Does capacity remain useful after regeneration?
+- Does useful capacity remain after regeneration?
 - What is the total cost per m³ treated?
 
 **Evidence gap:** The selected antibiotic studies do not provide comparable full production costs or costs per volume of antibiotic wastewater treated.
 
 ### Visual specification
 
-A process-cost pipeline with a “hidden costs” band: energy | chemicals | water | recovery | regeneration | waste handling. Include the distinction: €/kg adsorbent ≠ €/m³ treated water.
+Build a left-to-right process-cost pipeline, with a separate “hidden costs” band beneath it: energy | chemicals | water | equipment | recovery | regeneration | waste handling. Place a compact costing equation at the lower right and label it “fresh adsorbent only”. Visually distinguish €/kg adsorbent from €/m³ treated water; do not use an equals sign between the two headline units. Include a small note that wet feedstock may require drying and may already have an alternative use.
 
 ### Presenter notes
 
-Waste-derived feedstock does not automatically mean a low-cost treatment process. Kyzas and Kostoglou (2014) identifies equipment, adsorbent consumption, electricity, regeneration/reactivation and spent-adsorbent disposal as cost elements; it warns that a low-cost adsorbent that is difficult to regenerate may not be economical (PDF pp. 19–20).
+**Why a waste feedstock is not automatically a low-cost process**
 
-The antibiotic studies describe process requirements but do not provide comparable full cost calculations. Meseguer et al. (2024) includes drying, argon pyrolysis, K₂CO₃ activation, an 800 °C treatment, washing and further drying (PDF pp. 2–4). Zhao et al. (2024) use high-moisture fermentation residue, KOH activation, nitrogen pyrolysis, acid washing, water rinsing and vacuum drying (PDF pp. 2–4). Chen et al. (2024)'s magnetic composite requires high-temperature pyrolysis, iron precursor and ball milling; its ethanol/ultrasound regeneration uses substantial liquid volumes relative to adsorbent mass (PDF pp. 3–4). Liang et al. (2024) use nickel and iron salts, ammonia adjustment, hydrothermal processing, centrifugation and repeated washing (PDF pp. 3–4).
+Waste-derived describes the origin of the precursor. It does not tell us the delivered cost of the feedstock, the cost of converting it into an adsorbent, the amount needed per volume of water, or the cost of recovering and managing the spent material.
 
-Gkika et al. (2025) provide a useful cost-accounting framework and numerical examples, but many cases concern non-antibiotic pollutants such as ibuprofen and BPA. Do not present these figures as antibiotic-treatment costs. The source also contains an unresolved difference between one Table 5 cost entry and the summary range in its conclusion.
+Kyzas and Kostoglou (2014) identify equipment such as contactors, pumps, pipes and monitoring systems as investment costs. Operating costs include adsorbent consumption, electricity for pumping and mixing, regeneration/reactivation and spent-adsorbent disposal. The authors explicitly warn that a low-cost adsorbent may not be economically attractive if it is difficult to regenerate (PDF pp. 19–20). They also explain that the required adsorbent dose depends on influent pollutant concentration, removal performance and discharge limits (PDF p. 20).
 
-A cost per kilogram of adsorbent cannot be directly compared with a cost per litre or cubic metre of treated water. Treatment cost depends on dose, influent and target concentrations, working capacity, recovery and regeneration. Meseguer et al. (2024) explicitly calls for real-effluent and regeneration/reuse work (PDF p. 13).
+**What the two cost denominators mean**
+
+A cost stated in euros per kilogram (€/kg) describes a mass of adsorbent produced or purchased. It does not, by itself, state how much water can be treated. A cost in euros per cubic metre (€/m³) is a treatment-volume basis and must account for the amount of adsorbent used and the operating conditions.
+
+A simple fresh-material contribution can be calculated as:
+
+\[
+C_{\text{adsorbent},V}
+=
+P_{\text{adsorbent}}\times D_{\text{adsorbent}}
+\]
+
+where \(P_{\text{adsorbent}}\) is the unit cost in € kg⁻¹ and \(D_{\text{adsorbent}}\) is the adsorbent dose in kg m⁻³ of water treated. The product has units of € m⁻³. This is only the fresh-adsorbent contribution. It excludes feedstock preparation, activation chemicals, energy, equipment, labour, separation, regeneration, solvent or eluent recovery, secondary-liquid treatment and spent-solid disposal. The calculation also depends on the actual operating dose required to meet the target effluent concentration; it cannot be derived from a maximum adsorption capacity alone.
+
+**What the selected antibiotic studies reveal about hidden costs**
+
+Meseguer et al. (2024) report that producing 1000 L of beer generates approximately 200 kg of wet spent grains containing 70–80% water; the paper notes that spent grains are commonly used as animal feed (PDF p. 2). Thus, this precursor may have an alternative use, and its wet condition creates a drying requirement. Their preparation route dries and sizes the bagasse, pyrolyses it under argon at 400 °C, treats 5 g biochar with 100 mL of 2 mol L⁻¹ K₂CO₃ for 24 h, centrifuges and dries it, heats it at 800 °C for 3 h, washes to stable pH and dries again (PDF pp. 3–4). The paper gives no full production-cost or cost-per-volume calculation.
+
+Zhao et al. (2024) report that oxytetracycline fermentation residues contain approximately 79–92% moisture and are treated as hazardous waste in the paper's discussion (PDF p. 2). Their preparation includes drying at 105 °C, grinding and sieving, KOH mixing, nitrogen pyrolysis at 500–700 °C for 2 h, 0.1 mol L⁻¹ HCl washing, deionized-water rinsing to pH 7 and vacuum drying at 80 °C for 12 h (PDF pp. 2–3). The authors describe the route as time- and cost-saving because it avoids a separate preliminary carbonisation step (PDF pp. 1 and 16), but they do not report a quantified production cost, yield, full reagent/energy/water inventory or cost per treated volume. Treat the claimed saving as qualitative.
+
+Chen et al. (2024) purchase cotton husks from a resource-recycling supplier, crush them to about 0.15 mm and pyrolyse them at 800 °C for 1 h under nitrogen. The magnetic composite additionally uses an iron precursor, ball milling at 350 rpm for 2.5 h and further pyrolysis (PDF pp. 3–4). Its magnetic response is reported to facilitate separation, but the paper does not quantify recovery percentage, adsorbent mass loss, production cost or cost per treated volume. Its ethanol–ultrasound regeneration procedure uses 0.5 L ethanol, 500 W ultrasound for 60 min and 0.5 L rinse water for 50 mg adsorbent (PDF pp. 3–4); these are laboratory protocol requirements, not a cost estimate.
+
+Liang et al. (2024) prepare biochar from poplar sawdust by cleaning, drying and heating at 700 °C for 1 h. NFO/BC composite preparation then uses nickel and iron nitrate salts, sonication, ammonia adjustment, hydrothermal treatment at 180 °C for 12 h, centrifugation, repeated washing with water and ethanol, and vacuum drying at 80 °C for 12 h (PDF pp. 3–4). The authors identify magnetism as a separation advantage (PDF p. 8), but do not provide production yield, recovery percentage, reagent/energy inventory or total treatment cost.
+
+These procedures identify likely cost drivers; they are not themselves economic calculations. The selected antibiotic papers do not provide a common basis for comparing full costs across materials.
+
+**How to use the broader economic reviews**
+
+Gkika et al. (2025) provide a useful accounting framework for energy, eluent and wastewater-treatment expenses associated with regeneration (PDF p. 7), and discuss feedstock preparation, carbonisation, activation and neutralisation in their cost examples (PDF pp. 13–15). However, their numerical cases are largely for non-antibiotic pollutants such as ibuprofen and BPA; those figures must not be presented as costs for CIP, TC or OTC. The review cites an estimate that regeneration may account for approximately 60% of adsorption-system costs (PDF p. 14), but this is a secondary estimate from another study, not a universal fraction or a measured cost for the antibiotic adsorbents in this presentation.
+
+There is also an unresolved internal numerical inconsistency: Table 5 lists a Melia azedarach fruit biochar cost of 1,062.50 €/kg (PDF p. 13), while the conclusion gives a waste-derived adsorbent cost range of 1.49–75.04 €/kg (PDF p. 15). Do not quote the conclusion's range as a universal range or silently reconcile the Table 5 entry. The slide therefore avoids using Gkika et al.'s review costs as direct antibiotic-treatment figures.
+
+Finally, Meseguer et al. (2024) call for real-effluent tests and regeneration/reuse studies to establish practical applicability (PDF p. 13). The selected studies do not provide a comparable full-scale cost model. Real-water performance, adsorbent recovery, working capacity at the required effluent limit, capacity retention, and management of regenerant and spent solids remain essential parts of a future techno-economic assessment.
 
 ### Source citations
 
-- Kyzas and Kostoglou (2014), PDF pp. 19–20 — techno-economic and scale-up considerations.
-- Gkika et al. (2025), PDF pp. 7–8 and 13–15 — regeneration costs and cost examples; pharmaceutical-wide scope.
-- Chen et al. (2024), PDF pp. 3–4 — preparation and regeneration requirements.
-- Liang et al. (2024), PDF pp. 3–4 — composite preparation requirements.
-- Meseguer et al. (2024), PDF pp. 2–4 and p. 13 — preparation and future real-effluent/reuse studies.
-- Zhao et al. (2024), PDF pp. 2–4 and p. 16 — preparation and qualitative cost-saving claim.
-
----
+- Kyzas and Kostoglou (2014), PDF pp. 19–20 — equipment, adsorbent consumption, electricity, regeneration, disposal, dose and scale-up considerations.
+- Gkika et al. (2025), PDF pp. 7–8 and 13–15 — regeneration-cost components and pharmaceutical-wide cost examples; non-antibiotic scope and source-internal numerical discrepancy.
+- Chen et al. (2024), PDF pp. 3–4 and p. 10 — material preparation, separation and regeneration requirements.
+- Liang et al. (2024), PDF pp. 3–4 and p. 8 — sawdust biochar, composite preparation and magnetic-separation discussion.
+- Meseguer et al. (2024), PDF pp. 2–4 and p. 13 — bagasse context, preparation and real-effluent/reuse research gap.
+- Zhao et al. (2024), PDF pp. 2–3 and p. 16 — fermentation-residue context, KOH-activated biochar preparation and qualitative cost-saving claim.
 
 # Slide 15 — Conclusion and References
 
