@@ -1009,7 +1009,7 @@ The conclusions synthesise evidence and qualifications developed across slides 2
 - [ ] Preserve the difference between cycle removal and capacity retention on slide 13.
 - [ ] Do not present Gkika et al. (2025)’s non-antibiotic cost examples as antibiotic-treatment costs on slide 14.
 - [x] Confirm Slide 15's abbreviated entries match the complete bibliography and all 15 entries match the audited reference inventory.
-- [ ] Recheck each slide citation against the fixed source inventory before PowerPoint production.
+- [x] Recheck each slide citation against the fixed source inventory before PowerPoint production.
 
-**Stage 3 status:** First complete slide-by-slide content draft prepared.  
-**Next gate:** Scientific and pedagogical review of this draft. PowerPoint production remains on hold until that review is complete.
+**Stage 3 status:** All 15 slides have passed slide-by-slide scientific and pedagogical content review. The fixed 15-entry bibliography has been checked against the audited reference inventory.  
+**Production gate:** Content review is complete; PowerPoint production may now proceed. Before presentation delivery, complete visual QA for slide density, equation/subscript rendering, figures/diagrams, citation legibility and final presenter/institution/date details.
