@@ -13,3 +13,8 @@ The evidence matrix will link slide claims to the fixed 15 references. Each evid
 - intended slide(s).
 
 No quantitative result should enter the slide deck without traceable source location and units.
+
+
+## Current matrices
+
+- [Fundamentals and Adsorption Mechanisms — Stage 2 Pass 1](fundamentals-mechanisms.md): concept-to-source ledger with PDF locators, evidence type and qualifications.
