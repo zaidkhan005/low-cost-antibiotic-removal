@@ -407,3 +407,37 @@ The slide draft, citation map, thermodynamics extraction and evidence matrix wer
 The draft-wide instruction was corrected to require author–date citations with PDF page/table/figure locators where appropriate. It now explicitly confines REF-01–REF-15 to internal evidence and audit records.
 
 **Verified change:** Commit `f0ef013f23085d3972de30dd058024c9b0a5bf97`. The updated draft was fetched from `main`; the old rule is absent, the new rule is present, and the file differs from its previous version only by this instruction.
+
+
+## Slide 13 — Regeneration and Reusability
+
+**Status:** Pass; definitions expanded and cycle metrics distinguished using the original papers.
+
+**Original-source verification**
+- Gkika et al. (2025), PDF p. 7, explicitly distinguish desorption efficiency from regeneration (removal) efficiency: desorption measures release of the contaminant, while the adsorption test after desorption evaluates whether performance is restored in the subsequent cycle.
+- Chen et al. (2024), PDF pp. 3–4, specify the ethanol–ultrasound procedure: 0.5 L ethanol for 50 mg adsorbent, ultrasound at 500 W for 60 min, then 0.5 L ultrapure-water washing and drying at 70 °C. The regeneration test uses 50 mg adsorbent, 20 mL antibiotic solution, \(C_0=500\) mg L⁻¹, 25 °C and 24 h. PDF p. 10 reports capacity remaining after five reuse cycles: 86.8% for OTC and 91.1% for CIP with ethanol + ultrasound; water-washing controls retain 21.2% and 19.7%, respectively. Figure 7 is on PDF p. 11. The liquid volumes correspond to 10 L g⁻¹ each of ethanol and rinse water, calculated from the stated volume and adsorbent mass; this is not a process-cost estimate.
+- Liang et al. (2024), PDF p. 8, Section 3.2 and Fig. 4f, report four reuse cycles and a 72% TC removal rate after cycle four. The article does **not** call this 72% capacity retention. Its reusability subsection describes centrifugation and DI-water desorption before readsorption; the methods section on PDF p. 4 additionally mentions washing with DI water and ethanol and drying at 60 °C. The precise role of ethanol in the cycle protocol is not fully clarified in the main text, so the slide does not over-specify it.
+- Zhao et al. (2024), PDF p. 5, Section 2.7, specify five adsorption–desorption cycles at 0.25 g L⁻¹ adsorbent, 250 mg L⁻¹ initial TC, 180 rpm and 24 h, using 0.1 M NaOH followed by DI-water rinsing to pH 7 and drying at 80 °C. PDF p. 13 describes a slight capacity decrease; Figure 10 on PDF p. 14 plots removal and capacity across five cycles. The article's text does not report an exact final capacity-retention percentage, so the slide does not infer one from the plot.
+- Rodríguez-López et al. (2024), PDF p. 5, report single-desorption CIP percentages of 22.4% (hemp waste), 16.4% (oak ash) and 15.5% (mussel shell) at the highest initial concentration tested. PDF pp. 5–6 also report release behaviour. These are desorption/release tests, not repeated adsorption–desorption regeneration cycles.
+- Meseguer et al. (2024), PDF p. 13, identify regeneration and reuse tests as future work; the supplied main article does not provide completed cycle data.
+
+**Definition improvements**
+- Defined desorption as transfer of adsorbed antibiotic from the solid into a regenerant liquid.
+- Defined regeneration as treatment of the spent adsorbent to restore usable adsorption function, potentially including desorption, washing, neutralisation and drying.
+- Defined reuse as placing the treated adsorbent into a new adsorption run.
+- Expanded regeneration performance as performance measured in the adsorption cycle after treatment.
+- Added the capacity-retention expression \(q_n/q_{\text{fresh}}\times100\), explaining that numerator and denominator must be measured on the same basis and under comparable conditions.
+- Explicitly distinguished capacity retention from removal efficiency in an individual later cycle; Liang et al.'s 72% value remains labelled as removal after cycle four, not capacity retention.
+
+**Practical-feasibility qualifications retained**
+- The regenerant stream contains released antibiotic and requires recovery or appropriate treatment/disposal.
+- Chen et al.'s stated liquid volumes are large relative to the adsorbent mass; the converted 10 L g⁻¹ ethanol and 10 L g⁻¹ rinse-water figures are labelled as derived laboratory-protocol ratios, not cost or scale-up estimates.
+- Zhao et al.'s exact final capacity-retention percentage is not stated in the text.
+- Rodríguez-López et al.'s release results are not presented as successful multi-cycle regeneration.
+- The cycle studies use different antibiotics, materials, conditions and metrics; no cross-study performance ranking is made.
+
+**Repository updates**
+- Rewrote Slide 13's on-slide definitions, capacity-retention equation, cycle comparison, visual specification and presenter notes in presentation-content/slide-by-slide-draft.md.
+- Updated the Slide 13 source and qualification row in presentation-content/citation-map.md.
+- Existing source extraction and evidence matrix were rechecked and retained: they already document the derived capacity-retention formula, source-specific conditions, metrics, single-desorption results and non-comparability rules. No new references or unsupported numerical cycle estimates were added.
+
