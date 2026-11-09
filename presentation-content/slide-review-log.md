@@ -26,6 +26,21 @@ Do not reprocess completed papers, add references, or begin PowerPoint productio
 
 **Review basis:** `presentation-content/slide-by-slide-draft.md`, Slide 1, fetched from `main` at blob SHA `6cc9544773cd59608dbb38beedce38a09d9dcb0e`.
 
+## Slide 2 — Antibiotics and the Aqueous Environment
+
+**Status:** Pass; one presenter-note citation addition made.
+
+**Checked**
+- The antibiotic definition and stated human/veterinary contexts match the framing in the selected review literature.
+- The source pathways are supported by Ajala et al. (2023) and Teo et al. (2022); the wording does not imply that all sources contribute equally in every setting.
+- The displayed antibiotic classes are explicitly framed as examples, not an exhaustive or mutually exclusive taxonomy. The examples are supported across Ajala et al. (2023), Teo et al. (2022), and Rodríguez-López et al. (2024).
+- The operational explanation of “aqueous medium” is clearly identified in the extraction as a plain-language teaching definition rather than a formal definition from one paper.
+- The note distinguishing laboratory water, synthetic wastewater and real wastewater is retained; the matrix-effects explanation is supported by the reviewed discussion of competing ions and natural organic matter.
+
+**Correction:** Added a source-citation bullet for the presenter-note statement on competing ions and natural organic matter: Ajala et al. (2023), PDF p. 9 (journal p. 4686), and Teo et al. (2022), PDF pp. 7–8. No scientific wording or on-slide content was changed.
+
+**Verified change:** Commit `d168f48bcf4302adbea2897b042df18ef05e5e15`; the updated draft was fetched from `main`, and the content differs from the prior version only by the added Slide 2 citation.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
