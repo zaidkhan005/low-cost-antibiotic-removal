@@ -161,6 +161,37 @@ All four records were fetched from `main` after committing. Presentation-facing 
 
 All four working files were fetched from `main` after their updates. The final Slide 6 block contains the three base material forms, separates processing/engineering, uses author–date citations and contains no reader-facing REF identifiers.
 
+## Slide 7 — Mechanisms of Antibiotic Adsorption
+
+**Status:** Pass; mechanism categories and visual plan made material-specific.
+
+**Scientific review**
+- Teo et al. (2022), PDF p. 7, discuss electrostatic interactions, hydrogen bonding, hydrophobic interactions and π–π / electron-donor–acceptor interactions for carbon-based adsorbents. These are review-level candidate interactions, not a universal set for every carbon–antibiotic pair.
+- Perelomov et al. (2025), PDF pp. 5–7, describe clay basal/edge charge, pH-dependent edge chemistry, exchangeable cations, cation exchange and interlayer uptake in swelling minerals. These clay-specific processes are not interchangeable with metal complexation on iron-containing biochar.
+- Chen et al. (2024), PDF pp. 1 and 5–6, report/propose electrostatic interactions, hydrogen bonding, π–π conjugation and Fe–O complexation for OTC/CIP on Fe₂O₃@BMBC. The revised slide attributes these to that material–antibiotic system.
+- Liang et al. (2024), PDF p. 2, graphically depict electrostatic force, hydrogen bonding, π–π interaction and pore filling for TC on NiFe₂O₄/biochar. The revised slide explicitly labels this as the authors' conceptual graphical model.
+- Meseguer et al. (2024), PDF p. 2, list pore filling, metal complexing, precipitation, hydrogen bonding, ion exchange, cation bridging and hydrophobic partition among mechanisms reported in the wider pharmaceutical-adsorption literature. This list is not experimental proof that all those mechanisms occur in that article's own CIP–activated-bagasse-biochar system.
+
+**Corrections**
+- Replaced the generic six-callout mechanism drawing with three material-specific panels: carbon-based adsorbents, natural clay minerals and iron-containing biochar composites.
+- Separated clay cation exchange from Fe–O complexation and from the broad cation-bridging/metal-complexing list in the Meseguer introduction.
+- Qualified Liang et al.'s graphical abstract as a conceptual model for its specific TC/NiFe₂O₄-biochar system.
+- Preserved the safeguard that model fitting alone does not prove a molecular interaction or unique mechanism.
+- Corrected the lower-case “the graphical abstract” wording in the presenter notes.
+
+**Evidence records**
+- Expanded Section 6.6 and added Section 6.7, “Matching mechanism claims to evidence scope,” in `literature-extraction/fundamentals-and-adsorption-mechanisms.md`.
+- Revised MEC-001 and MEC-003 to MEC-006 in `evidence-matrix/fundamentals-mechanisms.md` to state their evidence scope and material–antibiotic boundaries.
+- Updated Slide 7 and its citation-map row using author–date citations and PDF locators.
+
+**Verified commits**
+- Literature extraction: `3795fdae47cf11b382881d57a2509b23d8cc0402`
+- Evidence matrix: `de78f3f9462e782395fe3345030258e63a6b9a20`
+- Slide draft: `421f9a2943bf5262f6388c7316f12907d947e4a1`
+- Citation map: `d7e91411e929c807ff40ebcb28a43aa1ba86e0fd`
+
+All four working files were fetched from `main` after their updates. The Slide 7 block uses author–date citations, separates the material-specific examples and contains no reader-facing REF identifiers.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
