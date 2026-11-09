@@ -66,6 +66,38 @@ Do not reprocess completed papers, add references, or begin PowerPoint productio
 
 All four files were fetched from `main` after their updates. The Slide 3 presentation-facing citations use author–date format; no REF identifiers appear in the slide copy.
 
+## Slide 4 — Treatment Technologies for Antibiotic Removal
+
+**Status:** Pass; comparison and source locators revised.
+
+**Checked**
+- Biological treatment is described as a wastewater-treatment process, with antibiotic-removal inefficiency qualified as a limitation reported by Teo et al. (2022). Gopal et al.'s statement about incomplete primary/secondary removal is retained as tetracycline-specific.
+- AOPs are described as oxidative transformation/degradation processes. The slide retains the warning that oxidised by-products may be toxic and that parent-compound disappearance must not automatically be called mineralisation or detoxification.
+- Membrane filtration/reverse osmosis is described as a separation approach. The cited limitations now include membrane fouling, energy requirement and operating cost; reverse-osmosis limitations are differentiated in the presenter notes.
+- Adsorption is explicitly described as liquid-to-solid transfer rather than destruction. The slide retains recovery, regeneration and/or disposal of the loaded adsorbent and captured antibiotic.
+- The slide is a role-and-limitation comparison, not a universal technology performance or cost ranking.
+
+**Corrections**
+- Replaced the broad membrane “production and operating costs” note with source-specific fouling, energy-demand and operating-cost limitations; added the reverse-osmosis caveat.
+- Added the AOP by-product toxicity and mineralisation qualification.
+- Replaced the vague adsorption waste note with the specific need to manage the loaded adsorbent and recovered antibiotic.
+- Corrected the citation locations: Gopal et al. (2020), journal pp. 27084, 27086–27087 and 27091; Teo et al. (2022), PDF pp. 2, 6 and 14; Zhao et al. (2024), PDF p. 2.
+
+**Evidence records added**
+- `literature-extraction/treatment-technologies.md` — Stage 2 Extraction 08.
+- `evidence-matrix/treatment-technologies.md` — eight traceable claims, TCH-001 to TCH-008.
+- Both extraction and evidence README files now index the new records.
+
+**Verified commits**
+- Treatment extraction: `1dbce55ba752454a1fce90a046cbfa8cefad732f`
+- Treatment evidence matrix: `6f35842551a39ac0d8b713bc805ac3c49150aea8`
+- Slide draft: `8caa319367290dc5b726bd5f2fc15b4e30f87a19`
+- Citation map: `16d7eb2a4175f8c44106510f8383603d2304f58b`
+- Extraction index: `92457fe4f15b0ae37ad85ddec623a82fa1e23e25`
+- Evidence index: `3c13c3deb1bdc2684dbb8d99078bcfcd68fcb3d3`
+
+All six files were fetched again from `main`. The Slide 4 block contains all four technologies, preserves the process distinctions and qualifications, and contains no reader-facing REF identifiers.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
