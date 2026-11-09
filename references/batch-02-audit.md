@@ -36,4 +36,4 @@
 
 ## Next step
 
-Await Batch 3 (REF-11–REF-15). Keep the fixed 15-paper limit unchanged. Stage 2 extraction can begin after the complete 15-paper corpus is assembled.
+Batch 3 (REF-11–REF-15) has now been received and first-pass audited. The complete fixed 15-paper collection is assembled. Proceed to consolidated Stage 2 extraction, recovering exact page/table/figure locators for claims transferred without locators. Do not add references or repeat completed Batch 1/Batch 2 audits.
