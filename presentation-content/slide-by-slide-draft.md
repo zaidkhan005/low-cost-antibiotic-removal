@@ -8,7 +8,7 @@
 
 ## Draft-wide rules
 
-1. Cite scientific claims on the slide using REF-ID and PDF page/table/figure locators. The full bibliography is on slide 15.
+1. Cite scientific claims using author–date format, adding PDF page/table/figure locators when they support a specific result or detail. Use the complete author–date references on slide 15. Keep REF-01–REF-15 only in internal evidence and audit records; never show them in presentation-facing content.
 2. Use “the study reports” for experimental findings, “the authors interpret” for proposed mechanisms, and “fitted” for model parameters.
 3. Distinguish measured concentrations, mass-balance-derived uptake, fitted maximum capacities, percentage removal, and capacity retention.
 4. Adsorption transfers antibiotic from water to a solid; do not call it degradation or mineralisation without independent evidence of transformation.
