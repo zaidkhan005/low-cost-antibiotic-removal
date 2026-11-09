@@ -100,4 +100,4 @@ Extract claims with precise page/table/figure locations where possible:
 
 ## Current status
 
-Initial project setup is complete. Stage 1 begins when the user uploads a ZIP of the 15 downloaded PDFs.
+Stage 1 is complete: the fixed 15-paper collection has been received across three batches; first-pass bibliographic/PDF-integrity audit records are present for REF-01–REF-15. Existing Batch 2 branch-chat audit and study-level findings have been transferred without reprocessing. Stage 2 scientific extraction and source-locator consolidation are now the active work. The Batch 2 transfer record explicitly flags page/table/figure locators that were not carried over; those must be recovered from the selected PDFs before corresponding numerical claims enter slide content. No additional references are to be added.
