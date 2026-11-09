@@ -372,7 +372,7 @@ Calculate the mass of antibiotic retained per gram of adsorbent and the percenta
 
 ### On-slide content
 
-**Equilibrium adsorption capacity**
+**Equilibrium adsorption capacity — constant-volume batch system**
 
 \[
 q_e=\frac{(C_0-C_e)V}{m}
@@ -405,7 +405,7 @@ Capacity and removal percentage describe different things. Capacity is the amoun
 
 Mirizadeh et al. (2023) report the TC uptake of 16.15 mg g⁻¹ at \(C_0=50\) mg L⁻¹, dose 1 g L⁻¹, volume 30 mL, pH 10 and 298 K, with 3 h contact time (PDF pp. 2–3). The dose and volume imply \(m=0.030\) g. The adsorbed mass is \(16.15\times0.030=0.4845\) mg. The concentration decrease is \(0.4845/0.030=16.15\) mg L⁻¹, so derived \(C_e=33.85\) mg L⁻¹ and derived removal \(=(50-33.85)/50\times100=32.3\%\).
 
-Meseguer et al. (2024) use a volume-aware mass balance when liquid volume changes during sampling. Zhao et al. (2024) prints \((C_e-C_0)\) in its capacity/removal equations despite defining \(C_0\) as initial and \(C_e\) as equilibrium concentration; do not reproduce that sign as the positive uptake convention.
+Use \(q_e\) only for uptake at equilibrium; at a specified earlier time, use \(q_t\). Meseguer et al. (2024) use a volume-aware mass balance, \(q_t=(C_0V_0-C_tV_t)/m\), when liquid volume changes during sampling. Zhao et al. (2024) prints \((C_e-C_0)\) in its capacity/removal equations despite defining \(C_0\) as initial and \(C_e\) as equilibrium concentration; do not reproduce that sign as the positive uptake convention.
 
 ### Source citations
 
