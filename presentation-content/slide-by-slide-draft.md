@@ -926,26 +926,42 @@ Finally, Meseguer et al. (2024) call for real-effluent tests and regeneration/re
 
 ### Learning objective
 
-Summarise the scientific lessons and identify the main research and engineering questions.
+Summarise the scientific lessons, practical evidence gaps and conditions needed to evaluate antibiotic adsorption as a treatment process.
 
 ### On-slide content
 
 **Key conclusions**
 
-1. Antibiotic adsorption depends on antibiotic speciation, adsorbent surface chemistry, pore structure and water-matrix conditions.
-2. Capacity, removal efficiency, isotherm fit, kinetic fit and thermodynamic favourability describe different aspects of performance.
-3. Regeneration and reliable adsorbent recovery are essential to practical reuse.
-4. Waste-derived does not automatically mean low-cost: preparation, operation, regeneration and disposal costs must be assessed.
+1. **Performance is system-specific.** Antibiotic speciation, adsorbent surface chemistry, pore accessibility and water-matrix composition all matter; the selected non-matched studies do not establish one universal best adsorbent.
+2. **Adsorption is a separation step.** It transfers antibiotic from water to a solid phase or, during regeneration, into a secondary liquid stream. It does not by itself prove degradation or mineralisation.
+3. **Performance measures are not interchangeable.** Uptake capacity, removal efficiency, fitted maximum capacity, kinetic/isotherm model fit, thermodynamic interpretation and capacity retention describe different aspects of a system. A model fit alone does not prove a molecular mechanism.
+4. **Practical reuse requires more than desorption.** The adsorbent must be recovered, treated and tested again; antibiotic-containing regenerant and wash streams also require management.
+5. **Waste-derived does not automatically mean low-cost.** Preparation, operating dose, energy, chemicals, recovery, regeneration and residual-waste management must be included in a realistic cost assessment.
 
 **Final message**
 
-*An effective low-cost adsorbent must remove the target antibiotic, remain recoverable and reusable, and demonstrate acceptable performance and cost in realistic water-treatment conditions.*
+*An effective low-cost adsorbent must remove the target antibiotic under relevant water-treatment conditions, remain recoverable and reusable or be safely managed, and demonstrate acceptable whole-process cost.*
+
+**Selected references**
+
+| Column 1 | Column 2 |
+|---|---|
+| Gopal et al. (2020). *RSC Advances*, 10, 27081–27095. | Mirizadeh et al. (2023). *Chemical Engineering & Technology*, 46(9), 1957–1964. |
+| Ajala et al. (2023). *RSC Advances*, 13, 4678–4712. | Egbedina et al. (2021). *RSC Advances*, 11, 18483–18492. |
+| Kyzas & Kostoglou (2014). *Materials*, 7, 333–364. | Rodríguez-López et al. (2024). *Journal of Environmental Management*, 370, 122842. |
+| Teo et al. (2022). *Adsorption Science & Technology*, Article 3079663. | Chen et al. (2024). *Carbon Research*, 3, 63. |
+| Perelomov et al. (2025). *Minerals*, 15, 733. | Liang et al. (2024). *Carbon Research*, 3, 2. |
+| Ayawei et al. (2017). *Journal of Chemistry*, Article 3039817. | Meseguer et al. (2024). *Processes*, 12, 199. |
+| Vareda (2023). *Journal of Molecular Liquids*, 376, 121416. | Zhao et al. (2024). *Nanomaterials*, 14, 1377. |
+| Gkika et al. (2025). *Waste Management*, 204, 114952. |  |
 
 ### Visual specification
 
-Four concise conclusion statements at the top; list all 15 references in two compact columns below or use abbreviated on-slide entries with complete bibliographic details in the presenter handout/notes. Keep the order Gopal et al. (2020) to Zhao et al. (2024).
+Use a clear two-part layout. The top third contains the five concise conclusions and a short final-message line; the lower area contains all 15 abbreviated references in two columns, ordered down the first column (Gopal through Gkika) and then down the second (Mirizadeh through Zhao). Keep references comfortably readable and use a consistent smaller type size than the conclusions. The complete article titles, full author lists and DOIs remain in the presenter notes. Do not show internal REF-01–REF-15 identifiers on the slide.
 
 ### Presenter notes — complete selected bibliography
+
+The abbreviated on-slide entries follow the fixed reference inventory in REF-01–REF-15 order. Complete bibliographic details are retained below.
 
 **Gopal et al. (2020).** Gopal, G.; Alex, S.A.; Chandrasekaran, N.; Mukherjee, A. “A review on tetracycline removal from aqueous systems by advanced treatment techniques.” *RSC Advances*, 2020, 10, 27081–27095. DOI: 10.1039/D0RA04264A.
 
@@ -979,9 +995,8 @@ Four concise conclusion statements at the top; list all 15 references in two com
 
 ### Conclusion source basis
 
-The conclusion synthesises evidence and qualifications developed across slides 2–14, with the complete claim-to-source trail retained in the Stage 2 extraction notes and evidence matrices.
+The conclusions synthesise evidence and qualifications developed across slides 2–14. They do not establish one universally superior adsorbent, a universal adsorption mechanism or a common cost ranking. The 15 references above are the complete fixed source set for this presentation.
 
----
 
 ## Cross-slide quality-control checklist
 
@@ -993,7 +1008,7 @@ The conclusion synthesises evidence and qualifications developed across slides 2
 - [ ] Preserve the missing Liang et al. (2024) supplementary thermodynamic table and \(K_d\) standard-state uncertainty on slide 12 notes.
 - [ ] Preserve the difference between cycle removal and capacity retention on slide 13.
 - [ ] Do not present Gkika et al. (2025)’s non-antibiotic cost examples as antibiotic-treatment costs on slide 14.
-- [ ] Confirm slide 15's abbreviated entries match the full bibliography.
+- [x] Confirm Slide 15's abbreviated entries match the complete bibliography and all 15 entries match the audited reference inventory.
 - [ ] Recheck each slide citation against the fixed source inventory before PowerPoint production.
 
 **Stage 3 status:** First complete slide-by-slide content draft prepared.  
