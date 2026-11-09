@@ -124,6 +124,43 @@ All six files were fetched again from `main`. The Slide 4 block contains all fou
 
 All four records were fetched from `main` after committing. Presentation-facing citations use author–date format; no REF identifiers appear in the Slide 5 block.
 
+## Slide 6 — Classification of Adsorbent Materials
+
+**Status:** Pass; material categories reorganised to avoid mixing classification dimensions.
+
+**Main finding:** The original five-branch structure mixed base material form, feedstock origin and material modification. For example, brewing bagasse is a feedstock, activated biochar is the product, and a magnetic ferrite/biochar material is a composite made by modifying a carbonaceous base. These are related stages/descriptors, not mutually exclusive parallel material families.
+
+**Revised framework**
+- **Natural mineral sorbents:** kaolinite and smectite-group minerals such as montmorillonite (Perelomov et al., 2025, PDF pp. 4–7).
+- **Non-biochar by-product sorbents:** raw date-palm fibre (Mirizadeh et al., 2023, PDF pp. 1–2), and hemp waste, oak ash and uncalcined mussel shell (Rodríguez-López et al., 2024, PDF p. 2). These are grouped as by-product solids used without conversion to biochar, not as one chemically uniform class.
+- **Carbonaceous sorbents:** biochar, activated biochar and activated carbon. Ajala et al. (2023), PDF p. 9 / journal p. 4686, describe biochar as a carbon-rich product of biomass pyrolysis; Teo et al. (2022), PDF pp. 6–7, discuss the terminology and activation distinctions.
+- **Processing/engineering overlay:** activation (K₂CO₃ for bagasse-derived biochar; KOH for fermentation-residue biochar) and composite formation (Fe₂O₃@BMBC from cotton-husk biochar; NFO/BC from sawdust-derived biochar).
+
+**Specific terminology correction:** Avoided the label “uncarbonized by-product sorbents” because oak ash is itself produced by combustion. The final label is “non-biochar by-product sorbents,” which does not make an unsupported claim about the thermal history of all examples.
+
+**Other qualifications retained**
+- Do not list feedstock and its derived biochar as separate adsorbent families.
+- Do not present “waste-derived” or “engineered composite” as a peer branch to a base material form.
+- Use each paper's actual material designation; raw biochar, activated biochar and activated carbon are not interchangeable without checking the preparation route and source terminology.
+- The slide is a corpus-based teaching grouping, not a universal taxonomy of all adsorbents.
+
+**Evidence records**
+- Added MAT-001 to MAT-005 to `evidence-matrix/fundamentals-mechanisms.md`, covering clay minerals, non-biochar by-product solids, carbonaceous feedstocks, activation and composite formation.
+- Reorganised Section 5 in `literature-extraction/fundamentals-and-adsorption-mechanisms.md` to separate material form from feedstock and processing.
+- Updated Slide 6 and its citation-map row with author–date references and precise PDF locators.
+
+**Verified commits**
+- Literature extraction restructure: `8d8cdc8433c89284fcd106a749ebf5093e1cb1b5`
+- Extraction label clarification: `8685f4d84d2baa7cded1434c3b6695a812ce544f`
+- Evidence matrix: `797b6a0c4397eb5d4a203ecfc29d625ccec7320a`
+- Evidence label clarification: `93ed0d9c0a0f10a096e475c7787b67c798ff7964`
+- Slide draft restructure: `8b16f57429ffb879936ddef2f79d329c09c26103`
+- Slide label clarification: `af8ddabd2ece87a5fd459eee4ebeb4defec97c54`
+- Citation map update: `06c37676e21a9d31ea511a74e56ad8454dc8f3e8`
+- Citation-map label clarification: `c3d5a190c9531c0b0aac19ba8db081018d74ba45`
+
+All four working files were fetched from `main` after their updates. The final Slide 6 block contains the three base material forms, separates processing/engineering, uses author–date citations and contains no reader-facing REF identifiers.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
