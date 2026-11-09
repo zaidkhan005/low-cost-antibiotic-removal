@@ -231,6 +231,50 @@ All four working files were fetched from `main` after their updates. The Slide 7
 
 The slide draft, citation map, extraction and evidence matrix were fetched from `main` after their updates. The final Slide 8 block contains no reader-facing REF identifiers and passes the checks for author–date citations, the pHₚzc/pKa distinction, the precipitation caveat, system-specific dose and salt effects, and the temperature/contact-time example.
 
+## Slide 9 — Adsorption Capacity and Removal Efficiency
+
+**Status:** Pass; equations and worked example verified, with notation/provenance clarifications.
+
+**Original-source checks**
+- Mirizadeh et al. (2023), PDF p. 2, define removal efficiency as (Y(\%)=((C_0-C_e)/C_0)\times100) and equilibrium capacity as (q_e=((C_0-C_e)V)/m). The paper defines (m) as dry biosorbent mass and (V) as solution volume.
+- Mirizadeh et al. (2023), PDF pp. 2–3, report the batch volume (30 mL), the pH-series conditions (initial TC concentration 50 mg L⁻¹, dose 1 g L⁻¹, 298 K, 3 h), and a TC capacity of 16.15 mg g⁻¹ at pH 10. Figure 1 plots both adsorption capacity and removal efficiency for the pH series.
+- Meseguer et al. (2024), PDF p. 4, use the volume-aware mass balance (q_t=(C_0V_0-C_tV_t)/m) when liquid volume at sampling differs from the initial volume. The presentation keeps this separate from the simplified constant-volume equilibrium expression.
+- Zhao et al. (2024), PDF p. 3, print ((C_e-C_0)) in the capacity/removal expressions while defining (C_0) as initial and (C_e) as equilibrium concentration. The review preserves this as a source-level sign anomaly and does not reproduce it as a positive uptake equation.
+
+**Independent arithmetic check**
+- Adsorbent mass: (m=(1\;\mathrm{g\,L^{-1}})(0.030\;\mathrm{L})=0.030\;\mathrm{g}).
+- Antibiotic mass adsorbed: (16.15\;\mathrm{mg\,g^{-1}}\times0.030\;\mathrm{g}=0.4845\;\mathrm{mg}).
+- Initial antibiotic mass: (50\;\mathrm{mg\,L^{-1}}\times0.030\;\mathrm{L}=1.500\;\mathrm{mg}).
+- Residual antibiotic mass: (1.500-0.4845=1.0155\;\mathrm{mg}).
+- Back-calculated equilibrium concentration: (1.0155\;\mathrm{mg}/0.030\;\mathrm{L}=33.85\;\mathrm{mg\,L^{-1}}).
+- Reconstructed removal: ((50-33.85)/50\times100=32.3\%).
+
+The arithmetic is correct. The slide now labels (C_e=33.85\;\mathrm{mg\,L^{-1}}) and (Y=32.3\%) as reconstructed from the reported (q_e) and dose. The article also plots removal efficiency in Figure 1, but its text does not state an exact pH-10 numerical (Y); the reconstructed 32.3% is therefore not presented as an exact number quoted by the authors.
+
+**Corrections and clarifications**
+- Changed the removal-efficiency symbol from (R) to the source's (Y).
+- Labelled the equilibrium-capacity equation as the constant-volume batch form.
+- Added the distinction between (q_e) at equilibrium and (q_t) at a specified earlier time.
+- Added the volume-aware (q_t) expression to the presenter notes for changing liquid volume.
+- Added pH, temperature and contact time to the worked-example conditions.
+- Corrected the footnote to acknowledge that Figure 1 plots removal efficiency while still distinguishing the reconstructed numerical result from a value stated in the text.
+- Replaced the internal REF identifier in the slide footnote with author–date citation text.
+
+**Evidence and repository updates**
+- Refined Section 4 provenance wording in `literature-extraction/quantitative-adsorption-evaluation.md`.
+- Revised QNT-006 in `evidence-matrix/quantitative-evaluation.md` to document the plotted-versus-reconstructed value distinction.
+- Updated Slide 9 and its citation-map row to use (Y), distinguish constant-volume and volume-aware balances, and preserve the Zhao et al. source warning as a note only.
+
+**Verified commits**
+- Slide draft — author notation and back-calculation clarification: `4b6fdd1ba0a4f71487e613aa67ce60a9c419a3a4`
+- Extraction provenance clarification: `fecab86f6ce49aec260363cc20ae0518581822bc`
+- Evidence matrix QNT-006 clarification: `f0895c77a7cc7ddf127b45f6767e9b6ffce3b992`
+- Slide draft — constant-volume and (q_t/q_e) distinction: `1a4fd90c803dc7e7e69cfbc3691b8b009f365ed3`
+- Citation map: `302f19d34c5b1c27e1c06b17745bf4e7f8ca509d`
+- Slide draft — full conditions, (Y) notation and reader-facing citation: `3ce790a9e90b05a1a62e5be124ed918ed8fe9052`, `a2bb00503d612a163b1c941785135104c25a5f2c`
+
+The final draft, citation map, extraction and evidence matrix were fetched from `main` after their respective updates. The Slide 9 block uses author–date citations and contains no reader-facing REF identifiers.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
