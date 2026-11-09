@@ -1,14 +1,14 @@
 # Stage 3 — Slide-by-Slide Presentation Draft
 
 **Working title:** Low-Cost Adsorbents for the Removal of Antibiotics from Aqueous Medium  
-**Status:** First complete 15-slide content draft for scientific and pedagogical review.  
+**Status:** Revised 16-slide content draft for scientific and pedagogical review.  
 **Format target:** 16:9 academic review presentation.  
 **Source boundary:** Exactly the 15 papers listed in the selected bibliography. No additional references are introduced.  
 **Production gate:** This is content, not the PowerPoint. Do not begin deck production until this draft is reviewed and approved.
 
 ## Draft-wide rules
 
-1. Cite scientific claims using author–date format, adding PDF page/table/figure locators when they support a specific result or detail. Use the complete author–date references on slide 15. Keep REF-01–REF-15 only in internal evidence and audit records; never show them in presentation-facing content.
+1. Cite scientific claims using author–date format, adding PDF page/table/figure locators when they support a specific result or detail. Use the complete author–date references on slide 16. Keep REF-01–REF-15 only in internal evidence and audit records; never show them in presentation-facing content.
 2. Use “the study reports” for experimental findings, “the authors interpret” for proposed mechanisms, and “fitted” for model parameters.
 3. Distinguish measured concentrations, mass-balance-derived uptake, fitted maximum capacities, percentage removal, and capacity retention.
 4. Adsorption transfers antibiotic from water to a solid; do not call it degradation or mineralisation without independent evidence of transformation.
@@ -364,7 +364,54 @@ Do not claim that increasing dose, temperature, time or ionic strength always im
 
 ---
 
-# Slide 9 — Adsorption Capacity and Removal Efficiency
+# Slide 9 — Experimental Evidence on Factors Affecting Adsorption
+
+### Learning objective
+
+Use selected experimental results to show how adsorbent dose, pH, competing matrix constituents, initial concentration, temperature and contact time influence measured antibiotic uptake.
+
+### On-slide content
+
+**NFO/BC + tetracycline — Liang et al. (2024)**
+- Increasing NFO/BC dose from 0.2 to 1.0 g L⁻¹ raised TC removal from 37% to 93.9%; further dose increases gave little additional benefit.
+- Humic acid reduced TC removal.
+- NaCl had no significant effect in the reported tests, whereas MgCl₂ and CaCl₂ reduced adsorption capacity.
+
+**K₂CO₃-activated bagasse biochar + ciprofloxacin — Meseguer et al. (2024)**
+- Blank tests showed that apparent CPX disappearance at pH 7–9 was mainly precipitation, not adsorption.
+- The authors used pH 3.5 in subsequent experiments to minimise precipitation.
+
+**Other operating factors in the CPX study**
+- Increasing initial concentration increased equilibrium uptake (qₑ) while percentage removal decreased.
+- Equilibrium uptake increased from 34.6 mg g⁻¹ at 10 °C to 109.9 mg g⁻¹ at 55 °C.
+- About 82% of equilibrium uptake was reached after 24 h; equilibrium was reached at approximately 80 h under the stated conditions.
+
+### Visual specification
+
+Use the supplied original Liang et al. (2024) Figure 4, retaining panels for adsorbent dose, zeta potential, solution pH, humic acid, ionic strength and reusability. Beside it, use the supplied original Meseguer et al. (2024) Figure 3, including the with-adsorbent and without-adsorbent data and the plotted standard-deviation bars. Keep the figure attribution visible. A narrow takeaway strip may summarise the initial-concentration and temperature/contact-time observations from Meseguer et al. (2024), Figures 6 and the study text.
+
+### Presenter notes
+
+This slide follows the general factor overview and uses experimental examples to show why no single factor has a universal direction or optimum.
+
+In the NFO/BC–tetracycline study, increasing adsorbent dose from 0.2 to 1.0 g L⁻¹ raised removal from 37% to 93.9%; higher dose beyond that gave little added benefit. The same study found that increasing humic-acid dosage reduced TC removal. NaCl had no significant effect in its reported tests, whereas MgCl₂ and CaCl₂ reduced capacity. These are findings for this NFO/BC–TC system, not a general ranking of salts (Liang et al., 2024, PDF pp. 7–8, Fig. 4).
+
+The Meseguer ciprofloxacin–activated-bagasse-biochar study performed blank tests to separate adsorption from precipitation. Apparent CPX disappearance at pH 7–9 was mainly due to precipitation, so it must not be described as adsorption efficiency. The authors used pH 3.5 in subsequent experiments to minimise this interference (Meseguer et al., 2024, PDF pp. 7–8, Fig. 3).
+
+Initial concentration is also important: the source reports increasing qₑ with increasing C₀ while percentage removal decreases (Meseguer et al., 2024, Fig. 6). Thus capacity and removal efficiency can move in opposite directions.
+
+Temperature and contact time are system-specific. For this CPX–activated-bagasse-biochar system, equilibrium uptake increased from 34.6 mg g⁻¹ at 10 °C to 109.9 mg g⁻¹ at 55 °C; about 82% of equilibrium uptake was reached after 24 h and equilibrium was reached at approximately 80 h (Meseguer et al., 2024, PDF pp. 5 and 8). Do not generalise these values to other adsorbents or antibiotics.
+
+The previous slide identifies pH/speciation, adsorbent surface properties, dose, concentration, contact time, ionic strength, competing ions, natural organic matter and temperature as factors. Particle size is included as an adsorbent-side descriptor, but the selected evidence does not establish a universal directional effect of particle size on antibiotic uptake.
+
+### Source citations
+
+- Liang et al. (2024), PDF pp. 7–8 and Figure 4 — dose, pH, humic acid and competing-ion effects.
+- Meseguer et al. (2024), PDF pp. 5 and 7–8, Figures 3 and 6 — pH/precipitation control, initial-concentration effect, temperature and contact-time results.
+
+---
+
+# Slide 10 — Adsorption Capacity and Removal Efficiency
 
 ### Learning objective
 
@@ -417,7 +464,7 @@ Use \(q_e\) only for uptake at equilibrium; at a specified earlier time, use \(q
 
 ---
 
-# Slide 10 — Adsorption Isotherms
+# Slide 11 — Adsorption Isotherms
 
 ### Learning objective
 
@@ -533,7 +580,7 @@ The Sips equation shown follows the parameterisation in Meseguer et al. (2024), 
 
 ---
 
-# Slide 11 — Adsorption Kinetics
+# Slide 12 — Adsorption Kinetics
 
 ### Learning objective
 
@@ -630,7 +677,7 @@ For constant liquid volume, time-dependent uptake is \(q_t=(C_0-C_t)V/m\). If th
 
 ---
 
-# Slide 12 — Thermodynamics of Adsorption
+# Slide 13 — Thermodynamics of Adsorption
 
 ### Learning objective
 
@@ -732,7 +779,7 @@ In the equations, \(R\) is the gas constant, \(T\) is absolute temperature (K), 
 
 ---
 
-# Slide 13 — Regeneration and Reusability
+# Slide 14 — Regeneration and Reusability
 
 ### Learning objective
 
@@ -822,7 +869,7 @@ Regeneration creates a secondary liquid stream containing desorbed antibiotic an
 - Rodríguez-López et al. (2024), PDF pp. 5–6 — single-desorption and release results, not repeated-cycle regeneration.
 - Meseguer et al. (2024), PDF p. 13 — future-work statement on regeneration and reuse.
 
-# Slide 14 — Low-Cost Potential and Practical Challenges
+# Slide 15 — Low-Cost Potential and Practical Challenges
 
 ### Learning objective
 
@@ -922,7 +969,7 @@ Finally, Meseguer et al. (2024) call for real-effluent tests and regeneration/re
 - Meseguer et al. (2024), PDF pp. 2–4 and p. 13 — bagasse context, preparation and real-effluent/reuse research gap.
 - Zhao et al. (2024), PDF pp. 2–3 and p. 16 — fermentation-residue context, KOH-activated biochar preparation and qualitative cost-saving claim.
 
-# Slide 15 — Conclusion and References
+# Slide 16 — Conclusion and References
 
 ### Learning objective
 
