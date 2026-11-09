@@ -111,3 +111,31 @@ Liang et al. (2024). *Facile preparation of NiFe₂O₄/biochar composite adsorb
 - Fig. 5 compares Langmuir and Freundlich fits for TC on BC, NFO and NFO/BC. Model fit should be evaluated from the underlying study statistics, not visual appearance alone.
 - Fig. 6 compares pseudo-first-order and pseudo-second-order fits for TC on the three adsorbents. A better PSO fit alone does not prove chemisorption or identify the rate-limiting step.
 - Fig. 7 compares characterisation before and after TC adsorption and can support discussion of changes in surface/porosity signals; it is not direct proof of degradation.
+
+
+## Meseguer et al. (2024)
+
+Meseguer, V. F., Ortuño, J. F., Aguilar, M. I., Lloréns, M., Pérez-Marín, A. B., & Fuentes, E. (2024). *Ciprofloxacin Uptake from an Aqueous Solution via Adsorption with K₂CO₃-Activated Biochar Derived from Brewing Industry Bagasse*. **Processes**, 12(1), 199. https://doi.org/10.3390/pr12010199
+
+| Source figure | Caption / content | Presentation use | Planned asset path |
+|---|---|---|---|
+| Fig. 1 | FTIR spectra of activated biochar before and after CPX adsorption. | Slide 7 — Surface functional groups and before/after characterisation | `meseguer-2024/meseguer-2024-fig-01-ftir-before-after-cpx.png` |
+| Fig. 2 | Determination of activated biochar’s point of zero charge. | Slide 8 — pHₚzc and adsorbent surface charge | `meseguer-2024/meseguer-2024-fig-02-point-of-zero-charge.png` |
+| Fig. 3 | Effect of pH on CPX adsorption at equilibrium; includes with-adsorbent and without-adsorbent measurements and standard-deviation bars. | Slide 8 — pH effects and precipitation control | `meseguer-2024/meseguer-2024-fig-03-ph-effect-cpx.png` |
+| Fig. 4 | CPX adsorption kinetics onto activated biochar, showing experimental data and pseudo-first-order, pseudo-second-order, Elovich, intraparticle-diffusion and Bangham model curves. | Slide 11 — Adsorption kinetics | `meseguer-2024/meseguer-2024-fig-04-cpx-kinetics.png` |
+| Fig. 5 | CPX intraparticle diffusion model. | Slide 11 — Boundary-layer and intraparticle diffusion | `meseguer-2024/meseguer-2024-fig-05-intraparticle-diffusion.png` |
+| Fig. 6 | Influence of initial concentration on CPX adsorption, showing equilibrium uptake and percentage removal. | Slide 9 — Capacity versus removal efficiency | `meseguer-2024/meseguer-2024-fig-06-initial-concentration.png` |
+| Fig. 7 | Experimental data and predicted isotherms of CPX adsorption on activated biochar. | Slide 10 — Adsorption isotherms | `meseguer-2024/meseguer-2024-fig-07-cpx-isotherms.png` |
+
+**Experimental and interpretation notes:**
+- The material is K₂CO₃-activated biochar derived from brewing-industry barley bagasse. The study's CPX results are specific to this activated biochar and the reported batch conditions.
+- Fig. 1 compares FTIR spectra before and after CPX adsorption. The source paper reports similar peak profiles and identifies bands around 3434, 2923 and 2853 cm⁻¹; do not overstate small spectral differences as definitive proof of one mechanism.
+- Fig. 2 uses mass titrations and the immersion technique to determine the point of zero charge. The paper reports a weakly basic pHₚzc of approximately 8.1.
+- Fig. 3 is particularly important for avoiding false attribution: blank tests without adsorbent were performed because CPX precipitation occurred in the pH 6–10 range. CPX disappearance in that range cannot be attributed entirely to adsorption. The study used acidic conditions (pH 3.5) to minimise precipitation in its kinetic and equilibrium experiments.
+- Fig. 4 compares several kinetic models. The paper reports that Elovich and Bangham gave the lowest average relative errors (ARE < 3.2%). Treat fitted model preference as empirical description, not independent proof of a unique molecular mechanism.
+- Fig. 5 describes multi-stage uptake: the authors interpret the initial and later linear regions in terms of boundary-layer and intraparticle diffusion. The non-zero intercept cautions against treating intraparticle diffusion as the sole rate-controlling process.
+- Fig. 6 demonstrates why adsorption capacity and removal percentage are not interchangeable: the paper reports increasing uptake per unit mass with increasing initial concentration while percentage removal decreases.
+- Fig. 7 compares Langmuir, Freundlich, Sips, Redlich–Peterson and Toth fits. The paper reports good fits for Freundlich, Redlich–Peterson and Sips. Its model-derived maximum capacities range from 104.9 to 133.4 mg g⁻¹; distinguish fitted estimates from a directly observed experimental plateau.
+- The source paper notes that real-effluent testing and regeneration/reuse studies remain necessary before claiming practical applicability.
+
+**Full source:** https://www.mdpi.com/2227-9717/12/1/199
