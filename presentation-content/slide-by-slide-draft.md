@@ -537,11 +537,15 @@ The Sips equation shown follows the parameterisation in Meseguer et al. (2024), 
 
 ### Learning objective
 
-Explain uptake over time, compare common kinetic models and understand the limits of mechanistic inference.
+Explain how adsorption uptake changes with contact time, understand the meaning of the four kinetic models and their parameters, and recognise the limits of mechanistic interpretation.
 
 ### On-slide content
 
-**Kinetics describes uptake as a function of contact time.**
+**Kinetics describes how quickly uptake develops with contact time.**
+
+- \(q_t\): amount adsorbed per gram at time \(t\).
+- \(q_e\): uptake at equilibrium (often fitted by the model).
+- \(t\): contact time; use the same time unit as the fitted rate constant.
 
 **Pseudo-first-order (PFO)**
 
@@ -549,11 +553,15 @@ Explain uptake over time, compare common kinetic models and understand the limit
 q_t=q_e\left(1-e^{-k_1t}\right)
 \]
 
+The rate is proportional to the remaining uptake capacity, \(q_e-q_t\). \(k_1\) controls how quickly the curve approaches \(q_e\) (time⁻¹).
+
 **Pseudo-second-order (PSO)**
 
 \[
 q_t=\frac{k_2q_e^2t}{1+k_2q_et}
 \]
+
+The rate is proportional to the square of the remaining uptake capacity. \(k_2\) is the fitted rate constant (commonly g mg⁻¹ time⁻¹).
 
 **Weber–Morris intraparticle diffusion**
 
@@ -561,38 +569,64 @@ q_t=\frac{k_2q_e^2t}{1+k_2q_et}
 q_t=k_{\mathrm{WM}}t^{1/2}+C
 \]
 
+Relates uptake to the square root of time. \(k_{\mathrm{WM}}\) is the line's slope; \(C\) is its intercept, associated with boundary-layer contribution.
+
 **Elovich**
 
 \[
 q_t=\frac{1}{\beta}\ln(1+\alpha\beta t)
 \]
 
-**Contact time differs across studied systems**
+Represents a rate that decreases as surface coverage develops. \(\alpha\) is the initial-rate parameter; \(\beta\) controls how the rate declines.
+
+*PFO and PSO are empirical “pseudo” rate models. A better fit alone does not prove a particular molecular mechanism.*
+
+**Contact time differs across the selected studies**
 - Mirizadeh et al. (2023): about 120 min for TC and 90 min for CIP on raw date-palm fibre.
 - Egbedina et al. (2021): most uptake in the first 15 min for the tested hybrid biochars.
 - Meseguer et al. (2024): more than 3 days to reach equilibrium for CIP on activated bagasse biochar.
 
-*These are not head-to-head results; conditions and materials differ.*
+*These are not head-to-head results; materials and experimental conditions differ.*
 
 ### Visual specification
 
-Top: illustrative \(q_t\)-versus-time curve with rapid initial uptake and a later plateau. Label “schematic”. Bottom-left: four equation cards. Bottom-right: bulk liquid → boundary film → external surface → intraparticle pores → adsorption sites.
+Top: an illustrative \(q_t\)-versus-time curve rising rapidly at first and then approaching a plateau. Label it “schematic”; mark \(q_e\) as the equilibrium uptake and \(t\) on the horizontal axis.
+
+Middle: four model cards with the equation, one-sentence meaning and key parameter definitions. Distinguish the Weber–Morris plot, where the horizontal variable is \(t^{1/2}\), from the other time-based model curves.
+
+Bottom: show the transport sequence: bulk liquid → liquid boundary film → external adsorbent surface → pores → internal adsorption sites. Add a caution: “The model with the best fit does not automatically identify the rate-controlling mechanism.”
 
 ### Presenter notes
 
-For constant volume, time-dependent uptake is \(q_t=(C_0-C_t)V/m\). If liquid volume changes during sampling, use the volume-aware mass balance. Vareda (2023) describes bulk transport, film diffusion, pore diffusion and surface interaction as relevant steps (PDF p. 2).
+**What kinetics tells us.** An adsorption kinetic experiment follows the uptake at successive contact times. The quantity \(q_t\) is the amount retained per gram at a particular time; \(q_e\) is the uptake after the system has reached equilibrium. A kinetic curve therefore answers “how fast does uptake develop?” An isotherm, by contrast, relates equilibrium uptake to equilibrium concentration and does not describe the time required to reach equilibrium.
 
-PFO and PSO are empirical kinetic descriptions. A better PSO fit alone does not prove chemisorption: Vareda (2023) explains that PSO can fit surface-reaction-controlled and diffusion-controlled systems. Linearisation can bias model selection; the review recommends nonlinear regression on original equations and discusses AIC and BIC (PDF pp. 4–9). A Weber–Morris nonzero intercept or multiple linear regions indicates that intraparticle diffusion alone does not describe the entire uptake curve under the model assumptions. Vareda (2023) describes Elovich as most useful far from equilibrium and notes limitations at long times (PDF p. 6).
+For constant liquid volume, time-dependent uptake is \(q_t=(C_0-C_t)V/m\). If the liquid volume changes during sampling, use the volume-aware mass balance. Vareda (2023) describes bulk transport, liquid-film diffusion, pore diffusion and surface interaction/reaction as relevant steps. The slowest relevant step may control the overall observed rate (PDF p. 2).
 
-Mirizadeh et al. (2023) report about 120 min for TC and 90 min for CIP (PDF p. 3). Egbedina et al. (2021) report most uptake within 15 min for its hybrid biochars (PDF p. 7). Meseguer et al. (2024) report more than three days to equilibrium for its activated bagasse/CIP system (PDF p. 9). Do not rank the materials by these times without matching conditions.
+**Why the models are called “pseudo”.** Vareda (2023) explains that PFO and PSO originate from reaction-kinetic equations developed for homogeneous systems but are adapted to describe uptake on a heterogeneous solid. The “pseudo” designation reflects, among other assumptions, treating the dissolved adsorbate concentration as approximately constant and expressing the rate in terms of solid-phase uptake rather than liquid-phase concentration (PDF p. 2). These mathematical forms are useful for describing uptake curves, but they should not be read as direct proof of the molecular reaction order or surface chemistry.
+
+**Pseudo-first-order (PFO).** The differential form is \(dq_t/dt=k_1(q_e-q_t)\). In plain language, the model makes the uptake rate proportional to the gap between the fitted equilibrium uptake and the uptake reached so far. At the beginning, this gap is large and uptake can be rapid; as \(q_t\) approaches \(q_e\), the gap narrows and the predicted rate slows. \(k_1\) has units of inverse time; a larger fitted \(k_1\) means the model approaches its fitted equilibrium uptake more quickly under the same time convention. Vareda (2023) explains that PFO can be derived under surface-reaction assumptions but can also match diffusion-related behaviour, particularly near equilibrium. A PFO fit therefore does not uniquely diagnose the rate-controlling step (PDF pp. 5–6).
+
+**Pseudo-second-order (PSO).** The differential form is \(dq_t/dt=k_2(q_e-q_t)^2\). Here the rate is proportional to the square of the remaining uptake gap. The integrated equation predicts a curve that rises and then approaches the fitted \(q_e\). With \(q\) in mg g⁻¹ and time in minutes, \(k_2\) is commonly expressed in g mg⁻¹ min⁻¹. Its numerical value depends on the uptake and time units and on the operating conditions; do not compare raw \(k_2\) values across studies without matching conventions and conditions. Vareda (2023) shows that PSO may fit both surface-reaction-controlled and diffusion-controlled data. A better PSO fit alone does not prove chemisorption (PDF pp. 3–5).
+
+**Weber–Morris intraparticle-diffusion model.** This model relates \(q_t\) to \(t^{1/2}\). In a plot of uptake against square-root time, the slope \(k_{\mathrm{WM}}\) is the apparent intraparticle-diffusion rate parameter and the intercept \(C\) is associated with boundary-layer contribution. More than one linear region can indicate that the uptake curve contains multiple stages. A line passing through the origin is consistent with intraparticle diffusion being the sole rate-limiting step under the model assumptions; a nonzero intercept or multiple regions indicates that intraparticle diffusion alone does not describe the whole process. The intercept is an empirical indicator, not a direct measurement of boundary-layer thickness (Vareda, 2023, PDF p. 6).
+
+**Elovich model.** This model describes a rate that declines as surface coverage develops. In the integrated equation, \(\alpha\) is the initial adsorption-rate parameter and \(\beta\) is the Elovich parameter associated with the decrease in rate as uptake proceeds. Vareda (2023) discusses Elovich in the context of chemisorption kinetics on heterogeneous surfaces, but notes that the model neglects simultaneous desorption and can behave non-physically at long times. The review therefore limits its use to conditions far from equilibrium. A good Elovich fit alone is not independent proof of chemisorption (PDF p. 6).
+
+**What the selected antibiotic studies report.**
+- Mirizadeh et al. (2023) compare PFO, PSO and Weber–Morris for TC and CIP on raw date-palm fibre. PSO gives higher reported \(R^2\) and lower residual standard deviation than PFO for both antibiotics; the authors interpret this as chemisorption, but Vareda's methodological review means this must be reported as the authors' interpretation, not as proof from PSO alone (PDF pp. 5–6). Their Weber–Morris plots contain multiple linear regions, consistent with multistep uptake (PDF pp. 5–6).
+- Egbedina et al. (2021) report that most CIP and TET uptake on the tested hybrid biochars occurs within the first 15 min. Their preferred PFO/PSO assignment varies by antibiotic and material treatment (PDF p. 7). The full kinetic parameter table is in missing supplementary Table S2; do not invent those values.
+- Meseguer et al. (2024) report that more than 3 days are required to reach equilibrium for CIP on activated bagasse biochar under their stated conditions (PDF p. 9). Their five-model comparison gives Elovich the lowest ARE (2.52%), followed by Bangham (3.17%); this is a statistical ranking, not proof of a unique mechanism (PDF p. 10). Their Weber–Morris plot has two linear zones, with the first associated with boundary-layer transport and the second with diffusion through micropores and mesopores (PDF pp. 10–11).
+
+**Model fitting and interpretation.** Vareda (2023) explains that linearising kinetic equations can bias model selection toward PSO and distort fitted parameters; in a simulated PFO dataset, linear regression selected PSO as the better fit. The review recommends nonlinear regression on the original equations and use of criteria such as AIC and BIC, for which lower values are preferred. It cautions against relying on \(R^2\) alone for nonlinear fits and against including post-equilibrium data points in kinetic fitting (PDF pp. 7–9). Plot the predicted curve against the original \(q_t\)-versus-time data and inspect residuals where available.
 
 ### Source citations
 
-- Vareda (2023), PDF pp. 2–6 — transport sequence and kinetic models.
-- Vareda (2023), PDF pp. 7–9 — linearisation bias and model-selection cautions.
-- Mirizadeh et al. (2023), PDF pp. 3 and 5–6 — contact time and kinetics.
-- Egbedina et al. (2021), PDF pp. 7–8 — hybrid-biochar kinetics.
-- Meseguer et al. (2024), PDF pp. 9–10 — contact time and model comparison.
+- Vareda (2023), PDF p. 2 — adsorption transport steps and meaning/assumptions of pseudo-order models.
+- Vareda (2023), PDF pp. 3–6 — PSO, PFO, Weber–Morris and Elovich equations, assumptions and limitations.
+- Vareda (2023), PDF pp. 7–9 — linearisation bias, nonlinear regression and AIC/BIC.
+- Mirizadeh et al. (2023), PDF pp. 3 and 5–6 — contact times and kinetic-model results.
+- Egbedina et al. (2021), PDF pp. 7–8 — early uptake, model assignments and intraparticle-diffusion interpretation.
+- Meseguer et al. (2024), PDF pp. 9–11 — equilibrium time, model comparison and multistage diffusion interpretation.
 
 ---
 
