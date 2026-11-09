@@ -328,7 +328,7 @@ Explain how antibiotic speciation, adsorbent properties and water-matrix conditi
 
 **Tetracycline example:** Gopal et al. (2020) report pKa values of approximately 3.3, 7.7 and 9.7. The dominant species changes progressively as pH increases.
 
-<text color="secondary" size="sm">Check for precipitation before interpreting disappearance from solution as adsorption: in one ciprofloxacin–activated-biochar study, much of the apparent removal at pH 7–9 was precipitation.</text>
+*Experimental caution:* Check for precipitation before interpreting disappearance from solution as adsorption. In one ciprofloxacin–activated-biochar study, much of the apparent removal at pH 7–9 was precipitation.
 
 ### Visual specification
 
@@ -344,7 +344,7 @@ pH affects both the ionic form of the antibiotic and the charge of the adsorbent
 
 **Different antibiotics and adsorbents have different pH behaviour.** Perelomov et al. (2025) report OTC pKa values of 3.57, 7.49 and 9.88 and discuss a maximum kaolinite adsorption capacity near pH 5.5 for that particular OTC–kaolinite system (PDF p. 16). In Liang et al. (2024), the NFO/BC pHₚzc was approximately 5.35; TC removal was highest (92.4%) at pH 7.0 under the tested conditions (PDF p. 7). Do not transfer either optimum to other adsorbent–antibiotic pairs.
 
-**Precipitation must be separated from adsorption.** Meseguer et al. (2024) report that CPX was predominantly zwitterionic between pH 5.9 and 8.9 and had low solubility in that form. In their activated-bagasse-biochar study, turbidity and blank tests showed that apparent removal at pH 7–9 was mainly caused by CPX precipitation rather than adsorption (PDF p. 8). The authors used pH 3.5 in subsequent tests to minimise precipitation. They report a pHₚzc of approximately 8.1 for the activated biochar (PDF p. 7). Do not present the pH 7–9 disappearance as adsorption performance.
+**Precipitation must be separated from adsorption.** Meseguer et al. (2024) report that CPX was predominantly zwitterionic between pH 5.9 and 8.9 and had low solubility in that form. In their activated-bagasse-biochar study, turbidity and blank tests showed that apparent removal at pH 7–9 was mainly caused by CPX precipitation rather than adsorption (PDF p. 8). The authors used pH 3.5 in subsequent tests to minimise precipitation. They report a pHₚzc of approximately 8.1 for the activated biochar (PDF p. 7). At pH 3.5, CPX is cationic while the biochar surface is positively charged; the authors therefore state that electrostatic contribution should be slight and suggest hydrogen bonding and π–π interactions as possible contributors (PDF p. 7). Do not present the pH 7–9 disappearance as adsorption performance.
 
 **Dose and matrix effects.** In the NFO/BC–TC study, increasing dose from 0.2 to 1.0 g L⁻¹ raised removal from 37% to 93.9%; further increase gave little additional benefit, while adsorbent cost increased (Liang et al., 2024, PDF p. 7). Increasing humic-acid dosage reduced TC removal. NaCl had no significant effect in the reported tests, whereas MgCl₂ and CaCl₂ reduced capacity; at the reported 0.5% concentration, capacity fell to 59.8% and 63.8% of the original value, respectively (PDF p. 8). Perelomov et al. (2025) also report decreasing tetracycline adsorption with increasing ionic strength and reduced OTC sorption onto clay in the presence of high dissolved organic matter (PDF p. 16). These findings show that salt identity, matrix composition and adsorbent type matter.
 
