@@ -89,7 +89,9 @@ q_t=k_{\mathrm{WM}}t^{1/2}+C
 
 where:
 - \(k_{\mathrm{WM}}\) = intraparticle-diffusion rate parameter (mg g\(^{-1}\) time\(^{-1/2}\));
-- \(C\) = intercept (mg g\(^{-1}\)), associated in the source discussion with the contribution of the boundary layer.
+- \(C\) = intercept (mg g\(^{-1}\)), associated in many experimental papers with the contribution of the boundary layer. Vareda (2023) writes the corresponding constant as \(E\) in Eq. (21), while REF-09, REF-10 and REF-14 use \(C\) or step-specific \(C_i\).
+
+**Notation note:** The symbols \(C\) and \(E\) here denote the intercept term in the Weber–Morris linear relation; preserve the notation used by the paper when reproducing a particular study's fitted parameters.
 
 A plot of \(q_t\) against \(t^{1/2}\) is interpreted by examining its shape, linear regions and intercept. Multiple linear regions can indicate multiple transport stages. A line that passes through the origin is consistent with intraparticle diffusion being the sole rate-limiting step under the model's assumptions; a nonzero intercept indicates that intraparticle diffusion alone does not account for the overall kinetics.
 
