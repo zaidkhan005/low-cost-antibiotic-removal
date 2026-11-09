@@ -3,7 +3,7 @@
 **Working title:** Low-Cost Adsorbents for the Removal of Antibiotics from Aqueous Medium  
 **Status:** First complete 15-slide content draft for scientific and pedagogical review.  
 **Format target:** 16:9 academic review presentation.  
-**Source boundary:** Exactly the approved 15 papers, Gopal et al. (2020)–Zhao et al. (2024). No additional references are introduced.  
+**Source boundary:** Exactly the 15 papers listed in the selected bibliography. No additional references are introduced.  
 **Production gate:** This is content, not the PowerPoint. Do not begin deck production until this draft is reviewed and approved.
 
 ## Draft-wide rules
@@ -180,7 +180,7 @@ Draw a porous adsorbent particle with antibiotic molecules in bulk water, a liqu
 
 Ajala et al. (2023) describe movement from the bulk matrix, diffusion through the liquid film, movement towards active sites and final interaction with the adsorbent surface (PDF p. 9; journal p. 4686). The slide uses “adsorbate–adsorbent interaction” because the surrounding context concerns the antibiotic molecule reaching the adsorbent site.
 
-The adsorption-versus-absorption distinction is standard chemistry teaching terminology. The inspected passages in the fixed papers do not provide a dedicated formal comparison of those terms. Rodríguez-López et al. (2024) separately discusses biosorption in terms of biological sorbent origin.
+The adsorption-versus-absorption distinction is standard chemistry teaching terminology. The inspected passages in the fixed papers do not provide a dedicated formal comparison of those terms. Rodríguez-López et al. (2024) separately discuss biosorption in terms of biological sorbent origin.
 
 Stress that adsorption removes the antibiotic from the liquid phase by retaining it on a solid; this alone does not prove degradation or mineralisation.
 
@@ -255,7 +255,7 @@ Draw an antibiotic molecule next to a simplified carbon/clay/composite surface. 
 
 ### Presenter notes
 
-Teo et al. (2022) discuss electrostatic interactions, hydrogen bonding, hydrophobic interactions and π–π/electron-donor–acceptor interactions for carbon adsorbents. Perelomov et al. (2025) explain clay surface charge, exchangeable cations and pH-dependent edge chemistry. Chen et al. (2024) report π–π conjugation, hydrogen bonding, Fe–O complexation and electrostatic interactions for its iron-containing cotton-husk biochar. Liang et al. (2024)’s graphical abstract depicts hydrogen bonding, π–π interaction, electrostatic force and pore filling for tetracycline on NiFe₂O₄/biochar.
+Teo et al. (2022) discuss electrostatic interactions, hydrogen bonding, hydrophobic interactions and π–π/electron-donor–acceptor interactions for carbon adsorbents. Perelomov et al. (2025) explain clay surface charge, exchangeable cations and pH-dependent edge chemistry. Chen et al. (2024) report π–π conjugation, hydrogen bonding, Fe–O complexation and electrostatic interactions for its iron-containing cotton-husk biochar. the graphical abstract in Liang et al. (2024) depicts hydrogen bonding, π–π interaction, electrostatic force and pore filling for tetracycline on NiFe₂O₄/biochar.
 
 Use “proposed” or “contributing interactions” unless multiple independent measurements support the interpretation. A kinetic or isotherm model fit alone does not prove a chemical bond or unique molecular mechanism.
 
@@ -547,7 +547,7 @@ Liang et al. (2024) report negative \(\Delta G\) for TC adsorption on BC, NFO an
 
 Meseguer et al. (2024) report CIP uptake of 34.6, 41.4, 89.3 and 109.9 mg g⁻¹ at 10, 25, 40 and 55 °C (PDF p. 9). Conditions: pH 3.5, 0.025 g adsorbent, 50 mL of 300 mg L⁻¹ solution and 72 h contact time (PDF p. 5). The authors interpret the trend as endothermic; the main text does not give a numerical \(\Delta H^\circ\) table.
 
-Mirizadeh et al. (2023) qualitatively reports endothermicity from its missing Supporting Information. Zhao et al. (2024) report increasing temperature-dependent fitted Langmuir capacities and interprets its result as endothermic. Keep fitted \(q_m\) distinct from enthalpy.
+Mirizadeh et al. (2023) qualitatively report endothermicity from its missing Supporting Information. Zhao et al. (2024) report increasing temperature-dependent fitted Langmuir capacities and interpret the result as endothermic. Keep fitted \(q_m\) distinct from enthalpy.
 
 ### Source citations
 
