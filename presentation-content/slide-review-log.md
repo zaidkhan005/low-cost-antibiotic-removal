@@ -472,3 +472,32 @@ The draft-wide instruction was corrected to require author–date citations with
 - Updated the Slide 14 source and claim-qualification row in presentation-content/citation-map.md.
 - Existing Stage 2 extraction and evidence matrix were rechecked and retained because they already document the cost components, source-specific preparation protocols, review-level cost examples, denominator safeguard and evidence gaps. No new references were added.
 
+
+
+## Slide 15 — Conclusion and References
+
+**Status:** Pass; conclusions consolidated and complete bibliography checked against the audited fixed inventory.
+
+**Conclusion review**
+- The summary retains the core system-specific variables developed across slides 7–8: antibiotic speciation, adsorbent surface chemistry, pore accessibility and water-matrix composition. It avoids naming a universal best adsorbent because the selected experiments are not head-to-head under matched conditions.
+- Added the explicit boundary that adsorption transfers antibiotic from the aqueous phase to a solid and/or a secondary regenerant stream; adsorption alone does not establish degradation or mineralisation.
+- Preserved the distinction among measured or derived uptake, removal efficiency, fitted maximum capacity, kinetic/isotherm model fit, thermodynamic interpretation and capacity retention. The conclusion also cautions that model fit alone does not prove a molecular mechanism.
+- Retained regeneration, solid recovery and secondary-stream management as practical requirements.
+- Retained the economic conclusion that waste-derived feedstock does not automatically produce a low-cost process; full preparation, operation, regeneration and disposal costs and realistic-water performance remain to be assessed.
+
+**Bibliographic verification against repository audit records**
+- Compared all 15 on-slide abbreviated entries and the complete presenter-note references in the slide draft against the fixed reference inventory.
+- Cross-checked the inventory against the PDF audit and Batch 1–3 audit records. The bibliography contains exactly the same 15 works, in REF-01–REF-15 order; no new or replacement source was introduced.
+- Confirmed the bibliographic correction for Teo et al. (2022): the journal is *Adsorption Science & Technology*, Article ID 3079663, not *Journal of Chemistry*.
+- Confirmed the Gkika et al. (2025) citation is the pharmaceutical-wide review and remains scope-qualified in the presentation.
+- Kept full titles, author lists, journal/year/volume/page or article identifiers, and DOI information in presenter notes. The slide itself uses consistent compact author–date / journal locators in two columns; no internal REF IDs appear on the slide.
+
+**Repository updates**
+- Reworked Slide 15's conclusion points to include the adsorption-versus-degradation boundary, distinctions among quantitative/model measures, reuse/recovery and whole-process cost.
+- Added all 15 abbreviated references in two columns in the slide copy while preserving the complete bibliography in presenter notes.
+- Updated the Slide 15 citation-map row with the fixed-source and metadata-verification rules.
+- Marked the matching bibliography item complete in the cross-slide quality-control checklist.
+
+**Production status**
+- Slide-by-slide scientific and pedagogical content review is now complete for all 15 slides.
+- The PowerPoint production gate for content review is cleared. Before presentation delivery, the built deck still requires visual QA of slide density, rendered equations/subscripts, figures/diagrams, citation legibility and final presenter/institution/date details.
