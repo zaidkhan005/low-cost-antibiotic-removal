@@ -4,15 +4,21 @@ The reference collection is fixed at 15 papers. The three batches are grouped by
 
 | Batch | Conversation source | REF-IDs | Files received | Audit status |
 |---|---|---|---:|---|
-| 1 | Original chat | REF-01–REF-05 | 5 | First-pass PDF and bibliographic audit complete |
-| 2 | Branched chat | REF-06–REF-10 | 5 | First-pass PDF and bibliographic audit complete |
-| 3 | To be supplied | REF-11–REF-15 | 0 | Awaiting PDFs |
+| 1 | Original chat | REF-01–REF-05 | 5 | First-pass bibliographic/PDF-integrity audit complete; audit retained in repository |
+| 2 | Branched chat | REF-06–REF-10 | 5 | Existing first-pass audit and scientific extraction reconciled into repository; no reprocessing |
+| 3 | Current project batch | REF-11–REF-15 | 5 | First-pass bibliographic/PDF-integrity audit complete |
 
-**Cumulative status:** 10 of 15 PDFs received and audited at first-pass level. The first five were retrieved from the connected Library (the original chat); the second five were supplied as current-branch uploads. They are not separate projects.
+**Cumulative status:** All 15 of 15 selected PDFs have been received across the three batches. The first five were retrieved from the connected Library; the second five were supplied in the branched chat; the final five were supplied as Batch 3. They form one continuous reference inventory, not separate projects.
+
+## Batch 2 preservation
+
+- File-level and bibliographic findings remain in [Batch 2 audit](../references/batch-02-audit.md).
+- Existing scientific findings and interpretive cautions for REF-06–REF-10 are recorded in [Batch 2 scientific extraction](../literature-extraction/batch-02-ref-06-to-ref-10.md).
+- Transfer does not claim a fresh audit or fresh extraction. Missing exact page/table/figure locators are explicitly identified as not transferred.
 
 ## Rules
 
 - Do not renumber or duplicate references when they arrive in a different chat.
 - Do not replace any selected paper without explicit user approval.
 - Keep the total at exactly 15 references.
-- Stage 2 scientific extraction and the slide draft follow after Batch 3 is audited.
+- Preserve existing audits and extraction when moving material between chats/repository records.
