@@ -192,6 +192,45 @@ All four working files were fetched from `main` after their updates. The final S
 
 All four working files were fetched from `main` after their updates. The Slide 7 block uses author–date citations, separates the material-specific examples and contains no reader-facing REF identifiers.
 
+## Slide 8 — Factors Affecting Adsorption
+
+**Status:** Pass; factor explanations and source-specific examples revised.
+
+**Main scientific checks**
+- **Antibiotic pKa vs adsorbent pHₚzc:** The slide now distinguishes acid–base dissociation of the antibiotic from the pH at which the adsorbent has zero net surface charge. They are not interchangeable.
+- **TC speciation:** Gopal et al. (2020), PDF pp. 2–3, report pKa values of approximately 3.3, 7.7 and 9.7 and provide a species-distribution diagram. The simplified text describes cationic TC below 3.3, zwitterionic TC between 3.3 and 7.7, and anionic TC above 7.7; the third pKa is retained as further alkaline deprotonation.
+- **OTC–kaolinite:** Perelomov et al. (2025), PDF p. 16, report OTC pKa values of 3.57, 7.49 and 9.88 and a system-specific maximum kaolinite adsorption capacity near pH 5.5. This is not presented as a universal optimum.
+- **NFO/BC–TC pH and dose:** Liang et al. (2024), PDF p. 7, report pHₚzc ≈5.35 and maximum TC removal of 92.4% at pH 7.0 in their tested system. Dose increase from 0.2 to 1.0 g L⁻¹ raised removal from 37% to 93.9%; further increase gave little benefit relative to added adsorbent cost.
+- **Competing matrix constituents:** Liang et al. (2024), PDF p. 8, report lower TC removal with increasing humic-acid dosage; NaCl had no significant effect in the reported tests, whereas MgCl₂ and CaCl₂ decreased capacity. Perelomov et al. (2025), PDF p. 16, separately report ionic-strength and dissolved-organic-matter effects for clay/tetracycline systems. The slide preserves the salt- and material-specific differences.
+- **Precipitation control for CIP:** Meseguer et al. (2024), PDF p. 8, show that apparent CPX removal at pH 7–9 was mainly precipitation rather than adsorption, based on turbidity and blank tests. The slide now explicitly warns against interpreting this disappearance as adsorption. Subsequent tests were performed at pH 3.5 to minimise precipitation.
+- **Temperature and contact time:** For CIP on K₂CO₃-activated bagasse biochar, Meseguer et al. (2024), PDF p. 8, report an increase in equilibrium uptake from 34.6 mg g⁻¹ at 10 °C to 109.9 mg g⁻¹ at 55 °C. About 82% of equilibrium uptake was reached after 24 h, with equilibrium at approximately 80 h under the stated conditions (PDF pp. 1 and 5). These results are explicitly tied to that system.
+- **Particle size:** Rodríguez-López et al. (2024), PDF p. 2, report particle-size preparation details and identify size as an operating parameter, but the cited passage does not establish a universal directional effect on adsorption.
+
+**Corrections**
+- Split natural organic matter from ionic strength/competing ions in the on-slide factor table.
+- Added material- and antibiotic-specific pH examples and separated pKa from pHₚzc.
+- Added the CPX precipitation warning and blank-test distinction.
+- Added specific dose, salt, temperature and contact-time examples to presenter notes, without making universal claims.
+- Clarified that particle size is a reported operating/preparation variable, not a universally demonstrated directional factor.
+- Replaced a non-Markdown inline tag with ordinary Markdown emphasis.
+
+**Evidence records**
+- Expanded Section 8 in `literature-extraction/fundamentals-and-adsorption-mechanisms.md` with source-specific examples and interpretation safeguards.
+- Added FAC-001 to FAC-009 in `evidence-matrix/fundamentals-mechanisms.md`.
+- Extended the extraction source map for REF-13 and REF-14 with the additional factor-evidence pages.
+- Updated Slide 8 and its citation-map row using author–date references and PDF locators.
+
+**Verified commits**
+- Literature extraction factor section: `d2ff52ad88bcb92c08585f3323aa7d5c4d762c72`
+- Literature extraction source map: `5075c89646a4f492f9c2f490490c832fef5d4085`
+- Evidence matrix FAC-001–FAC-008: `e06f7da3fd376b3ddfbf31c02efc9f54be58b9a2`
+- Evidence matrix FAC-009: `959a01e13f03f0e779ff2b56ccd6e8f3e9eb643c`
+- Slide draft revision: `4b4b0fa66d662e098ec57b55ebaac1dd42bbcaa0`
+- Slide draft formatting / pH clarification: `932be01ad22ad96390d548a4805309b7c1e25293`
+- Citation map: `3d6c5d6233f4b385db518faed778c1393e59e49c`
+
+The slide draft, citation map, extraction and evidence matrix were fetched from `main` after their updates. The final Slide 8 block contains no reader-facing REF identifiers and passes the checks for author–date citations, the pHₚzc/pKa distinction, the precipitation caveat, system-specific dose and salt effects, and the temperature/contact-time example.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
