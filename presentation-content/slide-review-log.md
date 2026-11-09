@@ -441,3 +441,34 @@ The draft-wide instruction was corrected to require author–date citations with
 - Updated the Slide 13 source and qualification row in presentation-content/citation-map.md.
 - Existing source extraction and evidence matrix were rechecked and retained: they already document the derived capacity-retention formula, source-specific conditions, metrics, single-desorption results and non-comparability rules. No new references or unsupported numerical cycle estimates were added.
 
+
+
+## Slide 14 — Low-Cost Potential and Practical Challenges
+
+**Status:** Pass; expanded cost definitions, unit-denominator explanation and source-specific practical constraints.
+
+**Original-source verification**
+- Kyzas and Kostoglou (2014), PDF pp. 19–20, identify investment costs (contactors, pumps, pipes and monitoring systems), adsorbent consumption, electricity for pumping/mixing, regeneration/reactivation and spent-adsorbent disposal. They state that a low-cost adsorbent that is difficult to regenerate may not be economical, and that required dose depends on influent concentration, removal ability and discharge limits.
+- Gkika et al. (2025), PDF p. 7, discuss energy, eluent and wastewater-treatment expenses for regeneration. PDF p. 14 cites an estimate of approximately 60% of adsorption-system costs for regeneration, but this is a secondary estimate from another study and is not transferable as a universal or antibiotic-specific fraction. The cost examples in Table 5 (PDF p. 13) largely concern non-antibiotic pollutants. Table 5 lists Melia azedarach fruit biochar at 1,062.50 €/kg, while the conclusion states a range of 1.49–75.04 €/kg (PDF p. 15); the supplied text does not reconcile the inconsistency.
+- Meseguer et al. (2024), PDF p. 2, state that 1000 L beer produces approximately 200 kg wet spent grain at 70–80% moisture and that it is commonly used as animal feed. PDF pp. 3–4 detail drying, argon pyrolysis at 400 °C, K₂CO₃ treatment (5 g biochar in 100 mL of 2 mol L⁻¹ solution, 24 h), centrifugation/drying, an 800 °C, 3 h treatment, washing and final drying. PDF p. 13 calls for real-effluent and regeneration/reuse studies.
+- Zhao et al. (2024), PDF p. 2, describe oxytetracycline fermentation residues with 79–92% moisture and discuss their hazardous-waste status. PDF pp. 2–3 detail drying at 105 °C, KOH activation, nitrogen pyrolysis at 500–700 °C for 2 h, 0.1 mol L⁻¹ HCl washing, rinsing to pH 7 and vacuum drying at 80 °C for 12 h. The paper's cost-saving statement is qualitative; it does not provide a full production-cost or treatment-cost calculation.
+- Chen et al. (2024), PDF pp. 3–4, report purchase of cotton husks, crushing to approximately 0.15 mm, pyrolysis at 800 °C for 1 h under nitrogen, iron precursor addition, ball milling at 350 rpm for 2.5 h and further pyrolysis. PDF pp. 3–4 also detail regeneration using 0.5 L ethanol, 500 W ultrasound for 60 min and 0.5 L rinse water for 50 mg adsorbent. The article reports magnetic separation as an advantage but does not quantify recovery percentage or full production/treatment costs.
+- Liang et al. (2024), PDF pp. 3–4, detail biochar production at 700 °C for 1 h and NFO/BC formation using nickel/iron nitrate salts, ammonia adjustment, sonication, hydrothermal treatment at 180 °C for 12 h, centrifugation, repeated washing and vacuum drying. PDF p. 8 identifies magnetism as a separation advantage; no full cost model or recovery percentage is supplied.
+
+**Definition and quantitative clarification**
+- Expanded the difference between €/kg adsorbent (material unit cost) and €/m³ treated (water-treatment cost).
+- Added a fresh-adsorbent-only relation: \(C_{\text{adsorbent},V}=P_{\text{adsorbent}}\times D_{\text{adsorbent}}\), with unit cost in € kg⁻¹ and dose in kg m⁻³.
+- Clarified that this relation is not a full-process cost: it excludes feedstock handling, preparation, activation, energy, capital, labour, separation, regeneration and secondary-waste management.
+- Clarified that maximum adsorption capacity alone is insufficient to determine treatment cost; the actual dose needed to meet the target effluent concentration and practical operating conditions are required.
+
+**Scope and caution**
+- Gkika et al.'s numerical examples are not presented as antibiotic-treatment costs; the examples are mainly ibuprofen/BPA and other pharmaceuticals.
+- The review's approximate 60% regeneration-cost figure is identified as a secondary estimate, not a universal constant or a value measured for the selected antibiotic systems.
+- The unresolved Table 5/conclusion numerical inconsistency is explicitly retained; the slide does not quote a blanket cost range.
+- No prices, yields, energy-per-kg values, cost per m³ or full-scale savings are invented for the selected antibiotic adsorbents.
+
+**Repository updates**
+- Revised Slide 14 on-slide content, costing relation, visual specification and presenter notes in presentation-content/slide-by-slide-draft.md.
+- Updated the Slide 14 source and claim-qualification row in presentation-content/citation-map.md.
+- Existing Stage 2 extraction and evidence matrix were rechecked and retained because they already document the cost components, source-specific preparation protocols, review-level cost examples, denominator safeguard and evidence gaps. No new references were added.
+
