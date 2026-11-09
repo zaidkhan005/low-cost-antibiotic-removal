@@ -261,37 +261,50 @@ Do not double-count a feedstock and its derived product as separate adsorbent fa
 
 ### Learning objective
 
-Identify interactions that can contribute to antibiotic retention on adsorbents.
+Identify interactions reported or proposed for different adsorbent–antibiotic systems and understand why they are not universal.
 
 ### On-slide content
 
-**Potential contributing interactions**
-- **Electrostatic attraction / repulsion** — depends on antibiotic speciation and surface charge.
-- **Hydrogen bonding** — between suitable donor and acceptor groups.
-- **π–π interactions** — involving aromatic/conjugated structures.
-- **Hydrophobic interactions** — association with less-polar surfaces.
-- **Pore filling** — occupation of accessible pores.
-- **Ion exchange / complexation / cation bridging** — relevant to some mineral and metal-containing surfaces.
+**Mechanisms depend on the material and antibiotic**
 
-**No single mechanism applies to every antibiotic–adsorbent pair.**
+| Adsorbent system | Interactions discussed in the selected sources |
+|---|---|
+| Carbon-based adsorbents | Electrostatic interactions; hydrogen bonding; π–π / electron-donor–acceptor interactions; hydrophobic interactions; possible pore filling |
+| Natural clay minerals | Basal/edge electrostatics; pH-dependent edge charge; exchangeable-cation interactions and cation exchange; interlayer uptake in some swelling clays |
+| Iron-containing biochar composites | Electrostatic interactions, hydrogen bonding and π–π conjugation; Fe–O complexation is reported for Fe₂O₃@BMBC. A separate graphical model for TC on NiFe₂O₄/biochar depicts these interactions alongside pore filling. |
+
+**These are reported or proposed contributions—not a universal checklist for every antibiotic–adsorbent pair.**
 
 ### Visual specification
 
-Draw an antibiotic molecule next to a simplified carbon/clay/composite surface. Surround it with six labelled interaction callouts. Use dashed connectors and clearly label these as possible or reported contributing interactions, not necessarily simultaneous events.
+Use three separate material-specific panels rather than one generic molecule surrounded by every mechanism:
+1. **Carbon surface:** label electrostatic interaction, hydrogen bonding, π–π / electron-donor–acceptor interaction, hydrophobic interaction and accessible-pore filling as possible carbon–antibiotic interactions.
+2. **Clay particle:** show negatively charged basal surfaces, a pH-sensitive edge, exchangeable cations and an example of interlayer uptake in a swelling clay. Avoid drawing this as a carbon surface.
+3. **Iron-containing biochar composite:** show an iron-oxide-decorated carbon surface and label the reported/proposed OTC/CIP interactions from Chen et al. (2024). In a clearly separate small inset, identify Liang et al.'s TC/NiFe₂O₄-biochar graphical abstract as the authors' conceptual model.
+
+Use dashed connectors and a consistent “reported / proposed” key. Do not imply that all interactions occur simultaneously or that one paper experimentally established every interaction shown.
 
 ### Presenter notes
 
-Teo et al. (2022) discuss electrostatic interactions, hydrogen bonding, hydrophobic interactions and π–π/electron-donor–acceptor interactions for carbon adsorbents. Perelomov et al. (2025) explain clay surface charge, exchangeable cations and pH-dependent edge chemistry. Chen et al. (2024) report π–π conjugation, hydrogen bonding, Fe–O complexation and electrostatic interactions for its iron-containing cotton-husk biochar. the graphical abstract in Liang et al. (2024) depicts hydrogen bonding, π–π interaction, electrostatic force and pore filling for tetracycline on NiFe₂O₄/biochar.
+Teo et al. (2022) discuss electrostatic interactions, hydrogen bonding, hydrophobic interactions and π–π / electron-donor–acceptor interactions for carbon-based adsorbents (PDF p. 7). These are review-level interaction families; they should not be assigned automatically to every carbon–antibiotic pair.
 
-Use “proposed” or “contributing interactions” unless multiple independent measurements support the interpretation. A kinetic or isotherm model fit alone does not prove a chemical bond or unique molecular mechanism.
+Perelomov et al. (2025) describe clay-specific surface chemistry: negatively charged basal surfaces, pH-dependent edge charge, exchangeable cations, cation exchange and interactions at clay edges (PDF pp. 5–6). They also discuss adsorption at the surface and interlayer uptake for some antibiotics in swelling minerals (PDF p. 7). Keep these mineral-specific processes distinct from iron–oxygen complexation on a modified carbon composite.
+
+Chen et al. (2024) report electrostatic interactions, hydrogen bonding, π–π conjugation and Fe–O complexation as contributing to OTC/CIP adsorption on Fe₂O₃@BMBC (PDF p. 1). Their results discussion describes pH/speciation and changes in surface functional groups after adsorption (PDF pp. 5–6). Attribute these interpretations to that specific material–antibiotic system.
+
+Liang et al. (2024) show electrostatic force, hydrogen bonding, π–π interaction and pore filling in the graphical abstract for tetracycline on NiFe₂O₄/biochar (PDF p. 2). Label this as the authors' conceptual graphical model, not as a mechanism proven for all ferrite/biochar composites.
+
+Meseguer et al. (2024) list pore filling, metal complexing, precipitation, hydrogen bonding, ion exchange, cation bridging and hydrophobic partition among mechanisms reported in the wider pharmaceutical-adsorption literature (PDF p. 2). This is a broad introductory list; it does not demonstrate that all those mechanisms occur in that paper's own ciprofloxacin–activated-bagasse-biochar system.
+
+Use “proposed” or “contributing interactions” unless the source supports a stronger statement. A kinetic or isotherm model fit alone does not prove a chemical bond or unique molecular mechanism.
 
 ### Source citations
 
-- Teo et al. (2022), PDF p. 7 — carbon-based antibiotic interactions.
-- Perelomov et al. (2025), PDF pp. 5–7 — clay charge, exchange and pH effects.
-- Chen et al. (2024), PDF p. 1 — authors’ reported OTC/CIP interactions.
-- Liang et al. (2024), PDF p. 2, graphical abstract — authors’ illustrated TC interaction model.
-- Meseguer et al. (2024), PDF p. 2 — mechanisms reported for pharmaceutical adsorption.
+- Teo et al. (2022), PDF p. 7 — carbon-based antibiotic interaction families.
+- Perelomov et al. (2025), PDF pp. 5–7 — clay charge, cation exchange and interlayer uptake.
+- Chen et al. (2024), PDF pp. 1 and 5–6 — authors' reported/proposed OTC/CIP interactions on Fe₂O₃@BMBC.
+- Liang et al. (2024), PDF p. 2, graphical abstract — authors' conceptual TC/NiFe₂O₄-biochar interaction model.
+- Meseguer et al. (2024), PDF p. 2 — broad literature list, not pair-specific experimental proof.
 
 ---
 
