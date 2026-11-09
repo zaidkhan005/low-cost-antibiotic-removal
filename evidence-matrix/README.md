@@ -14,7 +14,7 @@ The evidence matrix will link slide claims to the fixed 15 references. Each evid
 
 No quantitative result should enter the slide deck without traceable source location and units.
 
-
 ## Current matrices
 
 - [Fundamentals and Adsorption Mechanisms — Stage 2 Pass 1](fundamentals-mechanisms.md): concept-to-source ledger with PDF locators, evidence type and qualifications.
+- [Quantitative Adsorption Evaluation — Stage 2 Pass 2](quantitative-evaluation.md): equations, experimental protocol, REF-09 worked example, metric-interpretation claims and source-quality caveat for REF-15.
