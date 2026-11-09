@@ -640,14 +640,14 @@ Explain what Gibbs free energy, enthalpy and entropy tell us about adsorption, r
 
 **Three quantities answer three related questions**
 
-- **Gibbs free-energy change, \(\Delta G^\circ\):** Is adsorption thermodynamically favourable under the stated standard-state convention?
-- **Enthalpy change, \(\Delta H^\circ\):** Is heat absorbed or released during adsorption?
-- **Entropy change, \(\Delta S^\circ\):** How does the net dispersal/number of accessible arrangements change for the defined system?
+- **Gibbs free-energy change, \(\Delta G\):** Is adsorption thermodynamically favourable under the thermodynamic convention used by the authors?
+- **Enthalpy change, \(\Delta H\):** Is heat absorbed or released during adsorption?
+- **Entropy change, \(\Delta S\):** How does the net dispersal/number of accessible arrangements change for the defined system?
 
 **How they are related**
 
 \[
-\Delta G^\circ=\Delta H^\circ-T\Delta S^\circ
+\Delta G=\Delta H-T\Delta S
 \]
 
 The Gibbs free-energy change combines the enthalpy and entropy contributions at temperature \(T\).
@@ -655,33 +655,33 @@ The Gibbs free-energy change combines the enthalpy and entropy contributions at 
 **Van't Hoff relationship reported by Liang et al. (2024)**
 
 \[
-\ln K_d=-\frac{\Delta H^\circ}{RT}
-+\frac{\Delta S^\circ}{R}
+\ln K_d=-\frac{\Delta H}{RT}
++\frac{\Delta S}{R}
 \]
 
 For a plot of \(\ln K_d\) against \(1/T\):
 
-- Slope \(=-\Delta H^\circ/R\)
-- Intercept \(=\Delta S^\circ/R\)
+- Slope \(=-\Delta H/R\)
+- Intercept \(=\Delta S/R\)
 
 **Sign interpretation**
 
 | Quantity | Sign | Meaning |
 |---|---|---|
-| \(\Delta G^\circ\) | Negative | Thermodynamically favourable under the stated convention |
-| \(\Delta H^\circ\) | Positive | Endothermic — heat absorbed |
-| \(\Delta H^\circ\) | Negative | Exothermic — heat released |
-| \(\Delta S^\circ\) | Positive / negative | Net entropy increases / decreases |
+| \(\Delta G\) | Negative | Thermodynamically favourable under the stated convention |
+| \(\Delta H\) | Positive | Endothermic — heat absorbed |
+| \(\Delta H\) | Negative | Exothermic — heat released |
+| \(\Delta S\) | Positive / negative | Net entropy increases / decreases |
 
 **Temperature-response example:** For CIP on K₂CO₃-activated bagasse biochar, reported \(q_e\) increased from 34.6 to 109.9 mg g⁻¹ between 10 and 55 °C.
 
-*Favourability is not speed. An endothermic trend or a negative \(\Delta G^\circ\) does not, by itself, prove a molecular mechanism.*
+*Favourability is not speed. An endothermic trend or a negative \(\Delta G\) does not, by itself, prove a molecular mechanism.*
 
 ### Visual specification
 
-Left: three connected definition cards—\(\Delta G^\circ\) (favourability), \(\Delta H^\circ\) (heat), and \(\Delta S^\circ\) (entropy change)—with plus/minus interpretations.
+Left: three connected definition cards—\(\Delta G\) (favourability), \(\Delta H\) (heat), and \(\Delta S\) (entropy change)—with plus/minus interpretations.
 
-Right: a **schematic** Van't Hoff plot of \(\ln K_d\) versus \(1/T\), with slope \(=-\Delta H^\circ/R\) and intercept \(=\Delta S^\circ/R\). Label it “relationship, not experimental data”. Include a small note that the plotted equilibrium quantity must be consistently defined and dimensionless for a thermodynamic logarithm.
+Right: a **schematic** Van't Hoff plot of \(\ln K_d\) versus \(1/T\), with slope \(=-\Delta H/R\) and intercept \(=\Delta S/R\). Label it “relationship, not experimental data”. Include a small note that the plotted equilibrium quantity must be consistently defined and dimensionless for a thermodynamic logarithm.
 
 Bottom: four-point temperature-response plot from Meseguer et al. (2024), showing the reported CIP uptake values at 10, 25, 40 and 55 °C. Label the adsorbent and conditions.
 
@@ -689,26 +689,28 @@ Bottom: four-point temperature-response plot from Meseguer et al. (2024), showin
 
 **What thermodynamics tells us—and what it does not.** Thermodynamics describes the energy balance and equilibrium favourability of adsorption under defined conditions. Kinetics describes how quickly uptake changes with time. Capacity describes how much is retained. These questions are related, but they are not interchangeable: a process can be thermodynamically favourable and still be slow; a large adsorption capacity does not by itself establish a favourable free-energy change.
 
-**Gibbs free-energy change, \(\Delta G^\circ\).** Gibbs free energy combines the enthalpy and entropy contributions at a specified temperature. Under the standard-state convention used in a thermodynamic analysis, a negative \(\Delta G^\circ\) is interpreted as favourable/spontaneous, while a positive value is unfavourable/non-spontaneous. The standard-state symbol matters: the sign should be interpreted using the study's defined equilibrium quantity and reference states. A negative value does not mean that adsorption happens instantly, and it does not identify whether the molecular interaction is electrostatic, hydrogen bonding, complexation or another mechanism.
+**Gibbs free-energy change, \(\Delta G\).** Gibbs free energy combines the enthalpy and entropy contributions at a specified temperature. Under the standard-state convention used in a thermodynamic analysis, a negative \(\Delta G\) is interpreted as favourable/spontaneous, while a positive value is unfavourable/non-spontaneous. The standard-state symbol matters: the sign should be interpreted using the study's defined equilibrium quantity and reference states. A negative value does not mean that adsorption happens instantly, and it does not identify whether the molecular interaction is electrostatic, hydrogen bonding, complexation or another mechanism.
 
-**Enthalpy change, \(\Delta H^\circ\).** Enthalpy change describes the heat effect associated with the adsorption process. A positive value means the process is endothermic: heat is absorbed. A negative value means it is exothermic: heat is released. This is an energy/heat statement, not a rate statement. A positive \(\Delta H^\circ\) alone does not prove chemisorption. Some papers use enthalpy-magnitude thresholds to classify adsorption as physical or chemical; present those thresholds as that paper's interpretation, not as universal diagnostic boundaries.
+**Enthalpy change, \(\Delta H\).** Enthalpy change describes the heat effect associated with the adsorption process. A positive value means the process is endothermic: heat is absorbed. A negative value means it is exothermic: heat is released. This is an energy/heat statement, not a rate statement. A positive \(\Delta H\) alone does not prove chemisorption. Some papers use enthalpy-magnitude thresholds to classify adsorption as physical or chemical; present those thresholds as that paper's interpretation, not as universal diagnostic boundaries.
 
-**Entropy change, \(\Delta S^\circ\).** Entropy is related to the number of accessible microscopic arrangements and the dispersal of energy/matter in the defined system. A positive entropy change means the net entropy increases under the convention and system boundary used; a negative value means it decreases. In adsorption, solute molecules becoming associated with a solid surface can reduce freedom in one part of the system, while release or rearrangement of water and ions can contribute in the opposite direction. The sign is therefore a net thermodynamic result; avoid simplifying it to “the adsorbent surface becomes more disordered” without evidence. Liang et al. (2024) describe the entropy change for NFO/BC as positive, but the numerical value is in the unavailable Table S4 (PDF p. 10).
+**Entropy change, \(\Delta S\).** Entropy is related to the number of accessible microscopic arrangements and the dispersal of energy/matter in the defined system. A positive entropy change means the net entropy increases under the convention and system boundary used; a negative value means it decreases. In adsorption, solute molecules becoming associated with a solid surface can reduce freedom in one part of the system, while release or rearrangement of water and ions can contribute in the opposite direction. The sign is therefore a net thermodynamic result; avoid simplifying it to “the adsorbent surface becomes more disordered” without evidence. Liang et al. (2024) describe the entropy change for NFO/BC as positive, but the numerical value is in the unavailable Table S4 (PDF p. 10).
 
-**How the three terms work together.** The relationship \(\Delta G^\circ=\Delta H^\circ-T\Delta S^\circ\) shows that favourability depends on both the heat effect and the entropy contribution, and on temperature. For an endothermic process (positive \(\Delta H^\circ\)), a sufficiently favourable positive entropy contribution can help make \(\Delta G^\circ\) negative at higher temperature. This is a general explanation of the equation, not a claim that every endothermic adsorption process behaves identically.
+**How the three terms work together.** The relationship \(\Delta G=\Delta H-T\Delta S\) shows that favourability depends on both the heat effect and the entropy contribution, and on temperature. For an endothermic process (positive \(\Delta H\)), a sufficiently favourable positive entropy contribution can help make \(\Delta G\) negative at higher temperature. This is a general explanation of the equation, not a claim that every endothermic adsorption process behaves identically.
 
-**Van't Hoff plot.** Liang et al. (2024) report \(\ln K_d=-\Delta H^\circ/(RT)+\Delta S^\circ/R\). It has the linear form \(y=mx+c\) if \(y=\ln K_d\) and \(x=1/T\): the slope is \(-\Delta H^\circ/R\), and the intercept is \(\Delta S^\circ/R\). Temperature must be in kelvin. If \(R=8.314\;\mathrm{J\,mol^{-1}\,K^{-1}}\), enthalpy must be expressed in J mol⁻¹ and entropy in J mol⁻¹ K⁻¹, or all terms must be converted consistently to kJ units.
+**Van't Hoff plot.** Liang et al. (2024) report \(\ln K_d=-\Delta H/(RT)+\Delta S/R\). It has the linear form \(y=mx+c\) if \(y=\ln K_d\) and \(x=1/T\): the slope is \(-\Delta H/R\), and the intercept is \(\Delta S/R\). Temperature must be in kelvin. If \(R=8.314\;\mathrm{J\,mol^{-1}\,K^{-1}}\), enthalpy must be expressed in J mol⁻¹ and entropy in J mol⁻¹ K⁻¹, or all terms must be converted consistently to kJ units.
 
-**Important equilibrium-constant limitation.** Liang et al. (2024) print \(\Delta G^\circ=-RT\ln K_d\) and the Van't Hoff equation using \(K_d\) (PDF pp. 9–10). However, the inspected main text does not clearly state its operational definition or standard-state normalisation, and Table S4 is absent from the supplied PDF. The argument of a thermodynamic logarithm must be dimensionless. Therefore, reproduce the equations as the authors' reported relationships, but do not independently calculate or reconstruct their numerical \(\Delta G^\circ\), \(\Delta H^\circ\) or \(\Delta S^\circ\) from an undefined or dimensioned coefficient. This is an evidence limitation; it is not sufficient to conclude that the authors' calculations are necessarily invalid.
+**Source-symbol note.** Liang et al. (2024) describe these as standard thermodynamic parameters in the text, but their printed Eqs. (5)–(7) use \(\Delta G\), \(\Delta H\) and \(\Delta S\) without a superscript degree symbol. The equations on this slide retain the paper's printed notation rather than silently adding \(^{\circ}\).
+
+**Important equilibrium-constant limitation.** Liang et al. (2024) print \(\Delta G=-RT\ln K_d\) and the Van't Hoff equation using \(K_d\) (PDF pp. 9–10). However, the inspected main text does not clearly state its operational definition or standard-state normalisation, and Table S4 is absent from the supplied PDF. The argument of a thermodynamic logarithm must be dimensionless. Therefore, reproduce the equations as the authors' reported relationships, but do not independently calculate or reconstruct their numerical \(\Delta G\), \(\Delta H\) or \(\Delta S\) from an undefined or dimensioned coefficient. This is an evidence limitation; it is not sufficient to conclude that the authors' calculations are necessarily invalid.
 
 **Evidence from Liang et al. (2024).** For TC adsorption on sawdust biochar (BC), nickel ferrite (NFO) and NFO/BC, the authors report negative \(\Delta G\) values for all three materials and interpret adsorption as spontaneous under their conditions. They report that adsorption on NFO is exothermic, whereas adsorption on BC and NFO/BC is endothermic. The main text explicitly gives \(\Delta H=+31.384\;\mathrm{kJ\,mol^{-1}}\) for NFO/BC and describes its \(\Delta S\) as positive (PDF p. 10). The paper uses a threshold of 20.9 kJ mol⁻¹ to interpret the process as chemically dominated; present that as the authors' interpretation, not a universal rule. Numerical values from Table S4 must not be invented.
 
-**Temperature-response example from Meseguer et al. (2024).** For CIP on K₂CO₃-activated bagasse biochar, reported uptake was 34.6, 41.4, 89.3 and 109.9 mg g⁻¹ at 10, 25, 40 and 55 °C, respectively (PDF p. 9). Conditions were pH 3.5, 0.025 g adsorbent, 50 mL of 300 mg L⁻¹ solution and 72 h contact time (PDF p. 5). The authors interpret the increase as endothermic behaviour. The main paper does not provide a numerical \(\Delta G^\circ\), \(\Delta H^\circ\) or \(\Delta S^\circ\) table; do not calculate these from the four uptake values alone.
+**Temperature-response example from Meseguer et al. (2024).** For CIP on K₂CO₃-activated bagasse biochar, reported uptake was 34.6, 41.4, 89.3 and 109.9 mg g⁻¹ at 10, 25, 40 and 55 °C, respectively (PDF p. 9). Conditions were pH 3.5, 0.025 g adsorbent, 50 mL of 300 mg L⁻¹ solution and 72 h contact time (PDF p. 5). The authors interpret the increase as endothermic behaviour. The main paper does not provide a numerical \(\Delta G\), \(\Delta H\) or \(\Delta S\) table; do not calculate these from the four uptake values alone.
 
 **Other selected studies.**
 - Mirizadeh et al. (2023) qualitatively report endothermic adsorption of TC and CIP on raw date-palm fibre, but the supporting information containing the detailed thermodynamic study was not supplied. Their paper explicitly cautions that the Temkin model alone cannot determine whether adsorption is endothermic or exothermic (PDF p. 6). Do not infer heat effect from the Temkin parameter alone.
 - Zhao et al. (2024) report increasing temperature-dependent adsorption capacity and describe the process as endothermic (PDF p. 11). Their temperature-dependent values at 298, 308 and 318 K are Langmuir-fitted \(q_m\) values (PDF p. 13), not direct thermodynamic parameters. Do not convert the fitted-capacity trend into a numerical enthalpy.
-- Chen et al. (2024) mention thermodynamic experiments in the methods, but the supplied main PDF does not provide accessible numerical \(\Delta G^\circ\), \(\Delta H^\circ\) or \(\Delta S^\circ\) results. Do not infer them from the kinetic or isotherm data.
+- Chen et al. (2024) mention thermodynamic experiments in the methods, but the supplied main PDF does not provide accessible numerical \(\Delta G\), \(\Delta H\) or \(\Delta S\) results. Do not infer them from the kinetic or isotherm data.
 
 **Cross-study caution.** The studies do not show that all antibiotic adsorption is endothermic. Liang et al. (2024) report opposite heat effects for NFO versus BC and NFO/BC. Mirizadeh, Meseguer and Zhao report endothermic trends for their respective tested systems. These observations are material- and antibiotic-specific and cannot be collapsed into one universal rule.
 
