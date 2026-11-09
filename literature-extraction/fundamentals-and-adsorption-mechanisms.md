@@ -261,8 +261,8 @@ The selected sources identify several factors, but their effects are system-depe
 | REF-05 | PDF pp. 1–2, 5–7 and 16; journal pp. 1–2, 5–7 and 16 | Antibiotic groups, clay structure/surface properties, hydrophilicity, charge and pH effects |
 | REF-11 | PDF p. 2 | Adsorption/biosorption distinction by sorbent origin; antibiotic examples and pKa values |
 | REF-12 | PDF pp. 1–2 | Magnetic biochar, surface groups, OTC/CIP interactions and water-system context |
-| REF-13 | PDF p. 2 graphical abstract and introduction | Visual mechanism example: hydrogen bonding, electrostatics, π–π interaction and pore filling |
-| REF-14 | PDF p. 2 | Biochar definition, activation approaches and pharmaceutical adsorption mechanisms |
+| REF-13 | PDF p. 2 graphical abstract and introduction; PDF pp. 7–8 | Visual mechanism example: hydrogen bonding, electrostatics, π–π interaction and pore filling; NFO/BC–TC pH and dose response, humic-acid and competing-ion effects |
+| REF-14 | PDF pp. 1–2, 5 and 7–8 | Biochar definition and activation approaches; CPX–activated-bagasse-biochar pH/speciation, precipitation controls, temperature and contact-time effects |
 | REF-15 | PDF pp. 1–2 | Waste-derived biochar example and preparation context |
 
 **Next extraction:** Quantitative adsorption evaluation (mass balance, removal efficiency and adsorption capacity), followed by isotherms, kinetics, thermodynamics, regeneration and economics. Do not draft final slide copy until the topic notes and evidence matrix have been reviewed together.
