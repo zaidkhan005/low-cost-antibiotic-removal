@@ -314,6 +314,50 @@ The final draft, citation map, extraction and evidence matrix were fetched from 
 
 The slide draft and citation map were fetched from `main` after the updates. The Slide 10 block uses author–date citations only and retains the fixed 15-reference source boundary.
 
+## Slide 11 — Adsorption Kinetics
+
+**Status:** Pass; model definitions and parameter explanations expanded, with a source-notation clarification.
+
+**Original-source verification**
+- Vareda (2023), PDF p. 2, describes bulk transport, liquid-film diffusion, pore diffusion and surface interaction/reaction as relevant stages in liquid-phase adsorption. The review explains that kinetic tests estimate uptake rate and can provide insight into the rate-controlling step, but a kinetic model cannot identify the molecular interaction by itself.
+- Vareda (2023), PDF pp. 2–6, explains why PFO and PSO are called “pseudo”: they adapt homogeneous reaction-kinetic forms to heterogeneous adsorption and express rate in terms of solid-phase uptake, while assuming the solution concentration is approximately constant. The review discusses both surface-reaction and diffusion-related interpretations of these models.
+- Vareda (2023), PDF pp. 3–5, explicitly cautions that PSO can fit both surface-reaction-controlled and diffusion-controlled data; a PSO fit alone does not establish chemisorption.
+- Vareda (2023), PDF p. 5, explains PFO as proportional to the remaining uptake gap and discusses why PFO fits can also be compatible with more than one rate-controlling situation.
+- Vareda (2023), PDF p. 6, gives the Weber–Morris square-root-time relationship and relates the intercept to boundary-layer contribution; it also explains the Elovich model's declining rate with increasing surface coverage and its limitation far from equilibrium.
+- Vareda (2023), PDF pp. 7–9, documents bias introduced by linearisation, warns about post-equilibrium data, and discusses nonlinear regression with AIC/BIC for model selection.
+- Mirizadeh et al. (2023), PDF pp. 3 and 5–6, report approximately 120 min for TC and 90 min for CIP on raw date-palm fibre; their PFO/PSO and multi-region Weber–Morris results were checked in the original paper.
+- Egbedina et al. (2021), PDF pp. 7–8, report that most uptake occurred within the first 15 min for the tested hybrid biochars and that model selection varied with antibiotic/material treatment. Their kinetic parameter table is in missing ESI Table S2 and remains unavailable.
+- Meseguer et al. (2024), PDF pp. 9–11, report more than three days to equilibrium for CIP on activated bagasse biochar, Elovich as the lowest-ARE model (2.52%), Bangham next (3.17%), and a two-region Weber–Morris plot.
+
+**Definition improvements**
+- Explained (q_t) as uptake at a particular contact time and (q_e) as equilibrium uptake; contrasted kinetics with isotherms.
+- Explained “pseudo” in PFO/PSO as an adapted rate-law form applied to solid-phase uptake under the assumptions described by Vareda, not a direct claim about the molecular reaction order.
+- Expanded PFO: the rate is proportional to the remaining uptake gap ((q_e-q_t)); (k_1) controls how quickly the fitted curve approaches (q_e).
+- Expanded PSO: the rate is proportional to the square of the remaining uptake gap; clarified the common units of (k_2) when uptake is in mg g⁻¹ and time is in minutes.
+- Expanded Weber–Morris: uptake is related to square-root time; the slope is an apparent intraparticle-diffusion parameter and the intercept is an empirical boundary-layer contribution indicator. The notes clarify that a nonzero intercept or multiple linear regions means intraparticle diffusion alone does not explain the full curve.
+- Expanded Elovich: (alpha) is the initial-rate parameter and (eta) is associated with the decline in rate as surface coverage develops; retained the far-from-equilibrium limitation.
+- Added clear cautions against treating a best PFO/PSO/Elovich fit as proof of a unique mechanism and against ranking contact times across non-matched studies.
+
+**Notation correction**
+- Vareda (2023), PDF p. 6, denotes the Weber–Morris intercept as (E) in Eq. (21); REF-09, REF-10 and REF-14 use (C) or step-specific (C_i). The slide retains (C) for its general equation but now documents the source-specific notation rather than implying every paper uses the same symbol.
+- Updated KIN-008 to preserve the Vareda equation's (E) and the experimental papers' (C/C_i) notation.
+
+**Repository updates**
+- Expanded Slide 11 and its presenter notes in `presentation-content/slide-by-slide-draft.md`.
+- Updated the Slide 11 source and caveat row in `presentation-content/citation-map.md`.
+- Added the Weber–Morris intercept notation note to `literature-extraction/adsorption-kinetics.md`.
+- Revised KIN-008 in `evidence-matrix/adsorption-kinetics.md`.
+- Existing extraction and matrix records were retained; no new references were added and no missing ESI parameters were inferred.
+
+**Verified commits**
+- Slide 11 expanded definitions: `d8bab6958d75fcd927c4a58ff8cda3e4ff745300`
+- Slide 11 Weber–Morris notation note: `9b939fdc15dd89caa2818c7dcbd2cd460e1c2846`
+- Extraction notation clarification: `59e5393d02512daa5cb381716a41a2ec82c4fe6e`
+- Evidence matrix KIN-008 update: `8245dfa93953003678b72a12f65f1f3b3f944b48`
+- Citation map update: `54d68516bc2d4ad8f5c830f3fbeab5bdf1c9f505`
+
+All four working files were fetched from `main` after their updates. The Slide 11 block uses author–date citations, contains no reader-facing REF identifiers, explains all four models and preserves the source-specific notation differences.
+
 ## Review-wide citation rule correction
 
 **Status:** Resolved.
