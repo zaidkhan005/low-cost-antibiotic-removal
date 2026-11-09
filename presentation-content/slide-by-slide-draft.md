@@ -203,43 +203,57 @@ Stress that adsorption retains the antibiotic on a solid phase; this alone does 
 
 ---
 
-# Slide 6 — Classification of Adsorbents
+# Slide 6 — Classification of Adsorbent Materials
 
 ### Learning objective
 
-Recognise the main adsorbent families represented in the selected studies and understand why material preparation matters.
+Recognise the main material forms represented in the selected studies and distinguish base material from feedstock origin and later processing.
 
 ### On-slide content
 
-**Major adsorbent families**
+**Base material forms represented**
 
-1. **Activated carbon** — developed pore structure; can be produced from carbon-rich precursors.
-2. **Biochar / activated biochar** — biomass-derived carbon; properties depend on feedstock, pyrolysis and activation.
-3. **Natural clay minerals** — layered mineral structures with surface charge and cation-exchange properties.
-4. **Agricultural / industrial by-products** — hemp waste, oak ash, mussel shell, date-palm waste, cotton husk and brewing bagasse.
-5. **Engineered composites** — biochar combined with iron oxides/ferrites or other functional components.
+| Material form | Examples from the selected studies |
+|---|---|
+| Natural mineral sorbents | Kaolinite; smectite-group minerals, including montmorillonite |
+| Uncarbonized by-product sorbents | Raw date-palm fibre; hemp waste; oak ash; uncalcined mussel shell |
+| Carbonaceous sorbents | Biochar, activated biochar and activated carbon; feedstocks include cotton husk, sawdust, brewing bagasse and antibiotic fermentation residue |
 
-**Material identity matters:** raw biochar, activated biochar and commercial activated carbon are not interchangeable labels.
+**Processing / engineering is a second descriptor**
+
+- **Activation:** bagasse-derived biochar activated with K₂CO₃; fermentation-residue biochar activated with KOH.
+- **Composite formation:** cotton-husk biochar modified with iron oxide and ball milling (Fe₂O₃@BMBC); sawdust-derived biochar combined with NiFe₂O₄ (NFO/BC).
+
+**Use the paper's exact material label:** raw biochar, activated biochar and activated carbon are related, but not interchangeable without checking preparation and source terminology.
 
 ### Visual specification
 
-A five-branch classification tree. Examples: activated carbon; date-palm/bagasse biochar; kaolinite/natural clays; hemp waste/mussel shell; Fe₂O₃@BMBC and NiFe₂O₄/biochar. Add a bottom ribbon: feedstock → preparation → activation/modification → final adsorbent.
+Use three primary columns for natural mineral sorbents, uncarbonized by-product sorbents and carbonaceous sorbents. Beneath the carbonaceous column, add a separate “processing / engineering” layer: pyrolysis → activation and/or composite formation. Show feedstock → final adsorbent examples (barley bagasse → activated biochar; fermentation residue → activated biochar; cotton husk → biochar → magnetic composite). Do not make “waste-derived” or “engineered composite” a peer branch to a material form.
 
 ### Presenter notes
 
-The fixed collection covers a range of materials rather than one uniform “low-cost adsorbent” class. Perelomov et al. (2025) discuss natural clay-mineral structures and surface chemistry. Ajala et al. (2023) and Teo et al. (2022) cover carbon-based adsorbents and biochar. Rodríguez-López et al. (2024) studies hemp waste, oak ash and mussel shell. Chen et al. (2024) and Liang et al. (2024) examine magnetic biochar composites. Meseguer et al. (2024) use brewing-industry bagasse, while Zhao et al. (2024) use antibiotic fermentation residues.
+The selected literature contains different kinds of sorbents, but the current examples are not all categories at the same level. A feedstock describes the source material; biochar or activated biochar describes a processed carbonaceous adsorbent; and a magnetic composite describes a modified material. Present the slide using base material form first, then show feedstock and processing as additional descriptors.
 
-Biochar properties vary with biomass type and preparation conditions. Activation may increase porosity or change surface functionality, but it introduces more processing steps and potential reagent/energy costs. Do not assume every waste-derived precursor is free, locally available or suitable without preparation.
+Perelomov et al. (2025) discuss natural clay minerals, including kaolinite and smectite-group minerals, and explain that layer type, charge, exchangeable cations and surface properties vary among minerals (PDF pp. 4–7).
+
+The uncarbonized by-product examples are raw date-palm fibre (Mirizadeh et al., 2023), and hemp waste, oak ash and uncalcined mussel shell (Rodríguez-López et al., 2024). They are grouped here by use as by-product solids without conversion to biochar; they are not one chemically uniform material class.
+
+The carbonaceous examples include biochar and activated biochar. Ajala et al. (2023) describe biochar as a carbon-rich product of biomass pyrolysis (PDF p. 9; journal p. 4686). The selected experimental studies use cotton husk, sawdust, brewing-industry bagasse and antibiotic fermentation residue as feedstocks for carbonaceous adsorbents.
+
+Activation and composite formation are separate processing steps. Meseguer et al. (2024) produce bagasse-derived biochar and activate it with K₂CO₃; Zhao et al. (2024) use KOH in the one-step preparation of fermentation-residue activated biochar. Chen et al. (2024) combine cotton-husk biochar with iron oxide and ball milling; Liang et al. (2024) grow NiFe₂O₄ on sawdust-derived biochar.
+
+Do not double-count a feedstock and its derived product as separate adsorbent families. Also do not assume that every waste-derived precursor is free, locally available or suitable without preparation. Use the exact material designation from each paper; raw biochar, activated biochar and activated carbon should not be silently substituted for one another.
 
 ### Source citations
 
-- Ajala et al. (2023), PDF p. 9 / journal p. 4686 — biochar and biomass-derived adsorbents.
-- Perelomov et al. (2025), PDF pp. 4–7 — clay mineral structure and surface properties.
-- Rodríguez-López et al. (2024), PDF p. 2 — tested by-products.
-- Chen et al. (2024), PDF pp. 1–3 — magnetic cotton-husk biochar.
-- Liang et al. (2024), PDF pp. 1–3 — NiFe₂O₄/biochar.
-- Meseguer et al. (2024), PDF pp. 2–3 — brewing bagasse and activated biochar preparation.
-- Zhao et al. (2024), PDF pp. 1–3 — fermentation-residue biochar.
+- Perelomov et al. (2025), PDF pp. 4–7 — natural clay-mineral structure and examples.
+- Mirizadeh et al. (2023), PDF pp. 1–2 — raw date-palm fibre.
+- Rodríguez-López et al. (2024), PDF p. 2 — hemp waste, oak ash and uncalcined mussel shell.
+- Ajala et al. (2023), PDF p. 9 / journal p. 4686; Teo et al. (2022), PDF pp. 6–7 — biochar, activated carbon and terminology.
+- Chen et al. (2024), PDF pp. 2–3 — cotton-husk biochar and Fe₂O₃@BMBC.
+- Liang et al. (2024), PDF p. 3 — sawdust-derived biochar and NFO/BC.
+- Meseguer et al. (2024), PDF p. 3 — K₂CO₃-activated bagasse biochar.
+- Zhao et al. (2024), PDF p. 3 — KOH-activated fermentation-residue biochar.
 
 ---
 
