@@ -216,23 +216,117 @@ Where:
 
 ## Slide 11 — ADSORPTION ISOTHERMS
 
-**An adsorption isotherm** describes the equilibrium relationship between adsorption capacity and the remaining dissolved concentration at a fixed temperature. (Ayawei et al., 2017)
+**What is an adsorption isotherm?**
 
-| Model | Basic interpretation |
-|---|---|
-| Langmuir | Idealised finite equivalent sites and monolayer saturation. (Ayawei et al., 2017) |
-| Freundlich | Empirical description of heterogeneous adsorption energies; no explicit finite saturation capacity. (Ayawei et al., 2017) |
-| Temkin | Accounts for coverage-dependent change in adsorption heat. (Ayawei et al., 2017) |
-| Sips | Hybrid form combining heterogeneity with finite saturation at high concentration. (Ayawei et al., 2017) |
+An adsorption isotherm describes how much adsorbate is retained by an adsorbent at equilibrium as the remaining concentration in solution changes, at a fixed temperature and specified experimental conditions. It is plotted as equilibrium adsorption capacity (`qₑ`) against equilibrium solution concentration (`Cₑ`). (Ayawei et al., 2017)
 
-**Examples from the selected studies**
-- TC on raw date-palm waste: Langmuir was reported as the best fit; CIP was better described by D–R in the study's model comparison. (Mirizadeh et al., 2023)
-- CIP on K₂CO₃-activated bagasse biochar: Freundlich, Redlich–Peterson and Sips gave good fits; Freundlich had the lowest reported ARE (2.44%). (Meseguer et al., 2024)
-- TC on NFO/BC: Langmuir and Freundlich fits are shown and should be interpreted using the paper's reported fit statistics. (Liang et al., 2024)
+**The basic relationship**
 
-**Caution:** A fitted isotherm is an empirical description of equilibrium data; it does not prove a molecular adsorption mechanism. (Ayawei et al., 2017; Vareda, 2023)
+[
+q_e=f(C_e)qquad \text{at constant temperature}
+]
 
-**Suggested figures:** Meseguer et al. (2024), Fig. 7; Liang et al. (2024), Fig. 5; Chen et al. (2024), Fig. 5. Use one or two plots and retain their original units/legends.
+- `qₑ` = amount adsorbed per unit mass of adsorbent at equilibrium (commonly mg g⁻¹).
+- `Cₑ` = concentration remaining in solution at equilibrium (commonly mg L⁻¹).
+- An isotherm describes an **equilibrium relationship**; it does not show how quickly equilibrium is reached. (Ayawei et al., 2017; Vareda, 2023)
+
+**Common adsorption isotherm models**
+
+**1. Langmuir model — idealised monolayer adsorption**
+
+[
+q_e=\frac{q_{max}K_LC_e}{1+K_LC_e}
+]
+
+- Assumes a finite number of equivalent adsorption sites and monolayer coverage in its idealised form.
+- `qₘₐₓ` = fitted maximum adsorption capacity (mg g⁻¹).
+- `K_L` = Langmuir affinity constant (units depend on the concentration convention; commonly L mg⁻¹).
+- The curve approaches a plateau as the finite sites become occupied. (Ayawei et al., 2017)
+
+**2. Freundlich model — heterogeneous adsorption**
+
+[
+q_e=K_F C_e^{1/n}
+]
+
+- Empirical model often used to describe adsorption on energetically heterogeneous surfaces.
+- `K_F` = Freundlich capacity-related constant; its units depend on the value of `1/n` and the units used for `qₑ` and `Cₑ`.
+- `1/n` = heterogeneity/intensity parameter; values below 1 commonly describe favourable uptake over the fitted range.
+- The basic Freundlich equation has no finite saturation plateau. (Ayawei et al., 2017)
+
+**3. Temkin model — changing adsorption heat with coverage**
+
+[
+q_e=B\ln(A_TC_e)
+]
+
+- Represents a simplified situation in which the heat of adsorption decreases approximately linearly with increasing surface coverage.
+- `A_T` = Temkin equilibrium binding constant.
+- `B` = constant related to the adsorption-energy change and temperature.
+- Use the parameter definitions and units exactly as specified by the study. (Ayawei et al., 2017)
+
+**4. Dubinin–Radushkevich (D–R) model — characteristic adsorption energy**
+
+[
+q_e=q_s\exp(-\beta\varepsilon^2)
+]
+
+[
+\varepsilon=RT\ln\left(1+\frac{1}{C_e}\right)
+]
+
+- A model based on a characteristic adsorption potential and a non-uniform pore-filling concept.
+- `qₛ` = theoretical saturation capacity; `β` = activity/energy-related model constant; `ε` = Polanyi potential.
+- A mean-energy quantity is sometimes calculated from `β`, but its interpretation depends on model assumptions and unit conventions. Do not treat a D–R energy threshold as definitive proof of physisorption or chemisorption. (Ayawei et al., 2017)
+
+**5. Sips model — heterogeneous surface with a finite high-concentration limit**
+
+[
+q_e=\frac{q_s(K_SC_e)^{m}}{1+(K_SC_e)^{m}}
+]
+
+- Combines a Freundlich-like heterogeneous form at lower concentration with a finite saturation limit at high concentration.
+- `qₛ` = saturation capacity; `K_S` = Sips affinity constant; `m` = heterogeneity exponent.
+- When the heterogeneity exponent approaches its Langmuir limit under the model's convention, the equation reduces towards Langmuir behaviour. (Ayawei et al., 2017)
+
+**6. Redlich–Peterson model — three-parameter hybrid**
+
+[
+q_e=\frac{K_R C_e}{1+a_R C_e^{g}}
+]
+
+- A flexible empirical model that can describe a range of isotherm shapes.
+- `K_R`, `a_R` and `g` are fitted constants; `g` is commonly constrained between 0 and 1.
+- It can approach Langmuir-like or Freundlich-like behaviour in limiting cases. It should not be assigned a unique physical mechanism from the equation alone. (Ayawei et al., 2017)
+
+**How to interpret the isotherm graph**
+
+- A steep rise at low `Cₑ` indicates substantial uptake over that concentration range.
+- A plateau suggests that the fitted/observed uptake is approaching a limiting capacity under those conditions.
+- A curve that continues rising without a clear plateau should not be assigned a measured saturation capacity merely because a model can be fitted. (Ayawei et al., 2017)
+
+**Examples from the selected antibiotic studies**
+
+- **TC on raw date-palm waste:** Langmuir was reported as the best fit; **CIP** was better described by the D–R model in the study's model comparison. (Mirizadeh et al., 2023)
+- **CIP on K₂CO₃-activated bagasse biochar:** Freundlich, Redlich–Peterson and Sips gave good fits; Freundlich had the lowest reported average relative error (ARE = 2.44%). (Meseguer et al., 2024)
+- **TC and CIP on Fe₂O₃@BMBC:** Langmuir and Freundlich fits were compared for both antibiotics and the different adsorbent forms. (Chen et al., 2024)
+- **TC on NFO/BC:** Langmuir and Freundlich curves are shown for BC, NFO and NFO/BC. Use the paper's reported statistics when describing which fit is preferred. (Liang et al., 2024)
+
+**How should a model be selected?**
+
+1. Fit the model to equilibrium data using an appropriate regression method; nonlinear fitting avoids some distortions introduced by linear transformations. (Ayawei et al., 2017; Vareda, 2023)
+2. Compare suitable error measures and residual patterns, not only the coefficient of determination (`R²`). (Ayawei et al., 2017; Vareda, 2023)
+3. Consider the number of fitted parameters and whether the fitted values are physically plausible. (Ayawei et al., 2017)
+4. Compare models only using data collected under comparable conditions and the same response definition. (Ayawei et al., 2017)
+
+**Important distinction:** An isotherm fit describes the shape of equilibrium data. It does not prove a particular molecular interaction, a monolayer in the literal microscopic sense, or a chemisorption mechanism. Mechanistic conclusions require independent evidence. (Ayawei et al., 2017; Vareda, 2023)
+
+**Suggested figures**
+- **Main experimental graph:** Meseguer et al. (2024), Fig. 7 — experimental CPX data and Langmuir/Freundlich/Sips/Redlich–Peterson/Toth fits.
+- **Supporting comparison:** Liang et al. (2024), Fig. 5 — TC isotherms on BC, NFO and NFO/BC.
+- **Optional second comparison:** Chen et al. (2024), Fig. 5 — OTC and CIP isotherms on BC, Fe₂O₃@BC and Fe₂O₃@BMBC.
+
+**Suggested slide layout:** Use the Meseguer graph as the main visual on the right. On the left, place concise model descriptions (Langmuir, Freundlich, Temkin, D–R, Sips and Redlich–Peterson) with the equations in readable notation. Put extended parameter explanations and model-selection cautions in the speaker notes. If the slide becomes crowded, split the model equations into a second slide rather than shrinking them to unreadable text.
 
 ---
 
